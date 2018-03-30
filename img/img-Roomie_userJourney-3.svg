@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22.4317282,69.9984697 L28.8692693,68.7471384 L31.8263914,83.9602131 L19.5094306,84.4442939 C21.2062364,82.8410724 22.0603856,80.9771815 22.0718782,78.8526211 C22.0833708,76.7280607 22.2033208,73.7766769 22.4317282,69.9984697 Z" id="path-1"></path>
+        <path d="M34.2394175,69.8033182 L42.3644175,69.8033182 C42.7457574,71.7651415 43.2771942,74.4991468 43.9587279,78.0053341 C44.6402617,81.5115215 46.2605278,83.8341272 48.8195261,84.9731511 L34.7086353,87.7160304 L35.000147,79.2431484 L34.2394175,69.8033182 Z" id="path-2"></path>
+        <path d="M46.1113591,20 L46.1113591,24.0977182 L42.0136409,20 L2,20 C0.8954305,20 1.3527075e-16,19.1045695 0,18 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L60.5,0 C61.6045695,-2.02906125e-16 62.5,0.8954305 62.5,2 L62.5,18 C62.5,19.1045695 61.6045695,20 60.5,20 L46.1113591,20 Z" id="path-3"></path>
+        <path d="M15.2090774,20 L10.4863591,24.7227182 L10.4863591,20 L2,20 C0.8954305,20 1.3527075e-16,19.1045695 0,18 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L84.875,0 C85.9795695,-2.02906125e-16 86.875,0.8954305 86.875,2 L86.875,18 C86.875,19.1045695 85.9795695,20 84.875,20 L15.2090774,20 Z" id="path-4"></path>
+        <path d="M14.2363591,20 L10.3125,23.9238591 L10.3125,20 L2,20 C0.8954305,20 1.3527075e-16,19.1045695 0,18 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L60.5,0 C61.6045695,-2.02906125e-16 62.5,0.8954305 62.5,2 L62.5,18 C62.5,19.1045695 61.6045695,20 60.5,20 L14.2363591,20 Z" id="path-5"></path>
+    </defs>
+    <g id="Artboard-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Communication-(Onlin" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" letter-spacing="-0.482353032" fill="#4A4A4A">
+            <tspan x="47" y="80">Communication (Online &amp; Offline) </tspan>
+        </text>
+        <g id="img-Message-Empty" transform="translate(47.000000, 110.000000)">
+            <g id="Background" transform="translate(1.250000, 0.000000)">
+                <circle id="Oval-3" stroke="#D8D8D8" cx="56.5625" cy="242.8125" r="56.5625"></circle>
+                <polygon id="Triangle" stroke="#D8D8D8" points="195.625 111.875 296.875 265.625 94.375 265.625"></polygon>
+                <path d="M73.6355986,0.581713252 C72.2833923,0.263893731 71.125,1.66971531 71.125,3.88746804 L71.125,221.182706 C71.125,223.400459 72.2833923,224.806281 73.6355986,224.488461 L223.635599,189.2328 C225.139348,188.879362 226.375,187.379778 226.375,185.927045 L226.375,39.1431297 C226.375,37.6903964 225.139348,36.1908128 223.635599,35.8373749 L73.6355986,0.581713252 Z" id="Combined-Shape" stroke="#D8D8D8"></path>
+                <circle id="Oval" stroke="#4A4A4A" fill="#FFFFFF" cx="84.6875" cy="109.6875" r="4.0625"></circle>
+                <circle id="Oval-2" stroke="#4A4A4A" fill-opacity="0.6" fill="#49C89F" cx="212.5" cy="70.625" r="10.625"></circle>
+            </g>
+            <g id="Head-1" transform="translate(0.000000, 99.375000)">
+                <g id="Rectangle-3" transform="translate(25.667911, 76.595716) rotate(11.000000) translate(-25.667911, -76.595716) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#4A4A4A" stroke-width="1" d="M21.956018,69.58158 L29.2646784,68.1609203 L32.4284158,84.4369384 L18.1972154,84.9962526 L19.1660416,84.0808604 C20.7660778,82.5690713 21.5611523,80.8340907 21.5718855,78.8499165 C21.5834362,76.7146233 21.7037264,73.7548675 21.9326394,69.9682978 L21.956018,69.58158 Z"></path>
+                </g>
+                <path d="M22.4317282,71.2484697 L28.8692693,69.9971384 L31.8263914,85.2102131 L19.5094306,85.6942939 C21.2062364,84.0910724 22.0603856,82.2271815 22.0718782,80.1026211 C22.0833708,77.9780607 22.2033208,75.0266769 22.4317282,71.2484697 Z" id="Rectangle-3-Copy-2" fill="#FFFFFF" transform="translate(25.667911, 77.845716) rotate(11.000000) translate(-25.667911, -77.845716) "></path>
+                <path d="M31.5625,73.125 C48.75,73.125 54.375,57.7347883 54.375,38.75 C54.375,19.7652117 47.5,4.375 31.5625,4.375 C15.625,4.375 8.75,19.7652117 8.75,38.75 C8.75,57.7347883 14.375,73.125 31.5625,73.125 Z" id="Head" stroke="#4A4A4A" fill="#FFFFFF" transform="translate(31.562500, 38.750000) rotate(6.000000) translate(-31.562500, -38.750000) "></path>
+                <path d="M31.25,29.375 L40.625,23.75 L45,26.5625 L49.375,20.625 L56.875,20.625 C51.875,12.2916667 46.4583333,6.66666667 40.625,3.75 C31.875,-0.625 17.5,-1.875 9.375,5.625 C1.25,13.125 -2.5,22.5 1.875,33.75 C4.79166667,41.25 7.29166667,48.5416667 9.375,55.625 L14.375,47.5 L17.5,30.3125 L31.25,29.375 Z" id="Hair" stroke="#4A4A4A" fill="#4A4A4A"></path>
+                <path d="M49.375,40 C53.5416667,45.8604046 55.625,49.6104046 55.625,51.25 C55.625,52.8895954 53.5416667,53.0979287 49.375,51.875" id="Nose" stroke="#4A4A4A" fill="#FFFFFF"></path>
+            </g>
+            <g id="Head-2" transform="translate(261.875000, 205.312500) scale(-1, 1) translate(-261.875000, -205.312500) translate(223.750000, 160.000000)">
+                <g id="Rectangle-3" transform="translate(41.529472, 78.759674) rotate(11.000000) translate(-41.529472, -78.759674) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#4A4A4A" stroke-width="1" d="M33.697503,69.3033182 L42.7765857,69.3033182 L42.8552311,69.7079137 C43.5022893,73.0367396 43.5022893,73.0367396 44.4495415,77.9099296 C45.101875,81.2658943 46.6248094,83.4489778 49.0228474,84.5163575 L50.4718717,85.161326 L34.1873285,88.3267206 L34.208931,87.698838 L34.5017627,79.2833118 L33.697503,69.3033182 Z"></path>
+                </g>
+                <path d="M34.2394175,71.0533182 L42.3644175,71.0533182 C42.7457574,73.0151415 43.2771942,75.7491468 43.9587279,79.2553341 C44.6402617,82.7615215 46.2605278,85.0841272 48.8195261,86.2231511 L34.7086353,88.9660304 L35.000147,80.4931484 L34.2394175,71.0533182 Z" id="Rectangle-3-Copy" fill="#FFFFFF" transform="translate(41.529472, 80.009674) rotate(11.000000) translate(-41.529472, -80.009674) "></path>
+                <path d="M45.3125,73.75 C62.5,73.75 68.125,58.3597883 68.125,39.375 C68.125,20.3902117 61.25,5 45.3125,5 C29.375,5 22.5,20.3902117 22.5,39.375 C22.5,58.3597883 28.125,73.75 45.3125,73.75 Z" id="Head" stroke="#4A4A4A" fill="#FFFFFF" transform="translate(45.312500, 39.375000) rotate(-15.000000) translate(-45.312500, -39.375000) "></path>
+                <path d="M30.625,37.5 C40.7509448,34.6858179 47.6259448,32.28724 51.25,30.3042664 C54.8740552,28.3212928 59.0407219,24.2615373 63.75,18.125 C61.25,12.7083333 57.0833333,8.54166667 51.25,5.625 C42.5,1.25 28.1295071,3.19093895 19.375,10 C13.75,14.375 14.4684509,19.7455974 10,24.375 C6.79304313,27.6974701 0.973759024,28.3091142 0.625,30.3042664 C-0.139041276,34.6751316 11.6591883,32.123627 13.75,37.5 C14.5451591,39.5446949 11.1362492,46.25 13.75,46.25 C17.5,46.25 23.125,52.0833333 30.625,63.75 L30.625,37.5 Z" id="Hair" stroke="#4A4A4A" fill="#4A4A4A"></path>
+                <path d="M64.375,33.75 C68.5416667,39.6104046 70.625,43.3604046 70.625,45 C70.625,46.6395954 68.5416667,46.8479287 64.375,45.625" id="Nose" stroke="#4A4A4A" fill="#FFFFFF" transform="translate(67.500000, 40.079345) rotate(-25.000000) translate(-67.500000, -40.079345) "></path>
+            </g>
+            <g id="Message" transform="translate(93.125000, 81.250000)">
+                <g id="ConversationContent" transform="translate(86.875000, 35.625000)">
+                    <g id="Combined-Shape">
+                        <use fill="#4A4A4A" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#FFFFFF" stroke-width="1" d="M45.6113591,22.8906115 L45.6113591,19.5 L60.5,19.5 C61.3284271,19.5 62,18.8284271 62,18 L62,2 C62,1.17157288 61.3284271,0.5 60.5,0.5 L2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,18 C0.5,18.8284271 1.17157288,19.5 2,19.5 L42.2207477,19.5 L45.6113591,22.8906115 Z"></path>
+                    </g>
+                    <path d="M43.125,7.5 L55,7.5" id="Path-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M23.75,7.5 L39.375,7.5" id="Path-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M7.5,7.5 L20,7.5" id="Path-3-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10.625,11.25 L39.375,11.25" id="Path-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M43.125,11.25 L55,11.25" id="Path-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="ConversationContent" transform="translate(0.000000, 70.625000)">
+                    <g id="Combined-Shape">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <path stroke="#4A4A4A" stroke-width="1" d="M10.9863591,23.5156115 L15.0019706,19.5 L84.875,19.5 C85.7034271,19.5 86.375,18.8284271 86.375,18 L86.375,2 C86.375,1.17157288 85.7034271,0.5 84.875,0.5 L2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,18 C0.5,18.8284271 1.17157288,19.5 2,19.5 L10.9863591,19.5 L10.9863591,23.5156115 Z"></path>
+                    </g>
+                    <path d="M5,7.5 L23.75,7.5" id="Path-2" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M31.875,7.5 L79.375,7.5" id="Path-3" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5,11.25 L50.625,11.25" id="Path-2" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M60.224349,11.25 L78.9611816,11.25" id="Path-3" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="ConversationContent">
+                    <g id="Combined-Shape">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <path stroke="#4A4A4A" stroke-width="1" d="M10.8125,22.7167523 L14.0292523,19.5 L60.5,19.5 C61.3284271,19.5 62,18.8284271 62,18 L62,2 C62,1.17157288 61.3284271,0.5 60.5,0.5 L2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,18 C0.5,18.8284271 1.17157288,19.5 2,19.5 L10.8125,19.5 L10.8125,22.7167523 Z"></path>
+                    </g>
+                    <path d="M7.5,8.125 L19.375,8.125" id="Path-2" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M24.375,8.125 L54.375,8.125" id="Path-3" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M7.5,11.875 L36.25,11.875" id="Path-2" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M42.5,11.875 L54.375,11.875" id="Path-3" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+        <text id="3" font-family="OpenSans-Bold, Open Sans" font-size="36" font-weight="bold" letter-spacing="-0.868235409" fill="#4A4A4A">
+            <tspan x="190" y="43">3</tspan>
+        </text>
+    </g>
+</svg>

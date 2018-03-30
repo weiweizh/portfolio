@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/favicon_w.ico" type="image/x-icon"> <!--bookmark icon-->
+	<link rel="bookmark" href="img/favicon_w.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!--Bootstrap style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49903446-2', 'auto');
+  ga('send', 'pageview');
+
+</script> <!--google analytics-->
+	<title>UX case study - Remote Usability Testing</title>
+</head>
+<body>
+	<header class="portfolio-content-header">
+
+		<section class='intro'>
+			<img alt='Remote Usability Testing' class='img-responsive' src="img/img-header-RemoteTesting.png"/>
+			<h1>Remote Usability Testing for Mr.One</h1>
+			<p>Last month, I lead a set of remote testings in order to improve the usability of <a href="http://www.R2.ai" target="_blank">our company’s</a> first product. As the only UX person in a startup, it was challenging. I managed to do it remotely with very limited resource and get some useful insights. I wanted to write down the process for my reference.
+ </p>
+		</section>
+		<section class=" info">
+			<p> <span class='s-tittle'>Time:</span> 2017.4 - 2017.6</p>
+
+			<p> <span class='s-tittle'>Role:</span> User researcher, facilitator</p>
+			<p> <span class='s-tittle'>Method & Skill:</span> Cognitive Walkthrough, Remote Usability Testing, Think Aloud</p>
+		</section>
+
+	</header>
+
+
+	<main class="portfolio-content-process">
+		<h1>Process</h1>
+		<section class="process">
+		<!-- <div class='process-steps'>
+			<input type="checkbox" unchecked>
+            <i></i>-->
+			<h3>1. Planning</h3>
+			<h3>1.1 Goals</h3>
+			<!--<p>
+				There were tons of things to prepare before actually testing with potential customers, and good preparation would help me get actionable information from the test efficiently. Back then, we already had a fully functional product with essential features for data analysis and modeling. Each team member had some assumptions of potential usability issues in our product. We want to validate the assumptions and find the most important ones to improve. We were lucky enough to have 5 potential customers who volunteered to test if our product could help them get their job done.
+
+Our two main goals of the tests are: </p>-->
+<p>
+1. To validate existing assumptions of usability issues in our product.
+<br>
+2. To discover additional features we didn't have in current product, which might be added to the next phase of the product.</p>
+
+<p>Given the goals, a summative usability testing perfectly suits our goals. Since our participants were located in different cities/counties, and we had limited budget, we planned to do a <a href="https://www.nngroup.com/articles/remote-usability-tests/" target="_blank">remote testing</a>. Though it might not be as good as an in house usability testing, it would still help us get enough insights as a starting point for product improvement.</p>
+<h4>1.2 Task Flows</h4>
+    <p> When designing the product, I have build separate task flows for each feature in the product. And the assumptioms came along with our design and internal testing process. Therefore, the task flows and assumptions were not well organized. To structure all the assumptions and align them with the task flow, I did a detailed <a href="https://www.interaction-design.org/literature/article/how-to-conduct-a-cognitive-walkthrough">cognitive walkthrough</a>. I went through a typical route of a business user's, as well as one a data scientiest would go through.  The tasks for business users were mainly focused on creating a project, selecting a template, simple data handling and simple modeling; while the tasks for data scientists included advanced variable settings, modeling settings, and detailed modeling results checking. When conducting each task, I asked myself 4 questions:
+	 </p>
+	 <p>
+	 1. Will the user try to achieve the right effect?
+	 <br>
+	 2. Will the user notice that the correct action is available?
+  <br>
+	 3. Will the user associate the correct action with the effect to be achieved?
+   <br>
+	 4. If the correct action is performed, will the user see that progress is being made toward solution of the task?
+ </p>
+<img class='img-responsive in-steps' alt="Tasks for Cognitive Walkthrough" src='img/img-CognitiveWalkThrough.png'>
+<p>Figure 1: One task flow I did while doing cognitive walkthrough.</p>
+<h4>1.3 Task table and rating system</h4>
+<p>The cognitive walkthrough helped me sort out the taskflows, organized our assumptions into specific tasks, as well as defining one or more "happy path" of each task. The results are a well organized table to support the note taking during usability testing.</p>
+<img class='img-responsive in-steps' alt="Example of Task Table" src='img/img-RemoteTesting-TaskTable.png'>
+<p>Table 1: Example of task table to support usability testing.</p>
+<p>With this table, we could easily compare what users do with the 'correct path', then to analyse if our previous assumptions are valid. What's more, as I could accurately spot where users have difficulty on the detailed task path, it points back to the specific part of the interface that we need to improve.
+</p>
+<p>As Jakob Nielsen pointed out, "user succes is the bottom line of the usability". Success rate is a simple and powerful tool to measure usability. It is defined as the percentage of user who successfully finished the task. <a href="https://www.nngroup.com/articles/success-rate-the-simplest-usability-metric/">Jakob Nielsen's success rate with partial success rating</a> seems the best approach for us. There are two reasons </p>
+<p>
+	1.Our systems are a quite complicated plateform, so it's highly possible that users will not undertake a task exactly as the "happy path" we designed. Partial success will more accurately describe the user actions.
+</P>
+<p>
+2.Since I will assign a 0.5 weight to partial success tasks as Jakob described, we will finaly have a completion rate that help us decide the severity of the issues.
+</p>
+
+
+<h4>1.4 Tools</h4>
+<p>I researched a bit and found Remote UX research and NNgroup has recommended a detailed list of remote UX tools. Then I ended up choosing Zoom meeting as it offers functions such as video conference, screen sharing. These funcitons are enough for remote communication during the test, and enable me to observe participants' action on their screens. Video recording is for more detailed qualitative analysis afterwards thus optional and remote control enable testers to help participants when they encounter technical errors. Zoom offers 45 minutes’ free video session for anyone, so participants can just join the remote meeting within a click. It's also good that they don’t have to register a zoom account.
+</p>
+
+<p>
+	After I’ve done all the preparations for the test, there is still one important thing left: email my participants ahead with the time schedule, brief of testing agenda,  IT requirements and materials(sample data file) needed. I also make it clear in my email that it’s our product to be tested, not the participants.
+
+</p>
+		<!--</div>-->
+		 <!--<div class='process-steps'>
+			<input type="checkbox" unchecked>
+            <i></i>-->
+			<h3>2. Conducting the Test</h3>
+			<h4>2.1 Observation, probing, taking notes</h4>
+
+			<p>
+				The test we did were moderated tests, which meant I would join the online meeting at the same time with the participant, greeting him/her, watching him/her doing tasks and think aloud, taking notes and offering help. Moderated tests can gather more useful information because the facilitator got more contextual information. Observing participant’s facial expression and actions helped me understand if he/she is confused. At some point I would also prob user further based on participant’s think aloud to understand “Why”. These qualitative data provides additional insights along the task completion rate, and is of great help to improve the product.
+
+			</p>
+			<p>
+				For each test, I also invited one team member to join me. They can help answer some professional questions, or handle technical issues we might encounter during the test. It also helps my team members understand what problems users are facing by watching them interacting with the product.
+
+			</p>
+
+			<p>
+				My colleague and I offered help when participants couldn’t finish the task or asked for help. When I found a participant doing an unexpected activity, I would ask why and let participants further explain his/her logics.
+
+			</p>
+
+			<p>
+				When participants had went through all the tasks, I had a short discussion with them in regard of the whole process and thank them for the participation. Asking “Is there anything you want to mention that I didn’t cover?” was magically useful and helped me get valuable insights that we didn’t think of before.
+
+			</p>
+
+			<!--</div>-->
+
+
+		<!--<div class='process-steps'>
+		    <input type="checkbox" unchecked>
+            <i></i>-->
+
+			<h3>
+				3. Turning results into actionalbe insights
+			</h3>
+
+
+
+      <p>
+				To gain an holistic understanding of the testing results, I summarized all the ratings into another table. Comparing the completion rate of each task from all 4 tests(5 participants among whom 2 did a test together), I marked tasks with less than 50% completion rate .
+
+			</p>
+
+			<img class='img-responsive in-steps' alt="Rating table" src='img/img-RemoteTesting-ratingSystem.png'>
+			<p> Table 2: Example of a task completion table to record test result</p>
+
+		 <p>
+			 Then I went back to my previous table of detailed tasks and checked my notes to understand at which specific step the participant failed, and why. The corresponding UI part would be where the improvements are needed.
+		 </p>
+
+		 <img class='img-responsive in-steps' alt="Example of Task Table" src='img/img-RemoteTesting-TaskTable2.png'>
+		 <p>Table 3: Going back to the previous table.</p>
+		<!--</div>-->
+		 <!--<div class='process-steps'>
+		    <input type="checkbox" unchecked>
+            <i></i>-->
+
+			<h3>4. Reflections and Takeaways </h3>
+
+			<h4>4.1 Reflections</h4>
+			<p>
+				Since I had gone through the process a lot of times, both in cognitive walkthrough and pilot testing by myself, I am very familiar with the two different routes and each task users would do in testings. This helped me easily find problematic areas while watching users use the product. Also, being specific to each step in a single task enable us to summarize the results quickly and turn them into improvements suggestions.
+
+			</p>
+			<p>
+				Still, there are several things I wish I could do better next time. When I chose the dataset and design scenarios, I just chose one that was available and easy to understand. However, our data scientist later pointed out that it was not an usual prediction case for both business people and data scientist in business world. It’s better to use a more common case to resemble a real situation. Also, inform participants about the technical specification earlier is very important to avoid unexpected situations. It’s good to invite colleagues to join the testing, but not too many at one time. Too many testers with one participant would possibly make the participant feel stressful. Then we might not get much useful insights from this testing as we could have.
+ Finally, when the testing went for a very long time, it’s less possible to get useful information as participants got fatigue.
+
+			</p>
+<h4>4.2 Some takeaways</h4>
+			<p>
+        This is the first time I did remote usability testings. It’s similar with traditional usability testings but still a bit different, below are things that I would pay more attention when I would do a remote usability testing next time:
+			</p>
+			<p class="indent">• Cognitive walkthrough is helpful in structuring task flows and identifying possible issues.</p>
+			 <p class ="indent">• Depending on your goal, choose reasonable rating criteria.</p>
+			 <p class = "indent">• Be specific about the technical requirement(Browsers, OS, etc.) and let your participants know it ahead.</p>
+			 <p class="indent">• Be courtesy and don’t let the meeting last too long (Ideally 45 - 60 min, no longer than one hour)</p>
+			 <p class="indent">• It’s very important to go through the whole process by yourself and with your colleagues several times before the real testing.</p>
+       <p class="indent">• Invite your colleagues to join the testing is beneficial, but not too many at once.</p>
+
+			<p>
+      That’s much from my first remote usability testing. I’d love to hear your experience doing remote usability testing. And you are more than welcome to discuss any related question with me.
+			</p>
+		<!--	</div>-->
+								  <p class="end-of-article">-- Thanks for reading -- <br> If you have any questions or simply want to chat with me about remote usability testing, feel free to drop me an <a href="mailto:weiwei@weiwei-zhang.me?Subject=Hello%20Weiwei" target="_blank">email</a>.
+								  </p>
+		</section>
+
+	</main>
+
+
+
+	</ul>
+	<footer class='content-nav-wrapper' > <!--footer with social networks and contact -->
+		<div class='content-nav row'>
+			<ul class="bs-glyphicons-list">
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-chevron-left" aria-hidden="true" href="portfolio-MrOne.html"></a><span class="tooltiptext-left">Go to the previous project</span></div>
+
+				</li>
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-th" aria-hidden="true" href='index.html'></a><span class="tooltiptext-top">Back to homepage</span></div>
+				</li>
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-chevron-right" aria-hidden="true" href="portfolio-Ref-UXInSelfDrivingCar.html"></a><span class="tooltiptext-right">Go to the next project</span></div>
+				</li>
+
+			</ul>
+		</div>
+		</footer> <!-- social icons & copy right -->
+<script src="js/jquery-2.1.1.js"></script>
+
+</body>
+</html>

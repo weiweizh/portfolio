@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="510px" height="170px" viewBox="0 0 510 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>img-Roomie_invite</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="480" height="140"></rect>
+        <filter x="-4.7%" y="-16.1%" width="109.4%" height="132.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.92   0 0 0 0 0.92   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="9.57894737" width="26" height="16.4210526" rx="2"></rect>
+        <rect id="path-4" x="2.73684211" y="0" width="20.5263158" height="19.8421053" rx="1"></rect>
+    </defs>
+    <g id="img-Roomie_invite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(12.000000, 13.000000)">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#EBEBEB" stroke-width="1" x="0.5" y="0.5" width="479" height="139"></rect>
+            </g>
+            <g id="icon-Invite" transform="translate(21.000000, 21.000000)">
+                <g>
+                    <g id="Rectangle-14">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#4A4A4A" stroke-width="1" x="0.5" y="10.0789474" width="25" height="15.4210526" rx="2"></rect>
+                    </g>
+                    <g id="Rectangle">
+                        <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#4A4A4A" stroke-width="1" x="3.23684211" y="0.5" width="19.5263158" height="18.8421053" rx="1"></rect>
+                    </g>
+                    <path d="M13,9.73099415 C15.2807018,7.69624397 16.4210526,6.04907048 16.4210526,4.78947368 C16.4210526,2.90007849 14.8893952,1.36842105 13,1.36842105 C11.1106048,1.36842105 9.57894737,2.90007849 9.57894737,4.78947368 C9.57894737,6.04907048 10.7192982,7.69624397 13,9.73099415 Z" id="Oval" stroke="#4A4A4A" fill="#FFFFFF"></path>
+                    <polygon id="Triangle" stroke="#4A4A4A" fill="#FFFFFF" points="13 10.2631579 13.6842105 10.9473684 12.3157895 10.9473684"></polygon>
+                    <path d="M0.684210526,25.3157895 L11.224168,17.8758195 C11.8849631,17.4093759 12.7616563,17.3868633 13.4455204,17.8187774 L25.3157895,25.3157895" id="Path-29" stroke="#4A4A4A" fill="#FFFFFF"></path>
+                    <polyline id="Path-30" stroke="#4A4A4A" fill="#FFFFFF" points="0.684210526 10.2631579 10.9473684 17.7894737 0.684210526 25.3157895"></polyline>
+                    <polyline id="Path-31" stroke="#4A4A4A" fill="#FFFFFF" points="25.3157895 10.2631579 13.6842105 17.7894737 25.3157895 25.3157895"></polyline>
+                    <path d="M13,10.9473684 C12.0877193,11.8596491 12.0877193,12.7719298 13,13.6842105 C13.9122807,14.5964912 13.9122807,15.5087719 13,16.4210526" id="Path-32" stroke="#4A4A4A" stroke-linecap="round"></path>
+                </g>
+            </g>
+            <text id="Create-an-inviting-e" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                <tspan x="68" y="42">Create an inviting experience</tspan>
+            </text>
+            <text id="Provide-an-intuitive" font-family="OpenSans-Light, Open Sans" font-size="20" font-weight="300" fill="#747473">
+                <tspan x="68" y="73">Provide an intuitive and inviting </tspan>
+                <tspan x="68" y="100">experience that actually useful for users</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

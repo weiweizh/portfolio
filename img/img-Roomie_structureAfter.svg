@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="350px" viewBox="0 0 1200 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Structure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="59" width="169" height="53"></rect>
+        <rect id="path-2" x="0" y="122" width="169" height="40"></rect>
+        <rect id="path-3" x="0" y="172" width="169" height="40"></rect>
+        <rect id="path-4" x="0" y="221" width="169" height="40"></rect>
+        <path d="M0,0 L169,0 L169,53 L0,53 L0,0 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="53" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M0,0 L169,0 L169,40 L0,40 L0,0 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="40" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M0,0 L169,0 L169,40 L0,40 L0,0 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="40" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <path d="M0,0 L169,0 L169,40 L0,40 L0,0 Z" id="path-11"></path>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="40" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <path d="M42,157 L211,157 L211,197 L42,197 L42,157 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="40" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <path d="M42,207 L211,207 L211,247 L42,247 L42,207 Z" id="path-15"></path>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="169" height="40" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="43" y="59" width="169" height="40"></rect>
+        <rect id="path-18" x="43" y="108" width="169" height="40"></rect>
+    </defs>
+    <g id="Structure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lists" transform="translate(33.000000, 56.000000)">
+            <g id="Group-2" transform="translate(10.000000, 0.000000)">
+                <rect id="Rectangle" fill="#49C89F" x="0" y="0" width="150" height="40" rx="2"></rect>
+                <text id="Lists" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#FFFFFF">
+                    <tspan x="53" y="27">Lists</tspan>
+                </text>
+            </g>
+            <g id="Rectangle-14">
+                <use fill="#EBEBEB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#49C89F" stroke-width="1" x="0.5" y="59.5" width="168" height="52"></rect>
+            </g>
+            <g id="Rectangle-14">
+                <use fill="#EBEBEB" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#49C89F" stroke-width="1" x="0.5" y="122.5" width="168" height="39"></rect>
+            </g>
+            <g id="Rectangle-14">
+                <use fill="#EBEBEB" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#49C89F" stroke-width="1" x="0.5" y="172.5" width="168" height="39"></rect>
+            </g>
+            <text id="Browse-room-and-room" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                <tspan x="10" y="80">Browse room and </tspan>
+                <tspan x="10" y="99">roommates</tspan>
+            </text>
+            <text id="Check-map-view" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                <tspan x="32" y="148">Check map view</tspan>
+            </text>
+            <text id="Add-favorites" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                <tspan x="41" y="198">Add favorites</tspan>
+            </text>
+            <g id="Rectangle-14">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <rect stroke="#49C89F" stroke-width="1" x="0.5" y="221.5" width="168" height="39"></rect>
+            </g>
+            <text id="Filter" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                <tspan x="68" y="247">Filter</tspan>
+            </text>
+        </g>
+        <g id="Message" transform="translate(309.000000, 56.000000)">
+            <g id="Group" transform="translate(38.333333, 0.000000)">
+                <rect id="Rectangle" fill="#49C89F" x="0" y="0" width="150" height="40" rx="2"></rect>
+                <text id="Messages" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#FFFFFF">
+                    <tspan x="28" y="27">Messages</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(30.000000, 59.000000)">
+                <use id="Rectangle-14" stroke="#49C89F" mask="url(#mask-6)" stroke-width="2" fill="#EBEBEB" stroke-dasharray="9" xlink:href="#path-5"></use>
+                <text id="Conversations-with-p" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="10" y="23">Conversations with </tspan>
+                    <tspan x="10" y="42">potential roommates</tspan>
+                </text>
+            </g>
+            <text id="registered-user" transform="translate(9.500000, 89.500000) rotate(-90.000000) translate(-9.500000, -89.500000) " font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#49C89F">
+                <tspan x="-40" y="95">registered user</tspan>
+            </text>
+        </g>
+        <g id="Roommates" transform="translate(613.000000, 56.000000)">
+            <g id="Group" transform="translate(55.666667, 0.000000)">
+                <rect id="Rectangle" fill="#49C89F" x="0" y="0" width="150" height="40" rx="2"></rect>
+                <text id="Room-Hub" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#FFFFFF">
+                    <tspan x="24" y="27">Room Hub</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(46.000000, 59.000000)">
+                <use id="Rectangle-14" stroke="#49C89F" mask="url(#mask-8)" stroke-width="2" fill="#D8D8D8" stroke-dasharray="9" xlink:href="#path-7"></use>
+                <text id="Add-roommates" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="32" y="26">Add roommates</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(46.000000, 109.000000)">
+                <use id="Rectangle-14" stroke="#49C89F" mask="url(#mask-10)" stroke-width="2" fill="#D8D8D8" stroke-dasharray="9" xlink:href="#path-9"></use>
+                <text id="Accept-requests" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="33" y="26">Accept requests</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(46.000000, 159.000000)">
+                <use id="Rectangle-14" stroke="#49C89F" mask="url(#mask-12)" stroke-width="2" fill="#EBEBEB" stroke-dasharray="9" xlink:href="#path-11"></use>
+                <text id="Split-bills" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="47" y="23">Split bills</tspan>
+                </text>
+            </g>
+            <text id="registered-user" transform="translate(9.500000, 152.500000) rotate(-90.000000) translate(-9.500000, -152.500000) " font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#49C89F">
+                <tspan x="-40" y="158">registered user</tspan>
+            </text>
+            <path d="M38,63.0637786 C32.6666667,60.8800642 31,80.5334938 33,122.024067 L27,126.937425 L33,131.850782 C31.6666667,176.616927 33.3333333,199 38,199" id="Path-21" stroke="#C4C4C4"></path>
+        </g>
+        <g id="Preference" transform="translate(935.000000, 56.000000)">
+            <g id="Preferences" transform="translate(51.000000, 0.000000)">
+                <rect id="Rectangle" fill="#49C89F" x="0" y="0" width="150" height="40" rx="2"></rect>
+                <text id="Settings" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#FFFFFF">
+                    <tspan x="36" y="25">Settings</tspan>
+                </text>
+            </g>
+            <use id="Rectangle-14" stroke="#49C89F" mask="url(#mask-14)" stroke-width="2" fill="#EBEBEB" stroke-dasharray="9" xlink:href="#path-13"></use>
+            <use id="Rectangle-14" stroke="#49C89F" mask="url(#mask-16)" stroke-width="2" fill="#EBEBEB" stroke-dasharray="9" xlink:href="#path-15"></use>
+            <g id="Rectangle-14">
+                <use fill="#EBEBEB" fill-rule="evenodd" xlink:href="#path-17"></use>
+                <rect stroke="#49C89F" stroke-width="1" x="43.5" y="59.5" width="168" height="39"></rect>
+            </g>
+            <g id="Rectangle-14">
+                <use fill="#EBEBEB" fill-rule="evenodd" xlink:href="#path-18"></use>
+                <rect stroke="#49C89F" stroke-width="1" x="43.5" y="108.5" width="168" height="39"></rect>
+            </g>
+            <text id="Save-&amp;-change-room-p" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                <tspan x="53" y="74">Save &amp; change room </tspan>
+                <tspan x="53" y="93">preferences</tspan>
+            </text>
+            <text id="Save-&amp;-change-roomma" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                <tspan x="50" y="124">Save &amp; change </tspan>
+                <tspan x="50" y="143">roommates preferences</tspan>
+            </text>
+            <text id="Personal-information" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                <tspan x="52" y="181">Personal information</tspan>
+            </text>
+            <text id="Identity-verificatio" font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#4A4A4A">
+                <tspan x="59" y="231">Identity  verification</tspan>
+            </text>
+            <text id="registered-user" transform="translate(9.500000, 201.500000) rotate(-90.000000) translate(-9.500000, -201.500000) " font-family="OpenSans, Open Sans" font-size="14" font-weight="normal" fill="#49C89F">
+                <tspan x="-40" y="207">registered user</tspan>
+            </text>
+            <path d="M34,162.1 C28.6666667,160.766667 27,172.766667 29,198.1 L23,201.1 L29,204.1 C27.6666667,231.433333 29.3333333,245.1 34,245.1" id="Path-21" stroke="#C4C4C4"></path>
+        </g>
+    </g>
+</svg>

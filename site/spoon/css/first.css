@@ -1,0 +1,22 @@
+﻿
+  
+#plate{
+background:url(../img/plate.png) no-repeat 0 0;
+height:400px;
+width:400px;
+background-size:100%;
+margin:50px 312px;
+
+}
+
+#register{
+position:absolute;
+margin:170px 245px;
+}
+
+#denglu{
+position:absolute;
+margin:250px 175px;
+}
+
+ 

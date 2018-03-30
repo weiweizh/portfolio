@@ -1,0 +1,960 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>小饭勺</title>
+        <link rel="stylesheet" type="text/css" href="css/spoonstyle.css"/>
+        <!-- Place somewhere in the <head> of your document -->
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="js/jquery-1.7.1.min.js">
+        </script>
+        <script src="js/jquery.flexslider-min.js">
+        </script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function(){
+                $('.flexslider').flexslider();
+                $("#logIn").hover(function(){
+                    $("#inform #logIn_text").css("height", "86px");
+                }, function(){
+                    $("#inform #logIn_text").css("height", "0px");
+                });
+                
+                $("#reg").hover(function(){
+                    $("#inform #reg_text").css("height", "86px");
+                }, function(){
+                    $("#inform #reg_text").css("height", "0px");
+                });
+                $(".table-cell").css("height", $(window).height() + "px");
+                $(".table-cell").css("width", $(window).width() + "px");
+                $(window).resize(function(){
+                    $(".table-cell").css("height", $(window).height() + "px");
+                    $(".table-cell").css("width", $(window).width() + "px");
+                });
+                $(".jsstars >li").hover(function(){
+                    $(this).css({
+                        "background-position": "left bottom"
+                    }).prev().trigger("mouseover")
+                }, function(){
+                    $(this).css({
+                        "background-position": "left top"
+                    }).prev().trigger("mouseout")
+                }).click(function(){
+                    alert("评价成功~");
+					$('#pingjiaNum').html(parseInt($('#pingjiaNum').html())+1)
+					$(".jsstar").hide();
+                });
+            });
+            function stopBubble(e){
+                if (e && e.stopPropagation) 
+                    e.stopPropagation()
+                else 
+                    window.event.cancelBubble = true
+            }
+        </script>
+        <script src="js/jquery.scrollTo-min.js" type="text/javascript">
+        </script>
+        <script src="js/jquery.localscroll-min.js" type="text/javascript">
+        </script>
+    </head>
+    <body id="body">
+        <div id="dark_body">
+            <div class="table-cell">
+                <div class="caipu_wrapper">
+                    <div id="donut_caipu" class="caipu">
+                        <div class="closeBtn" onclick="$('.caipu').fadeOut(400);$('#dark_body').fadeOut(400);$('#navigation').fadeIn(200);">
+                        </div>
+                        <div class="first_col">
+                            <div class="caipu_name">
+                                <h1>菜名：香煎牛排</h1>
+                                <div class="caipu_txt">
+                                    <div class="hearts">
+                                        <img src="img/heart.png" /><img src="img/heart.png" /><img src="img/heart.png" />
+                                    </div>
+                                    <p>
+                                        作者：小丸子
+                                    </p>
+                                    <p>
+                                        耗时：30min
+                                    </p>
+                                    <p>
+                                        工具：电磁炉
+                                    </p>
+                                    <p>
+                                        浏览：<span class="lightblue">20</span>
+                                        收藏： <span class="lightblue">10</span>
+                                        做过：<span class="lightblue">2</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="caipu_zhuliao">
+                                <h1>主料：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        极品牛排：130g
+                                    </p>
+                                    <p>
+                                        土豆：200g
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="caipu_fuliao">
+                                <h1>辅料：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        黑胡椒：10g
+                                    </p>
+                                    <p>
+                                        盐：5g
+                                    </p>
+                                    <p>
+                                        橄榄油：10ml
+                                    </p>
+                                    <p>
+                                        黄油：1小块
+                                    </p>
+                                    <p>
+                                        淀粉：5g
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second_col">
+                            <div class="caipu_steps">
+                                <h1>制作步骤：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        1： 把黑胡椒、淀粉和盐放进碗里，放凉水调匀
+                                    </p>
+                                    <p>
+                                        2：锅烧热，放进黄油烧融化，再倒进调好的黑椒汁，大火烧开转小火至浓稠状态即可
+                                    </p>
+                                    <p>
+                                        3：调制黑椒汁的时候用牛高汤来烹制味道更佳
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="caipu_tips">
+                                <h1>小贴士：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        无
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="caipu_wrapper">
+                    <div id="another_caipu" class="caipu">
+                        <div class="closeBtn" onclick="$('.caipu').fadeOut(400);$('#dark_body').fadeOut(400);$('#navigation').fadeIn(200);">
+                        </div>
+                        <div class="first_col">
+                            <div class="caipu_name">
+                                <h1>菜名：香煎鸡扒</h1>
+                                <div class="caipu_txt">
+                                    <div class="hearts">
+                                        <img src="img/heart.png" /><img src="img/heart.png" /><img src="img/heart.png" /><a onclick="showjsstar();">评价</a>
+                                        
+                                        <a onclick="alert('收藏成功~');$('#shoucangNum').html(parseInt($('#shoucangNum').html())+1)">收藏</a>
+                                    	
+										<div class="clear"></div>
+                                            <div class="jsstar">
+                                                <ul class="jsstars">
+                                                    <li title="一星" name="一星">
+                                                    </li>
+                                                    <li title="二星" name="二星">
+                                                    </li>
+                                                    <li title="三星" name="三星">
+                                                    </li>
+                                                    <li title="四星" name="四星">
+                                                    </li>
+                                                    <li title="五星" name="五星">
+                                                    </li>
+                                                </ul>
+												<a class="starBtn" onclick='$(".jsstar").fadeOut(300);'>取消</a>
+                                                <div class="clear">
+                                                </div>
+                                            </div>
+                                        
+									</div>
+                                    <p>
+                                        <span id="pingjiaNum">9</span>人评价过
+                                    </p>
+                                    <p>
+                                        作者：小丸子
+                                    </p>
+                                    <p>
+                                        耗时：30min
+                                    </p>
+                                    <p>
+                                        工具：电磁炉
+                                    </p>
+                                    <p>
+                                        浏览：<span class="lightblue">20</span>
+                                        收藏：<span id="shoucangNum" class="lightblue">10</span>
+                                        做过：<span class="lightblue">2</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="caipu_zhuliao">
+                                <h1>主料：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        极品牛排：130g
+                                    </p>
+                                    <p>
+                                        土豆：200g
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="caipu_fuliao">
+                                <h1>辅料：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        黑胡椒：10g
+                                    </p>
+                                    <p>
+                                        盐：5g
+                                    </p>
+                                    <p>
+                                        橄榄油：10ml
+                                    </p>
+                                    <p>
+                                        黄油：1小块
+                                    </p>
+                                    <p>
+                                        淀粉：5g
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second_col">
+                            <div class="caipu_steps">
+                                <h1>制作步骤：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        1： 把黑胡椒、淀粉和盐放进碗里，放凉水调匀
+                                    </p>
+                                    <p>
+                                        2：锅烧热，放进黄油烧融化，再倒进调好的黑椒汁，大火烧开转小火至浓稠状态即可
+                                    </p>
+                                    <p>
+                                        3：调制黑椒汁的时候用牛高汤来烹制味道更佳
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="caipu_tips">
+                                <h1>小贴士：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        无
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="myPage">
+                    <div class="closeBtn" onclick='close_myPage();'>
+                    </div>
+                    <div class="myPage_header">
+                        <img class="fl" src="img/profile_logo.png" width='75' height='75'><h1 class="fl">小丸子 的页面</h1>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <div class="myPage_text">
+                        <div class="myPage_nav">
+                            <ul>
+                                <li>
+                                    <a class="myPage_navItem" onclick="nav_click(this);$('#profile_setting').fadeIn(200);">基本信息</a>
+                                </li>
+                                <li>
+                                    |
+                                </li>
+                                <li>
+                                    <a class="myPage_navItem" onclick="nav_click(this);$('#change_password').fadeIn(200);">修改密码</a>
+                                </li>
+                                <li>
+                                    |
+                                </li>
+                                <li>
+                                    <a class="myPage_navItem" onclick="nav_click(this);$('#upload_logo').fadeIn(200);">上传头像</a>
+                                </li>
+                                <div class="clear">
+                                </div>
+                            </ul>
+                        </div>
+                        <div id="profile_setting" class="myPage_item" style="display:block;">
+                            <label>
+                                <p class="fl">
+                                    昵称：
+                                </p>
+                                <input class="fl" type="text">
+                                <div class="clear">
+                                </div>
+                            </label>
+                            <label>
+                                <p class="fl">
+                                    QQ：
+                                </p>
+                                <input class="fl" type="text">
+                                <div class="clear">
+                                </div>
+                            </label>
+                            <a class="logIn_btn">确定</a>
+                        </div>
+                        <div id="change_password" class="myPage_item">
+                            <label>
+                                <p class="fl">
+                                    原密码：
+                                </p>
+                                <input class="fl" type="text">
+                                <div class="clear">
+                                </div>
+                            </label>
+                            <label>
+                                <p class="fl">
+                                    新密码：
+                                </p>
+                                <input class="fl" type="text">
+                                <div class="clear">
+                                </div>
+                            </label>
+                            <label>
+                                <p class="fl">
+                                    确认密码：
+                                </p>
+                                <input class="fl" type="text">
+                                <div class="clear">
+                                </div>
+                            </label>
+                            <a class="logIn_btn">确定</a>
+                        </div>
+                        <div id="upload_logo" class="myPage_item">
+                            <input type="file" id="upload_btn"><a class="logIn_btn" onclick="change_upload_logo();">确定</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="upLoad_dish">
+                    <div class="upLoad_text">
+                        <div class="first_col">
+                            <div class="upLoad_panel">
+                                <a>上传一张诱人的图片</a>
+                            </div>
+                            <div class="cooker_needed">
+                                <h1>烹饪工具：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        <label>
+                                            <input type="checkbox">电磁炉
+                                        </label>
+                                        <label>
+                                            <input type="checkbox">电饭煲
+                                        </label>
+                                        <label>
+                                            <input type="checkbox">徒手
+                                        </label>
+                                        <label>
+                                            <input type="checkbox">其他
+                                        </label>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="main_material">
+                                <h1>主料：</h1>
+                                <div class="caipu_txt">
+                                    <div class="opacity_bg">
+                                    </div>
+                                    <table>
+                                        <thead>
+                                            <th>
+                                                食材名称
+                                            </th>
+                                            <th>
+                                                分量
+                                            </th>
+                                            <th>
+                                                备注
+                                            </th>
+                                        </thead>
+                                        <tbody id="mainTbody">
+                                        </tbody>
+                                    </table>
+                                    <div class="new_item">
+                                        <input id="majorMat_input" type="text"><input id="majorSize_input" type="text"><input id="majorRemark_input" type="text"><a id="main_submit" onclick="newMainItem();">add</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="assist_material">
+                                <h1>辅料：</h1>
+                                <div class="caipu_txt">
+                                    <div class="opacity_bg">
+                                    </div>
+                                    <table>
+                                        <thead>
+                                            <th>
+                                                食材名称
+                                            </th>
+                                            <th>
+                                                分量
+                                            </th>
+                                            <th>
+                                                备注
+                                            </th>
+                                        </thead>
+                                        <tbody id="addistTbody">
+                                        </tbody>
+                                    </table>
+                                    <div class="new_item">
+                                        <input id="mat_input" type="text"><input id="size_input" type="text"><input id="remark_input" type="text"><a id="assist_submit" onclick="newAssistItem();">add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second_col">
+                            <div class="steps">
+                                <h1>制作步骤：</h1>
+                                <div class="caipu_txt">
+                                    <div>
+                                        <p>
+                                            <label>
+                                                第一步： 
+                                                <textarea>
+                                                </textarea>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                第二步：
+                                                <textarea>
+                                                </textarea>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                第三步：
+                                                <textarea wrap="hard">
+                                                </textarea>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="time_use">
+                                <h1 class='fl'>用时：</h1>
+                                <div class="caipu_txt">
+                                    <p>
+                                        <label>
+                                            <input type="text">
+                                            </input>min
+                                        </label>
+                                    </p>
+                                </div>
+                                <div class="clear">
+                                </div>
+                            </div>
+                            <div class="tips">
+                                <h1>小贴士：</h1>
+                                <div class="caipu_txt">
+                                    <div class="tips_txt">
+                                        <div class="opacity_bg">
+                                        </div>
+                                        <textarea>
+                                        </textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uploadControlBar">
+                                <div>
+                                    <label>
+                                        <input type="checkbox">这是原创
+                                    </label>
+                                </div>
+                                <div class="uploadControlBar_btns">
+                                    <a>上传菜谱</a>
+                                    <a onclick="close_upload_dish();">取消</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div id="fixed_header">
+                <img src="img/logout.png" id="logout_logo" onclick="logOut();"/><a href="#inform" title="回到首页"><img src="img/fixed_logo.png" width=400 height=180 alt="美味总在小饭勺"/></a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="navigation">
+                <ul>
+                    <li>
+                        <p id="aboutUs">
+                            <label>
+                            </label>
+                        </p>
+                    </li>
+                    <li>
+                        <p id="contactUs">
+                            <label>
+                            </label>
+                        </p>
+                    </li>
+                    <li>
+                        <a id="nav01" onclick=$.scrollTo("#inform","800")><span class="dot"></span><img id="zhuce" src="img/zhuce_2.png" width="270px" height="119px"/></a>
+                    </li>
+                    <li>
+                        <a id="nav02" onclick=$.scrollTo("#recipe","800")><span class="dot"></span><img id="recipe_2" src="img/recipe_2.png" width="200px" height="145px"/></a>
+                    </li>
+                    <li>
+                        <a id="nav03" onclick=$.scrollTo("#have_a_try","800")><span class="dot"></span><img id="try" src="img/try_2.png" width="320" height="135"/></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="inform" height="876">
+                <div class="login_plate">
+                    <div id="logIn_text">
+                    </div>
+                    <div id="logIn">
+                        <img src="img/log_in.png"  width="80" height="80" onclick="logIn();">
+                    </div>
+                    <div id="reg_text">
+                    </div>
+                    <div id="reg" class="login_plate_item">
+                        <img src="img/register.png" width="80" height="80" onclick="goRegister();">
+                    </div>
+                </div>
+                <div class="login_cloud">
+                    <div class="cloud_item">
+                        <div class="fl">
+                            <div id="userName">
+                                <label>
+                                    <p>
+                                        用户名：
+                                    </p>
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <div id="password">
+                                <label>
+                                    <p>
+                                        密码：
+                                    </p>
+                                    <input type="password">
+                                </label>
+                            </div>
+                            <div id="control_bar">
+                                <a class="logIn_btn fl" onclick="$('.login_cloud').hide();$('.myHomePage').fadeIn(1000);$('#logout_logo').fadeIn(400)">登录</a>
+                                <a class="cancel_btn fl" onclick="$('.login_cloud').hide();$('.login_plate').fadeIn(300);">取消</a>
+                                <a class="register_btn fl" href="javascript:void(0);" onclick="$('.login_cloud').hide();$('.register_cloud').fadeIn(300);">立即注册</a>
+                            </div>
+                        </div>
+                        <!--<div class="fl reg">
+                        <p>还不是会员？</p>
+                        <a class="reg_rightNow">立即注册！</a>
+                        </div>	-->
+                    </div>
+                </div>
+                <div class="register_cloud">
+                    <div class="cloud_item">
+                        <div class="afterRegister">
+                            <p>
+                                现在我想：
+                            </p>
+                            <p>
+                                <a href="javascript:void(0);" onclick="goProfile()">完善个人资料</a>
+                            </p>
+                            <p>
+                                <a href="javascript:void(0);" onclick="goMyPage()">访问我的主页</a>
+                            </p>
+                            <p>
+                                <a href="javascript:void(0);" onclick="goHome();">返回主页</a>
+                            </p>
+                        </div>
+                        <div class="fl">
+                            <div id="register_userName">
+                                <label>
+                                    <p>
+                                        用户名：
+                                    </p>
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <div id="register_password">
+                                <label>
+                                    <p>
+                                        密码：
+                                    </p>
+                                    <input type="password">
+                                </label>
+                            </div>
+                            <div id="register_confirmPassword">
+                                <label>
+                                    <p>
+                                        确认密码：
+                                    </p>
+                                    <input type="password">
+                                </label>
+                            </div>
+                            <div id="register_nickname">
+                                <label>
+                                    <p>
+                                        昵称：
+                                    </p>
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <div id="control_bar">
+                                <a class="logIn_btn fl" onclick="registerSucceed();">确定</a>
+                                <a class="cancel_btn fl" onclick="$('.register_cloud').hide();$('.login_plate').fadeIn(300);">取消</a>
+                            </div>
+                        </div>
+                        <!--<div class="fl reg">
+                        <p>还不是会员？</p>
+                        <a class="reg_rightNow">立即注册！</a>
+                        </div>	-->
+                    </div>
+                </div>
+                <div class="myHomePage">
+                    <div class="myCaipu">
+                        <div class="searchBar">
+                            <input type="text" /><input class="btn" type="button" value="搜索" />
+                        </div>
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img onclick="show_caipu('niupai');" src="demo-stuff/niupai.jpg"/>
+                                </li>
+                                <li>
+                                    <img onclick="show_caipu('donut');" src="demo-stuff/inacup_donut.jpg"/>
+                                </li>
+                                <li>
+                                    <img onclick="show_caipu('pumpkin');" src="demo-stuff/inacup_pumpkin.jpg"/>
+                                </li>
+                                <li>
+                                    <img onclick="show_caipu('samoa');" src="demo-stuff/inacup_samoa.jpg"/>
+                                </li>
+                                <li>
+                                    <img onclick="show_caipu('vanilla');" src="demo-stuff/inacup_vanilla.jpg"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="myHomePageNav">
+                        <div class="opacityBg">
+                        </div>
+                        <ul>
+                            <li>
+                                <a class="nav_caipu" title="我的菜谱" name="我的菜谱"></a>
+                            </li>
+                            <li>
+                                <a class="nav_profile" title="我的资料" name="我的资料" onclick="show_myPage();"></a>
+                            </li>
+                            <li>
+                                <a class="nav_upload" title="上传" name="上传" onclick="show_upload_dish();"></a>
+                            </li>
+                            <div class="clear">
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="recipe">
+                <div id="container">
+                    <div class="recipe_sort">
+                        <a name="按受欢迎度排序" title="按受欢迎度排序" href="javascript:void(0);" class="hotSortBtn">hot</a>
+                        <a name="按时间排序" title="按时间排序" href="javascript:void(0);" class="timeSortBtn">hot</a>
+                    </div>
+                    <div class="clear">
+                    </div>
+                    <div class="searchBar">
+                        <input type="text" /><input class="btn" type="button" value="搜索" />
+                    </div>
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img onclick="show_another_caipu('donut');" src="demo-stuff/inacup_donut.jpg"/>
+                            </li>
+                            <li>
+                                <img onclick="show_another_caipu('pumpkin');" src="demo-stuff/inacup_pumpkin.jpg"/>
+                            </li>
+                            <li>
+                                <img onclick="show_another_caipu('samoa');" src="demo-stuff/inacup_samoa.jpg"/>
+                            </li>
+                            <li>
+                                <img onclick="show_another_caipu('vanilla');" src="demo-stuff/inacup_vanilla.jpg"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="have_a_try">
+                <div class="tryWrapper">
+                    <ul class="trySmallPlates">
+                        <li class="smallPlate" id="vegetablePlate" onclick="showFoodSelect('vegetable');">
+                            <div>
+                                <p>
+                                    <img src="img/vegetable.png" width="60" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="smallPlate" id="meatPlate" onclick="showFoodSelect('meat');">
+                            <div>
+                                <p>
+                                    <img src="img/meat.png" width="60" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="smallPlate" id="eggPlate" onclick="showFoodSelect('egg');">
+                            <div>
+                                <p>
+                                    <img src="img/egg.png" width="60" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="smallPlate" id="beansPlate" onclick="showFoodSelect('beans');">
+                            <div>
+                                <p>
+                                    <img src="img/beans.png" width="60" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="smallPlate" id="jiangLiaoPlate" onclick="showFoodSelect('jiangLiao');">
+                            <div>
+                                <p>
+                                    <img src="img/jiang.png" height="60" />
+                                </p>
+                            </div>
+                        </li>
+                        <li id="platesTime" onclick="showFoodSelect('plateTime');">
+                            <p id="timeShow">
+                            </p>
+                        </li>
+                        <li id="platesSubmit" onclick="platesSubmit();">
+                        </li>
+                    </ul>
+                    <div class="food_arrow">
+                    </div>
+                    <div class="foodSelect">
+                        <ul id="vegetable" class="foodType">
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="xiangchun" title="香醇" name="香醇" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="kugua" title="苦瓜" name="苦瓜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="jiucai" title="韭菜" name="韭菜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="potato" title="土豆" name="土豆" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="baicai" title="白菜" name="白菜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="bocai" title="菠菜" name="菠菜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="xilanhua" title="西兰花" name="西兰花" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="huanggua" title="黄瓜" name="黄瓜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="tomato" title="西红柿" name="西红柿" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="carrote" title="胡萝卜" name="胡萝卜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="donggua" title="冬瓜" name="冬瓜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectFood(this)">无</a>
+                            </li>
+                        </ul>
+                        <ul id="meat" class="foodType">
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="chicken" title="鸡肉" name="鸡肉" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="cow" title="牛肉" name="牛肉" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="duck" title="鸭肉" name="鸭肉" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="fish" title="鱼肉" name="鱼肉" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="longxia" title="龙虾" name="龙虾" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="niupai" title="牛排" name="牛排" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="pork" title="猪肉" name="猪肉" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="sheep" title="羊肉" name="羊肉" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="shram" title="虾" name="虾" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="xie" title="蟹肉" name="蟹肉" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectFood(this)">无</a>
+                            </li>
+                        </ul>
+                        <ul id="egg" class="foodType">
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="anchun" title="鹌鹑蛋" name="鹌鹑蛋" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="eggs" title="鸡蛋" name="鸡蛋" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="ludan" title="卤蛋" name="卤蛋" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="pidan" title="皮蛋" name="皮蛋" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="xiandan" title="咸蛋" name="咸蛋" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="yadan" title="鸭蛋" name="鸭蛋" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectFood(this)">无</a>
+                            </li>
+                        </ul>
+                        <ul id="beans" class="foodType">
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="beidoufu" title="北豆腐" name="北豆腐" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="chandou" title="蚕豆" name="蚕豆" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="dongdoufu" title="冻豆腐" name="冻豆腐" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="doupi" title="豆皮" name="豆皮" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="douya" title="豆芽" name="豆芽" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="hongdou" title="红豆" name="红豆" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="hongyaodou" title="红腰豆" name="红腰豆" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="nandoufu" title="南豆腐" name="南豆腐" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="sijidou" title="四季豆" name="四季豆" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="wandou" title="豌豆" name="豌豆" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="xianggan" title="香干" name="香干" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="yellow_bean" title="黄豆" name="黄豆" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectFood(this)">无</a>
+                            </li>
+                        </ul>
+                        <ul id="jiangLiao" class="foodType">
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="bingtang" title="冰糖" name="冰糖" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="cong" title="葱" name="葱" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="cu" title="醋" name="醋" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="doubanjiang" title="豆瓣酱" name="豆瓣酱" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="doufuru" title="豆腐乳" name="豆腐乳" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="jiang" title="姜" name="姜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="jiangyou" title="酱油" name="酱油" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="shachajiang" title="沙茶酱" name="沙茶酱" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="suan" title="蒜" name="蒜" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" id="xiangyou" title="香油" name="香油" onclick="selectFood(this)"></a>
+                            </li>
+                            <li class="foodItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectFood(this)">无</a>
+                            </li>
+                        </ul>
+                        <ul id="plateTime" class="foodType">
+                            <li class="timeItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectTime(this)">1-5分钟</a>
+                            </li>
+                            <li class="timeItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectTime(this)">5-10分钟</a>
+                            </li>
+                            <li class="timeItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectTime(this)">10-30分钟</a>
+                            </li>
+                            <li class="timeItem">
+                                <a href="javascript:void(0);" class="none" onclick="selectTime(this)">30分钟以上</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tryBigPlatesWrapper">
+                        <a onclick="showPreBigPlates();" id="left_btn" class="bigPlates_btn"></a>
+                        <ul class="tryBigPlates">
+                            <li id="plates_1" class="bigPlate">
+                                <div>
+                                    <p>
+                                    </p>
+                                </div>
+                            </li>
+                            <li id="plates_2" class="bigPlate">
+                                <div>
+                                    <p>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a onclick="showNextBigPlates();" id="right_btn" class="bigPlates_btn"></a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <P>
+                联系我们:weirz[at]hotmail.com
+                </p>
+                <p class="copy">
+                    copyright©小饭勺 2011
+                </p>
+            </footer>
+        </div>
+        <script src="js/spoon.js">
+        </script>
+    </body>
+</html>

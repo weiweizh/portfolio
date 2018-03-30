@@ -1,0 +1,773 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2014, 3:35:35 PM
+    Author     : weiwei, jenny, svana
+*/
+
+/*Basic*/
+
+body {
+  margin-top: 20px;
+  background-color:#fff;
+  color:#494949;
+  text-align:center;
+}
+
+.container {
+	font-size:18px;
+		}
+
+.pagination {
+	font-size:12px;
+	}
+	#linkToLand>a{
+		background: #31b0d5;
+		color: #fff;
+		margin-left: 40px;
+		border-radius: 8px;
+	}
+	
+	[class*="navbar-item-"] {
+		//font-family:"sans-serif";
+		font-style: normal;
+		font-size: 3em;
+		speak: none;
+}
+	
+	#steps li:before{
+		content: "";
+        display: block;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 55%;
+        z-index: -1;
+	}
+	#steps li {
+	  position: relative;
+      display: inline-block;
+      margin-right: -4px;
+		
+	}	 
+ 
+	#steps a{
+		display: block;
+		background-color: #f7f7f7;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
+		background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7);
+		background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7);
+		background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7);
+		background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7);
+		color: #a7a7a7;
+		margin-top:10px;
+		margin-left: 36px;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		text-align:center;
+		line-height: 20px;
+		border-radius: 50%;
+		box-shadow: 0px 1px 1px #aaa, inset 0px 1px 1px #fff;
+	}
+	
+	/*#steps a>.active{
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e7e7e7));
+		background-image: -webkit-linear-gradient(top, #fff, #e7e7e7);
+		background-image: -moz-linear-gradient(top, #fff, #e7e7e7);
+		background-image: -ms-linear-gradient(top, #fff, #e7e7e7);
+		background-image: -o-linear-gradient(top, #fff, #e7e7e7);
+	}*/
+	
+	#steps a:before {
+		content: "";
+		display: block;
+		background: #fff;
+		border-top: 2px solid #ddd;
+		position: absolute;
+		top: -5px;
+		left: -5px;
+		bottom: -5px;
+		right: -5px;
+		z-index: -1;
+		border-radius: 50%;
+		box-shadow: inset 0px 8px 48px #ddd;
+	}
+	
+	#steps a:hover{
+		
+		 
+	  text-decoration: none;
+	  color: #555;
+	  background: #f5f5f5;
+	}
+	
+	.navbar-item-create:after{
+		content:"Create \A 1 ";
+		white-space: pre;
+		font-size: small;
+		 
+		
+	}
+	
+	.navbar-item-preview:after{
+		content:"Preview \A 2 ";
+		white-space: pre;
+		font-size:small;
+		
+	}
+	.navbar-item-order:after{
+		content:"Order \A 3 ";
+		white-space: pre;
+		font-size: small;
+		
+	}
+.navbar-item:hover{
+		color:#ccc;
+		text-decoration:none;
+		background:#333
+		}
+		
+.navbar {
+	
+	background:#EFEFEF;
+	height: 5.5em;
+	border-color:#ccc;
+}
+
+.footer {
+	
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:#999;
+  text-align:right;
+  font-size:14px;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+p {
+	color:#404040;
+	text-align:center;
+}
+
+h2 {
+	text-decoration: none;
+	color:#617DA7;
+	cursor:default;
+	font-size:25px;
+	text-align:center;
+
+}
+
+.jumbotron {
+	margin-top:0%;
+}
+
+
+/*state of the navigation of the whole site*/
+
+#start{
+    margin:20px 0;
+}
+
+ 
+
+#steps li>.active{
+	background-color: #fff;
+	color:#617DA7;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e7e7e7));
+	background-image: -webkit-linear-gradient(top, #fff, #e7e7e7);
+	background-image: -moz-linear-gradient(top, #fff, #e7e7e7);
+	background-image: -ms-linear-gradient(top, #fff, #e7e7e7);
+	background-image: -o-linear-gradient(top, #fff, #e7e7e7);
+	
+}
+
+
+/* style for the left sidebar in editpage*/
+.nav-sidebar {
+    //margin-left: -75px;
+	margin-left: -7.5%;
+    margin-top: 5%;
+    position: fixed;
+    background-color: #eee;
+	background-image:url(../images/menu_bg.png);
+	width: 26%;
+    height: 100%;	
+}
+
+.nav-sidebar>ul{
+    margin-top: 0;
+    list-style: none;
+}
+
+.nav-sidebar>li{
+    display: list-item;
+    list-style-type: none;
+    width: 100%;
+    //height: 100px;
+}
+
+/*rewrite the style of the hover of <a> in nav li*/
+
+.sidebar_bg{
+    position: absolute;
+    z-index: 1;  /*higher than normal icon so to cover them*/
+   // width: 300px;
+   // height: 600px;
+    border: none;
+    left:-300%;
+    top:-8%;
+    opacity: 0;
+	height: 800%;
+	width: 100%;
+	 
+	
+    /*!important enable below will make draggable not working
+	overflow-y: scroll;*/
+      transition: left 1s ease-in-out, background-color .2s ease-in-out;
+	 -webkit-transition: left 1s ease-in-out, background-color .2s ease-in-out;
+	
+ 
+}
+
+.nav li a:hover{
+	    background-color:transparent;
+		transition:none;
+	}
+.nav-sidebar>li:hover>div, .nav-sidebar>li:active>div{
+    left:0;
+    opacity: 1;
+
+}
+.nav-sidebar>li:nth-child(2)>div{
+    top:-110px;
+}
+
+.nav-sidebar>li:nth-child(3)>div{
+    top:-210px;
+}
+
+.nav-sidebar>li:nth-child(1):hover>div{
+	background-color: #7D88B0;
+}
+.nav-sidebar>li:nth-child(2):hover>div{
+	background-color: #FDE680;
+
+}
+.nav-sidebar>li:nth-child(3):hover>div{
+	background-color: #CDFCDC;
+}
+
+.nav-sidebar>li:nth-child(1):active>div{
+	background-color: #7D88B0;
+}
+.nav-sidebar>li:nth-child(2):active>div{
+	background-color: #FDE680;
+}
+
+.nav-sidebar>li:nth-child(3):active>div{
+	background-color: #CDFCDC;
+}
+
+#editDefultDiv{
+    background-color:transparent;
+    left:-5%;
+    /*opacity: 1;*/
+    display:none;
+}
+
+ 
+
+.nav-sidebar li img.sidebar_icon{
+    position:absolute;
+    left:85%;
+    top:0px;
+    cursor:pointer;
+    z-index: 20;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+}
+
+/* style for Edit page canvas*/
+.main {
+	padding: 20px;
+}
+@media (min-width: 768px) {
+	.main {
+		padding-right: 40px;
+		padding-left: 40px;
+		margin-top: 50px;
+	}
+}
+
+.main .title {
+	font-size: large;
+	font:oblique;
+	color: #7D88B0;
+	background-color: #EEEEEE;
+	border: dotted;
+	/*padding: 20px;*/
+	/*margin-left: -100px;*/
+	width: 100%;
+	height: 50px;
+}
+
+.main .btn_deletepage{
+    z-index: 2;
+    position: absolute;
+    top:0;
+    right:-5%;
+}
+
+.main .btn_addpage{
+    z-index: 2;
+    position: absolute;
+    top:30%;
+    right: -25%;
+}
+
+.no_col_padding{
+	padding: 0;
+}
+.canvas_wrapper{
+
+    margin-top:10px;
+	margin-bottom:10px;
+}
+.canvas{
+    z-index: 0;
+	background-color: #EEEEEE;
+	background-image:url(../images/canvas_bg.png);
+	background-repeat:no-repeat;	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.canvas-hover{
+	background-color: #AAAAAA;
+}
+#previewView .canvas{
+	background-image:url(../images/preview_canvas.png);
+	background-size:cover;
+}
+
+
+/*styles for drag-n-drop*/
+.draggable_item, .draggable_item_text, .dropped_item{
+	cursor: move;
+	position: relative;
+}
+
+/*items on menu*/
+#cat_items .draggable_item{
+	width: 95px;
+	/*height: 100px;*/
+	float: left;
+}
+
+#cat_bgs .draggable_item{
+	width: 120px;
+		float: left;
+		margin-left:20px;
+		margin-top:20px;
+}
+
+#cat_items .draggable_item>img, #cat_bgs .draggable_item>img{
+	width: 100%;
+	height: 100%;
+}
+
+ 
+
+.dropped_item, .preview_item{
+	position: absolute;
+
+}
+
+/* make the icon in leftside bar above the item container when hover*/
+
+.catgories{
+	
+	transition: z-index 0.2s ease-in-out;
+	height: 100px;
+}
+
+.catgories:hover{
+	z-index: 50;
+}
+
+/*TOFIX: keep aspect ratio*/
+.canvas_item_bg{
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+
+.canvas_item_props{
+	width: 20%; 
+	z-index: 10;
+}
+
+.canvas_item_props>img, .canvas_item_bg>img{
+	width: 100%;
+	height: 100%;
+}
+
+.canvas_item_text{
+	z-index: 10;
+}
+
+.item_text_container{
+
+	width: 60%;
+	height: 105px;
+	border-style: solid;
+	border-width: thin;
+	border-color: #555555;
+	background-color: #EEE;
+		margin-left: 20%;
+		margin-top:10%;
+		margin-right: 10%;
+}
+
+.item_text_container>div{
+	padding: 4%;
+	
+}
+
+.dropped_item>textarea, .item_text_container p, .preview_item>textarea{
+	width: 100%;
+	height: 100%;
+	border-color: #555555;
+	border-style: dotted;
+	border-width: thin;
+	background-color: transparent;
+	resize: none;
+	text-align: center;
+	font-size: 200%;
+	overflow: hidden;
+	text-shadow: 1px 1px 8px #fff;
+	
+}
+
+/*TOFIX: make font-size dynamic and responsive*/
+.page_thumbnail .preview_item>textarea{
+	font-size: 55%;
+}
+
+.preview_item>textarea{
+	margin: 0;
+	font-weight: inherit;
+	border-style: none;
+}
+
+.item_text>p{
+	background-color: white;
+	font-size: small;
+}
+
+.dropped_item:hover>textarea{
+	border-width: medium;
+}
+
+
+.dropped_item>input{
+	display: none;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.dropped_item.canvas_item_bg>input{
+	left:0px;
+}
+
+
+.dropped_item:hover>input{
+	display: block;
+}
+
+
+/*universal settings for standard ratio box*/
+.ratio_box{
+	position: relative;
+	padding: 0;
+}
+.ratio_box:before {
+	content:     "";
+	display:     block;
+	padding-top: 100%; /* initial ratio of 1:1*/
+}
+.ratio_box_content{
+	position: absolute;
+	top:      0;
+	left:     0;
+	bottom:   0;
+	right:    0;
+}
+.ratio4_3:before{
+	padding-top: 75%;
+}
+.ratio420_297:before{
+	padding-top: 70%;
+}
+
+/*style for add and deletebutton*/
+
+.btn_addpage, .btn_deletepage{
+    opacity:0.6;
+    transition: opacity 0.4s ease-in-out;
+    -webkit-transition: opacity 0.4s ease-in-out;
+}
+
+.btn_addpage:hover, .btn_deletepage:hover{
+
+    opacity:1;
+}
+
+/*style for navi dots in edit page*/
+/* Common styles and resets */
+
+.dotstyle ul {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.dotstyle li {
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0 10px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.dotstyle li a {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border-radius: 50%;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.3);
+	text-indent: -999em; /* make the text accessible to screen readers */
+	cursor: pointer;
+	position: absolute;
+}
+
+.dotstyle li a:focus {
+	outline: none;
+}
+
+/* Individual styles and effects */
+
+/* Fill up */
+
+.dotstyle-fillup li a {
+	overflow: hidden;
+	background-color: transparent;
+	box-shadow: inset 0 0 0 2px gray;
+	-webkit-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+}
+
+.dotstyle-fillup li a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 0;
+	left: 0;
+	width: 100%;
+	background-color: #777;
+	border-radius: 50%;
+	box-shadow: 0 0 1px #fff;
+	-webkit-transition: height 0.3s ease;
+	transition: height 0.3s ease;
+}
+
+.dotstyle-fillup li a:hover,
+.dotstyle-fillup li a:focus {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dotstyle-fillup li.current a::after {
+	height: 100%;
+}
+/*adjust the position of dotNavi*/
+.dotNavi{
+	position: relative;
+    //width:700px;
+
+    left:12%;
+    z-index: 2;
+}
+
+
+.paging{
+    left:40%;
+    top:105%;
+    z-index: 2;
+    position: absolute;
+}
+/* hover style of prev & next arrow in edit page*/
+
+.glyphicon:hover{
+    cursor: pointer;
+}
+
+
+  input:required:invalid, input:focus:invalid {
+	background-image:url();
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  input:required:valid {
+	background-image:url(http://www.data.com/system/shared/common/assets/img/signup/green_check.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  
+  /* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/*scrollable preview container for thumbnails*/
+
+.thumbnail_container_wrapper{
+	
+	white-space: nowrap;
+	overflow: auto;
+}
+
+
+ 
+
+/*Style for preview page*/ 
+.page_thumbnail{
+
+	/*background-color: #EEEEEE;*/ 
+	height: 140px;
+	width: 200px;
+	//float: left;
+	/*margin-right: 6px;*/
+	position: relative;
+	cursor: pointer;
+	/*make them in oneline*/
+	display: inline-block;
+	vertical-align:top;
+	list-style: none;
+}
+
+.page_thumbnail>label{
+	position: relative;
+	top: 5px;
+}
+
+.page_thumbnail .btn.btn-xs{
+    padding: 1px 5px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    /*background-color: rgba()*/
+    display: none;
+	white-space: normal;
+
+}
+
+.page_thumbnail:hover .btn-xs{
+    display: block;
+}
+
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.form-horizontal {
+	font-size:16px;
+	font-family: sans-serif;
+
+
+}
+
+/*style for order page*/
+
+#formWrapper{
+	margin-top: 5%; 
+}
+
+#orderForm textarea{
+	 
+	height: 150px;
+}
+
+#linkToSurvey{
+	margin-top:15%;
+	border: dotted;
+	border-color:#777;
+	background-color:#FDE680;
+	border-radius: 10%;
+}
+
+#linkToSurvey>p{
+	color:#777;
+	font-size: 1.5em;
+	
+}
+#linkToSurvey a{
+	color:#269abc;
+	font-size: 1.3em;
+}

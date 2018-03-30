@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/favicon_w.ico" type="image/x-icon"> <!--bookmark icon-->
+	<link rel="bookmark" href="img/favicon_w.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!--Bootstrap style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49903446-2', 'auto');
+  ga('send', 'pageview');
+
+</script> <!--google analytics-->
+	<title>UX case study - BeTinker</title>
+</head>
+<body>
+	<header class="portfolio-content-header">
+
+		<section class='intro'>
+			<img alt='BeTinker project photo' class='img-responsive' src="img/img-header-BeTinker.png"/>
+			<h1>BeTinker</h1>
+			<p>The University of the Third Age (U3A) movement is a n organisation which provides, through its U3As, life-enhancing and life-changing opportunities for retirees and semi-retirees. They learn different things from each other, including technology. U3A members in Halesworth is using Arduino toolkit to build a watering system, thus engaging themselves with technology, and let their voice to be heard. However, Arduino requires some programming skills thus is not suitable for every retirees. This project explored this user group and designed an alternative to Arduino to let the users speak out their voice.BeTinker is an tablet based application that enables retirees to learn and play with updated technology, and to programme without coding. A workshop was held to let them express their opinions, innovative ideas about this new maker toolkit. </p>
+		</section>
+		<section class=" info">
+			<p> <span class='s-tittle'>Time:</span> 2014.9 - 2014.11</p>
+			<p> <span class='s-tittle'>Type:</span> Teamwork with 4, Coursework</p>
+			<p> <span class='s-tittle'>Role:</span> Team leader, interactive prototyper, workshop organizer</p>
+			<p> <span class='s-tittle'>Method & Skill:</span> Role play, affinity diagram, concept mapping, low-fi and hi-fi prototype, video prototype, think aloud evaluation.</p>
+		</section>
+
+	</header>
+
+	<main class="portfolio-content-process">
+		<h1>Process</h1>
+		<section class="process">
+			<img alt="design process" class='img-responsive' src="img/img-process.png">
+			<p class="small">User centric iterative design process</p>
+	        <div class='process-steps'>
+			  <input type="checkbox" checked>
+              <i></i>
+			  <h3>1. User Research</h3>
+			  <p>
+				We carried out 2 interviews with 3 U3A members from the community technology group, gardening group of U3A Halesworth, discussing their current usage of technology, mainly on their learning of Arduino toolkit, how it benefited their life and what problems they encountered. After that I did role play to further understand retiree's needs.
+			  </p>
+			  <img alt='role-play' class='img-responsive' src='img/img-rolePlay.png'>
+			  <p class='small'>Role play</p>
+			  <p>Target User: Retirees and semi-retirees who share the characteristics below.</p>
+			  <p class='indent'>
+				•	Love and have good relationship with technology(E.g: Use smart phone, wearable devices.</p>
+			  <p class='indent'>	•	Well educated, open minded, and life-long learning</p>
+			  <p class='indent'>	•	Some physical constrains (E.g: Eye sight, shaky finger)</p>
+
+			  <p>
+				Problems:</p>
+
+			  <p class='indent'>	•	Different knowledge levels, Arduino is too advanced for some members.</p>
+			  <p class='indent'>	•	The learning process became boring </p>
+			  <p class='indent'>	•	Small fonts make it difficult to see </p>
+
+			  <p>
+				User Interface Requirements</p>
+			  <p class='indent'>•	Large font</p>
+			  <p class='indent'>•	Color contrast</p>
+			  <p class='indent'>•	Make the task independent and sequenced</p>
+			  <p class='indent'>•	Keep output message as short as possible </p>
+			  <p class='indent'>•	Reduce choice whenever possible</p>
+			  <p class='indent'>•	Insert confirmation statements whenever possible</p>
+			</div>
+
+
+
+	<div class='process-steps'>
+			  <input type="checkbox" checked>
+              <i></i>
+			  <h3>2. Concept Ideation</h3>
+			  <p>Since our target user lives far away, thus difficult to reach. Based on user research, I did body storming to empathy retirees, and tried to find connections between their daily activity and their interaction with technology.</p>
+			  <p>
+				Then affinity diagram was used to categorise the findings to inspire design. Sketches was used visualise my findings, inspirations and possible design choices. It  was also used to helped me understand U3A member’s current toolkit - Arduino, how it works, and how it could be better represent.
+			  </p>
+		     <div class="row">
+				     <div class="in-steps col-md-5">
+				      	<img class="img-responsive" alt="affinity diagram 1" src="img/img-userResearch.png">
+				     </div>
+				     <div class="in-steps col-md-7">
+					 <img class="img-responsive" alt="affinity diagram 2" src="img/img-affinityDiagram.png">
+				     </div>
+			     </div>
+			 <p class='small'>Group discussion and affinity Diagram</p>
+
+			  <p>
+				As we found out that playing with Arduino requires some basic level of programming skills,plus some hardware know-hows, while the users’ levels vary, so some much easier toolkit could be suitable for the retiree. We searched and we chose iBeacon for the following reasons: firstly, it contains different sensors that could be used within different aspects of daily lives; secondly, it provides the APIs that enable us to design ease-to-use interface for retirees to interact with different Beacons. Concept mapping was used to help me understand iBeacon technology, and how it could be applied in the domain of maker’s toolkit for retiree.
+			  </p>
+			  <img alt="concept mapping to understand iBeacon" class="img-responsive" src="img/img-concept-mapping.png">
+			  <p class='small'>Concept mapping</p>
+			  <p>
+				At this stage, I only knew my design would be a toolkit for retirees to play with beacons. How user would interact with it was unexplored, so storyboards were only used to envision the future usage and the possible changes the toolkit bring in user’s life.
+			  </p>
+			<img alt="storyboard" class="img-responsive" src="img/img-storyboard.png">
+			<p class='small'>Story board</p>
+			<p>
+				With simple physical prototyping, the design concept was peer reviewed by students from other teams, and we got some insightful suggestions: </p>
+			<p class='indent'>•	Easy manipulation(e.g. drag and drop GUI, simple logic) to better cater for elderly people.</p>
+			<p class='indent'>•	Enable retirees to control light switches so as to save energy via maker toolkit. </p>
+			<p class='indent'>•	On platform such as iPad to enable bigger screen </p>
+
+		</div>
+
+
+
+
+
+
+ <div class='process-steps'>
+			<input type="checkbox" checked>
+				  <i></i>
+				  <h3>3. Low-fi & video prototyping</h3>
+				  <p>I created a vertical prototype with cardboard to illustrate how it would be like to enable retirees to “programme” without “coding”. To deliver the concept, a scenario of setting the beacon
+				to send notification to indicate the perfect time to drink tea when it’s at right temperature was included, I tested my prototype with my teammates, and the prototype turned out sufficient to
+				deliver my concept. And a video prototype was made with the aid of my teammates. It was sent to U3A members to ask for their opinions.
+				  </p>
+				  <img class='img-responsive' alt="paper prototype" src='img/img-lowfiPrototype.png'>
+				  <p class='small'> Making lowfi prototype</p>
+
+				  <iframe src="https://player.vimeo.com/video/112013459" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				  <p><a href="https://vimeo.com/112013459">Beacon Tinker_concept</a> from <a href="https://vimeo.com/user15308033">Weiwei Zhang</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+				  <p class='small'> Video Link: <a href="http://vimeo.com/112013459">Click to view video prototype in a new window</a>
+				  </p>
+</div>
+<div class='process-steps'>
+				 <input type="checkbox" checked>
+				   <i></i>
+				 <h3>4. Hi-fi prototyping</h3>
+				 <p>
+					More concepts on the interface were explored, wireframes were created and refined after getting suggestions from team members. Then the Hi-fi prototype was made and prepared to be tested in the workshop. Below are my prototypes.
+				 </p>
+				 <img class='img-responsive' alt="hifi prototype" src='img/img-hifiPrototype.png'>
+				 <p class='small'>Making hifi prototype</p>
+				 <iframe width="428" height="866" src="http://invis.io/PY1QD2YCX" frameborder="0" allowfullscreen></iframe>
+				 <p class='small'> Interactive prototype</p>
+	</div>
+
+
+<div class='process-steps'>
+				   <input type="checkbox" checked>
+					 <i></i>
+				   <h3>5. Workshop I</h3>
+				   <p>
+					After the team members had created different prototypes, we gather together to plan and prepare materials needed for the workshop.
+				   </p>
+				   <img class='img-responsive' alt='workshop material' src='img/img-materials.png'>
+				   <p>
+					Three purposes of the workshop: </p>
+				   <p class='indent'>	•	firstly to test if our concept of “programming without coding” work with retirees; </p>
+				   <p class='indent'>	•	secondly to compare and test different styles of interaction created by team members; </p>
+				   <p class='indent'>	•	finally we planned an open question to enabled us to learn from real users of more possible way to apply beacon technology as maker toolkit for retirees.</p>
+
+				   <h4>Workshop Process: </h4>
+					  <p class='indent'>	1.	Introduction session of iBeacon</p>
+					  <p class='indent'>	2.	Signing consent form.</p>
+					  <p class='indent'>	3.	Separate testing sessions with different retiree volunteers using think aloud protocol</p>
+					  <p class='indent'>	4.	Briefing discussion, sharing experience and Q and A with users.</p>
+					  <p class='indent'>	5.	Sending thank you card.</p>
+
+					<img class='img-responsive' alt='workshop plan' src='img/img-workshopPlan.png'>
+					<p class='small'>Figure: Workshop plan</p>
+				</div>
+			<div class='process-steps'>
+				   <input type="checkbox" checked>
+					 <i></i>
+				   <h3>6. Workshop II</h3>
+				   <p>Testing Session:</p>
+				   <p class='indent'>1.	Introduce the scenarios.</p>
+				   <p class='indent'>2.	Give user a task.</p>
+				   <p class='indent'>3.	Think aloud during the testing.</p>
+				   <p class='indent'>4.	Short discussion with user after the testing.</p>
+				   <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/P-TS4XD44-o?rel=0" frameborder="0" allowfullscreen></iframe>
+				  <p>Findings:</p>
+				  <p class='indent'>•	“Programming without coding” is cool, but using “If…then Do…” syntax is hard for user to understand unless they have some programming skills.</p>
+				  <p class='indent'>•	Drag and drop style of interaction is simple and easy</p>
+				  <p class='indent'>•	Tell the information in user’s language</p>
+				  <p class='indent-2'>-The habit to use unit of measurement is related to their generation</p>
+				  <p class='indent-2'>-Using human language rather than numeric information.</p>
+				  <p class='indent'>•	Retirees provided us more innovative future usages via the toolkit.</p>
+
+				<!-- add link to workshop video-->
+
+
+				</div>
+								  <p class="end-of-article">-- Thanks for reading -- <br> If you have any questions or simply want to chat with me about this project, feel free to drop me an <a href="mailto:weiwei@weiwei-zhang.me?Subject=Hello%20Weiwei" target="_blank">email</a>.</p>
+
+		</section> <!-- cd-gallery -->
+
+
+
+	</main> <!-- cd-main-content -->
+	<footer class='content-nav-wrapper' > <!--footer with social networks and contact -->
+		<div class='content-nav row'>
+			<ul class="bs-glyphicons-list">
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-chevron-left" aria-hidden="true" href="portfolio-Ref-UXInSelfDrivingCar.html"></a><span class="tooltiptext-left">Go to the previous project</span></div>
+
+				</li>
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-th" aria-hidden="true" href='index.html'></a><span class="tooltiptext-top">Back to homepage</span></div>
+				</li>
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-chevron-right" aria-hidden="true" href="portfolio-LifeTree.html"></a><span class="tooltiptext-right">Go to the next project</span></div>
+				</li>
+
+			</ul>
+		</div>
+		</footer> <!-- social icons & copy right -->
+<script src="js/jquery-2.1.1.js"></script>
+
+
+</body>
+</html>

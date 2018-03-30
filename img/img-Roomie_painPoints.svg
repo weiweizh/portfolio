@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1340px" height="476px" viewBox="0 0 1340 476" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Painpoints</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="410" height="171"></rect>
+        <filter x="-5.5%" y="-13.2%" width="111.0%" height="126.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.92   0 0 0 0 0.92   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="410" height="171"></rect>
+        <filter x="-5.5%" y="-13.2%" width="111.0%" height="126.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.92   0 0 0 0 0.92   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="410" height="171"></rect>
+        <filter x="-5.5%" y="-13.2%" width="111.0%" height="126.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.92   0 0 0 0 0.92   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="410" height="171"></rect>
+        <filter x="-5.5%" y="-13.2%" width="111.0%" height="126.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.92   0 0 0 0 0.92   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="410" height="171"></rect>
+        <filter x="-5.5%" y="-13.2%" width="111.0%" height="126.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.92   0 0 0 0 0.92   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Painpoints" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(13.000000, 49.000000)">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#EBEBEB" stroke-width="1" x="0.5" y="0.5" width="409" height="170"></rect>
+            </g>
+            <text id="1.-Safety-is-the-maj" font-family="SFProDisplay-Medium, SF Pro Display" font-size="17" font-weight="400" fill="#FF4C61">
+                <tspan x="11" y="31">1. Safety is the major issue</tspan>
+            </text>
+            <text id="“Safety-is-the-most" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="20" y="62">“Safety is the most important thing”</tspan>
+            </text>
+            <text id="“We-didn’t-know-he-h" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="20" y="94">“We didn’t know he had a criminal history”</tspan>
+            </text>
+            <text id="“It’s-best-to-have-s" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="20" y="126">“It’s best to have someone I know or my friends know </tspan>
+                <tspan x="20" y="146">because it’s safer”</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(463.000000, 49.000000)">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#EBEBEB" stroke-width="1" x="0.5" y="0.5" width="409" height="170"></rect>
+            </g>
+            <text id="2.-It’s-hard-to-know" font-family="SFProDisplay-Medium, SF Pro Display" font-size="17" font-weight="400" fill="#FF4C61">
+                <tspan x="11" y="29">2. It’s hard to know one’s living style and </tspan>
+                <tspan x="11" y="49">personality beforehand</tspan>
+            </text>
+            <text id="“It’s-hard-to-know-s" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="15" y="82">“It’s hard to know someone’s personality within a short </tspan>
+                <tspan x="15" y="102">period of time”</tspan>
+            </text>
+            <text id="“It’s-difficult-to-k" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="15" y="134">“It’s difficult to know someone’s habit if you haven’t live </tspan>
+                <tspan x="15" y="154">with him/her”</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(908.000000, 49.000000)">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <rect stroke="#EBEBEB" stroke-width="1" x="0.5" y="0.5" width="409" height="170"></rect>
+            </g>
+            <text id="3.-Like-dating,-a-lo" font-family="SFProDisplay-Medium, SF Pro Display" font-size="17" font-weight="400" fill="#FF4C61">
+                <tspan x="11" y="28">3. Like dating, a lot of unpredictable factors</tspan>
+            </text>
+            <text id="“I-might-be-talking" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="15" y="60">“I might be talking to multiple people at same time but </tspan>
+                <tspan x="15" y="80">end up being roommate with only one of them, or none </tspan>
+                <tspan x="15" y="100">of them”</tspan>
+            </text>
+            <text id="“Things-might-change" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="15" y="132">“Things might change and I need to reschedule every </tspan>
+                <tspan x="15" y="152">thing…”</tspan>
+            </text>
+        </g>
+        <text id="In-the-search-proces" font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" fill="#4A4A4A">
+            <tspan x="12" y="31">In the search process</tspan>
+        </text>
+        <text id="Keep-a-good-roommate" font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" fill="#4A4A4A">
+            <tspan x="12" y="258">Keep a good roommate</tspan>
+        </text>
+        <g id="Group-4" transform="translate(13.000000, 278.000000)">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <rect stroke="#EBEBEB" stroke-width="1" x="0.5" y="0.5" width="409" height="170"></rect>
+            </g>
+            <text id="1.-Rely-on-one’s-sen" font-family="SFProDisplay-Medium, SF Pro Display" font-size="17" font-weight="400" fill="#FF4C61">
+                <tspan x="12" y="31">1. Rely on one’s sense of obligation for payments. </tspan>
+                <tspan x="12" y="51">Awkward to ask.</tspan>
+            </text>
+            <text id="“She-borrowed-money" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="13" y="81">“She borrowed money from me for grocery but hasn’t </tspan>
+                <tspan x="13" y="101">mentioned when to return to me yet”</tspan>
+            </text>
+            <text id="“My-roommate-is-a-re" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="13" y="130">“My roommate is a really nice person that he always </tspan>
+                <tspan x="13" y="150">pays one day ahead so I never have to ask him”</tspan>
+            </text>
+        </g>
+        <g id="Group-5" transform="translate(463.000000, 278.000000)">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                <rect stroke="#EBEBEB" stroke-width="1" x="0.5" y="0.5" width="409" height="170"></rect>
+            </g>
+            <text id="2.-It’s-hard-to-trac" font-family="SFProDisplay-Medium, SF Pro Display" font-size="17" font-weight="400" fill="#FF4C61">
+                <tspan x="12" y="31">2. It’s hard to track the record</tspan>
+            </text>
+            <text id="“I-had-a-google-spre" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="12" y="65">“I had a google spreadsheet to record them manualy”</tspan>
+            </text>
+            <text id="“Sometimes-one-perso" font-family="SFProDisplay-LightItalic, SF Pro Display" font-size="17" font-style="italic" font-weight="300" fill="#4A4A4A">
+                <tspan x="12" y="96">“Sometimes one person mentioned about the bill, and it </tspan>
+                <tspan x="12" y="116">was soon buried in loads of conversation, making us </tspan>
+                <tspan x="12" y="136">difficult to trace it”</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

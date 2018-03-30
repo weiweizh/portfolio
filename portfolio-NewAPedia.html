@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/favicon_w.ico" type="image/x-icon"> <!--bookmark icon-->
+	<link rel="bookmark" href="img/favicon_w.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!--Bootstrap style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49903446-2', 'auto');
+  ga('send', 'pageview');
+
+</script> <!--google analytics-->
+	<title>NewaPedia - Designing with users in mind</title>
+</head>
+<body>
+	<header class="portfolio-content-header">
+
+		<section class='intro'>
+			<img alt='NewAPedia' class='img-responsive' src="img/img-header-NewaPedia-2.png"/>
+			<h1>NewAPedia - Designing with users in mind.</h1>
+			<p>Context: The company wants to design a 'wikipedia' of big data analysis use cases. Analysts can search for successful big data use cases and learn from them to make better data analysis projects. My job was to improve the structure, design the user interfaces and help the development team to implement it.</p>
+		</section>
+		<section class=" info">
+			<p> <span class='s-tittle'>Time:</span> July 2016 - Sep 2016</p>
+			<p> <span class='s-tittle'>Role:</span> UI & UX Designer</p>
+			<p> <span class='s-tittle'>Method & Skill:</span> wireframes, UI design, Illustration.</p>
+		</section>
+
+	</header>
+
+	<main class="portfolio-content-process">
+		<h1>Process</h1>
+		<section class="process">
+
+	      <!-- <div class='process-steps'>
+			  <input type="checkbox" unchecked>
+              <i></i>-->
+			  <h3>1. Understanding the problem and requirements</h3>
+			  <p>
+				Enterprizes generate data in their businesses every day. Companies of all sizes are exploring methods to make use of the data generated within it. On the other hand, various examples of how people utilize data for their business needs scattered here and there on the internet, with different formats. The search process for such information is tedious and it is always difficult to find a good use case example. </p>
+				<p>
+				The company has summarized a great ammount of use cases and they need a clear interface for users to search, access and collect them.</p>
+				<p>
+				The primary users are business analysts and data scientists/analysts, and the secondary users are business executives.
+			</p>
+			<div class="row">
+					<div class="in-steps col-md-12">
+						 <img class="img-responsive" alt="Target Users" src="img/img-NewaPedia_TargetUser.png">
+					</div>
+
+				</div>
+
+				<p>
+				With the product, they can </p>
+
+				<p class='indent'>1. easily search data analysis use cases;</p>
+				<p class='indent'>2. read them; </p>
+				<p class='indent'>3. make their own collections.
+				</p>
+
+			<!--</div>-->
+
+
+
+	<div class='process-steps'>
+			 <!-- <input type="checkbox" unchecked>
+              <i></i> -->
+			  <h3>2. Improving the flows</h3>
+			  <p>
+         I was asked to design based on a structure and function screen created by the project manager. So firstly I wireframed the site structure and user sign up process to clearly understand the user flows and the interactions between each pages.
+				</p>
+
+		     <div class="row">
+				     <div class="in-steps col-md-12">
+				      	<img class="img-responsive" alt="NewaPeida wirefram v1" src="img/img-NewaPedia_SiteFlow.svg">
+				     </div>
+
+			     </div>
+			 <p class='small'>Figure 1. Wireframe to show site structure and flow <a href='img/img-NewaPedia_SiteFlow.svg' target='_blank'>click to see the full image</a></p>
+
+			 <p>I noticed that in the original design, a user has to fill out 15 input fields to create an account, including email and password, personal and company information. The personal data(name, gender, etc) and the company info(company name, industry, etc) are not really neccessary to create an account as <a href="https://www.nngroup.com/articles/checklist-registration-login/" target="_blank">Raluca from NNgroup</a> sugested. On the other hand, asking too many questions may confuse users, and even make them give up signing up.(Example: <a href="http://www.zdnet.com/article/expedia-on-how-one-extra-data-field-can-cost-12m/" target="_blank">One extra data field was costing Expedia $12m a year</a> ). The sign up process in Digital Ocean is a good example where only email and password is required. User can explore the basic functions once an account is created. Other information(for example, billing information) would be asked if user wants to use certain functions(set up a server, for example.).</p>
+			 <div class="row">
+					<div class="in-steps col-md-5">
+						 <img class="img-responsive" alt="NewaPeida wirefram v1" src="img/Screenshot_digitalOcean_SignUp.png">
+					</div>
+				</div>
+       <p class='small'>Figure 2. Sign up interface of Digital Ocean  <a href='img/img-NewaPedia_SignupFlow_Improvement.svg' target='_blank'>click to see the full image</a></p>
+			 <p>When discussing this with the stackholders, they insisted to ask users the personal and company information because:</p>
+
+				<p class='indent'> 1. they are useful for the company to verify the user identity and make sure they are real business customers; </p>
+				<p class='indent'> 2. by collecting their contact information they can understand their customer better.</p>
+
+				<p>Taking their considerations into acount, a better flow need to balance the business needs and user experience. So I suggested: </p>
+				 <p class='indent'>1. Ask user to use company email to sign up if possible, so that it helps verify user identity;</p>
+				 <p class='indent'>2. Segmented the sign up process into two steps, make the personal and company info input field as a optional second step. User can skip the second step to firstly sign up. In case they want to fill out the information, they can always do it later in their profile.</p>
+
+
+
+			 <div class="row">
+	 				<div class="in-steps col-md-12">
+	 					 <img class="img-responsive" alt="NewaPeida wirefram v1" src="img/img-NewaPedia_SignupFlow_Improvement.svg">
+	 				</div>
+	 			</div>
+
+        <p class='small'>Figure 3. Simplify Signup Process <a href='img/img-NewaPedia_SignupFlow_Improvement.svg' target='_blank'>click to see the full image</a></p>
+
+				<div class="row">
+						<div class="in-steps col-md-12">
+							 <img class="img-responsive" alt="NewaPeida wireframe v2" src="img/img-NewaPedia_SiteFlow-2.svg">
+						</div>
+
+					</div>
+
+				  <p class='small'>Figure 4. Wirefreme V2 <a href='img/img-NewaPedia_SiteFlow-2.svg' target='_blank'>click to see the full image</a></p>
+        <p>Although it seemed that the improved flow has more steps than the original one, it tooks a progressive approach to let user finish one thing at a time, and also give users freedom to skip the step that is uneccessary for them. (Studies from <a href= "https://blog.heapanalytics.com/good-conversion-rate-signup-flow/" target="_blank">Heap</a> has shown that forms split into mutiple pages help increase the user conversion by 4.8% ) Thus it provided a better sign up user experience.</p>
+
+
+
+		<!--</div>-->
+
+
+
+
+
+
+ <!--<div class='process-steps'>
+			<input type="checkbox" unchecked>
+				  <i></i> -->
+				  <h3>3. Defining styles and visuals</h3>
+				  <p> Data science is complex, yet we wanted to add a feel of warmth and fresh so that it won't feel too boring. Inspired by <a href="http://www.intercom.com" target="_blank">intercom</a>'s illustration style, we decided to give a similar approach.
+				  </p>
+					<div class="row">
+							<div class="in-steps col-md-12">
+								 <img class="img-responsive" alt="First iteration landingpage" src="img/img-NewaPedia_ColorLayoutV1.png">
+							</div>
+							 <p class='small'>Figure 5. Color, style version1 <a href='img/img-NewaPedia_ColorLayoutV1.png' target='_blank'>click to see the full image</a></p>
+
+				 </div>
+
+				 <p class='small'>Figure 5. Color, style version1 <a href='img/img-NewaPedia_ColorLayoutV1.png' target='_blank'>click to see the full image</a></p>
+				 <p> In the first iteration, I explored some colors and layout, while maintain the illustration style.</p>
+					<div class="row">
+							<div class="in-steps col-md-12">
+								 <img class="img-responsive" alt="First iteration landingpage" src="img/img-NewaPedia_LandingPage.png">
+							</div>
+
+
+				 </div>
+				 			<p class='small'>Figure 6. Color, style version2 <a href='img/img-NewaPedia_LandingPage.png' target='_blank'>click to see the full image</a></p>
+				<p> In the second iteration, some use case examples were added so that the layout changed as well. Meanwhile, the stakeholder pointed out that the style looked too casual, maybe because of the cilpperboard at the middle. </p>
+
+						<div class="row">
+ 					 		<div class="in-steps col-md-12">
+ 					 			 <img class="img-responsive" alt="Colors" src="img/img-NewaPedia_color2.png">
+ 					 		</div>
+
+
+ 						</div>
+             <p> </p>
+						<div class="row">
+ 					 		<div class="in-steps col-md-12">
+ 					 			 <img class="img-responsive" alt="Colors" src="img/img-header-NewaPedia.png">
+ 					 		</div>
+
+
+ 						</div>
+						<p class='small'>Figure 7. Final Apporach.</p>
+						<p>In the third iteration, to make it feel more neutrual I tried some illustraions with clean line charts and bar charts. To make more efficient use of the space, I replaced the cartoon-feel clipperboard with a simplistic background.</p>
+
+<!--</div>-->
+
+
+
+
+
+								  <p class="end-of-article">-- Thanks for reading -- <br> If you have any questions or simply want to chat with me about this project, feel free to drop me an <a href="mailto:weiwei@weiwei-zhang.me?Subject=Hello%20Weiwei" target="_blank">email</a>.</p>
+
+		</section> <!-- cd-gallery -->
+
+
+
+	</main> <!-- cd-main-content -->
+	<footer class='content-nav-wrapper' > <!--footer with social networks and contact -->
+		<div class='content-nav row'>
+			<ul class="bs-glyphicons-list">
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-chevron-left" aria-hidden="true" href="portfolio-NewATechAlpha.html"></a><span class="tooltiptext-left">Go to the previous project</span></div>
+
+				</li>
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-th" aria-hidden="true" href='index.html'></a><span class="tooltiptext-top">Back to homepage</span></div>
+				</li>
+				<li>
+					<div class="tooltip2"><a class="glyphicon glyphicon-chevron-right" aria-hidden="true" href="portfolio-MrOne.html"></a><span class="tooltiptext-right">Go to the next project</span></div>
+				</li>
+
+			</ul>
+		</div>
+		</footer> <!-- social icons & copy right -->
+<script src="js/jquery-2.1.1.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="510px" height="170px" viewBox="0 0 510 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>img-Roomie_flow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="480" height="140"></rect>
+        <filter x="-4.7%" y="-16.1%" width="109.4%" height="132.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.92   0 0 0 0 0.92   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="img-Roomie_flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(12.000000, 13.000000)">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#EBEBEB" stroke-width="1" x="0.5" y="0.5" width="479" height="139"></rect>
+            </g>
+            <g id="icon-Flow" transform="translate(21.000000, 21.000000)" stroke="#4A4A4A">
+                <g>
+                    <path d="M3.05882353,3.05882353 L22.9411765,3.05882353 C21.4117647,9.69324449 18.0945542,13.010455 12.989545,13.010455 C7.88453585,13.010455 4.57429534,16.3206955 3.05882353,22.9411765 L22.9411765,22.9411765" id="Path-21"></path>
+                    <circle id="Oval-10" fill="#D8D8D8" cx="3.05882353" cy="22.9411765" r="3.05882353"></circle>
+                    <circle id="Oval-10" fill="#FFFFFF" cx="3.05882353" cy="3.05882353" r="3.05882353"></circle>
+                    <circle id="Oval-10" fill="#FFFFFF" cx="22.9411765" cy="22.9411765" r="3.05882353"></circle>
+                    <circle id="Oval-10" fill="#FFFFFF" cx="22.9411765" cy="3.05882353" r="3.05882353"></circle>
+                </g>
+            </g>
+            <text id="Match-the-flow" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                <tspan x="68" y="42">Match the flow</tspan>
+            </text>
+            <text id="Provide-a-seamless-f" font-family="OpenSans-Light, Open Sans" font-size="20" font-weight="300" fill="#747473">
+                <tspan x="68" y="73">Provide a seamless flow and structure </tspan>
+                <tspan x="68" y="100">that matches the user journey</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

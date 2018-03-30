@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="367px" viewBox="0 0 1000 367" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>GoodRoommates</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="GoodRoommates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(157.000000, 25.000000)">
+            <polygon id="Triangle" stroke="#C4C4C4" fill="#CCFFF5" points="343 0 686 319 0 319"></polygon>
+            <polygon id="Triangle-Copy" stroke="#C4C4C4" fill="#FFFFFF" points="343 0 547 190 139 190"></polygon>
+            <text id="Share-hobby,-interes" font-family="SFProDisplay-Regular, SF Pro Display" font-size="17" font-weight="normal" fill="#4A4A4A">
+                <tspan x="232" y="120">	• 	Share hobby, interests </tspan>
+                <tspan x="232" y="140">	• 	Can be good friends</tspan>
+                <tspan x="232" y="160">	• 	Can support each other</tspan>
+            </text>
+            <text id="Even-Better" font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="-0.104615398" fill="#4A4A4A">
+                <tspan x="289" y="65">Even Better</tspan>
+            </text>
+            <text id="(Nice-to-have)" font-family="SFProDisplay-Thin, SF Pro Display" font-size="17" font-weight="300" letter-spacing="-0.104615398" fill="#4A4A4A">
+                <tspan x="286" y="87">(Nice to have)</tspan>
+            </text>
+            <text id="Easy-going-Respectfu" font-family="SFProDisplay-Regular, SF Pro Display" font-size="17" font-weight="normal" fill="#4A4A4A">
+                <tspan x="197" y="237">	• 	Easy going</tspan>
+                <tspan x="197" y="257">	• 	Respectful for others </tspan>
+                <tspan x="197" y="277">	• 	Keep public space tidy and clean</tspan>
+                <tspan x="197" y="297">	• 	Pay rents on time</tspan>
+            </text>
+            <text id="Basic" font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="-0.104615398" fill="#4A4A4A">
+                <tspan x="289" y="217">Basic</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

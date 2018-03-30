@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Earch" transform="translate(-40.000000, 271.000000)" stroke="#4A4A4A">
+            <circle id="Oval" fill="#FFFFFF" cx="248.5" cy="248.5" r="248.5"></circle>
+            <path d="M296,40 C270.486225,52.3816848 243.338267,50.0195836 233,58 C222.661733,65.9804164 229.97767,77.0597461 239,84 C248.02233,90.9402539 257.026759,88.9660155 272,88 C286.973241,87.0339845 287.790944,77.0940078 301,80 C314.209056,82.9059922 307.248583,89.8809423 322,99 C336.751417,108.119058 345.142528,109.346798 356,114 C366.857472,118.653202 376.394548,129.421808 378,123 C379.605452,116.578192 365.697206,105.102486 361,94 C356.302794,82.8975135 361.888146,79.1528181 356,71 C350.111854,62.8471819 343.669448,65.9044968 335,58 C326.330552,50.0955032 330.629674,48.3758601 322,40 C313.370326,31.6241399 306.548345,25 301,25 C295.451655,25 321.513775,27.6183152 296,40 Z" id="Path-12" fill="#FFFFFF"></path>
+            <path d="M103,90 C116,75 125,83 140.5,73 C150.833333,66.3333333 161,68.6666667 171,80 C182.017974,87.2254902 187.017974,93.8921569 186,100 C184.982026,106.107843 177.982026,111.441176 165,116 L140.5,116 L124,132 L108,146 C92.6814189,172.18789 83.6814189,182.18789 81,176 C78.3185811,169.81211 79.6519144,155.145443 85,132 C88.3333333,114 94.3333333,100 103,90 Z" id="Path-17" fill-opacity="0.6" fill="#49C89F"></path>
+        </g>
+        <g id="Box" transform="translate(116.000000, 158.000000)" stroke="#4A4A4A">
+            <g>
+                <polygon id="Path-12" fill="#FFFFFF" points="70.507772 27.1181818 14.9561941 55.6636364 83.3273669 70.65 138.878945 42.1045455"></polygon>
+                <polygon id="Path-12-Copy-3" fill="#FFFFFF" points="14.9561941 137.018182 14.9561941 55.6636364 83.3273669 70.65 83.3273669 157"></polygon>
+                <polygon id="Path-12-Copy-4" fill="#FCFDA4" points="137.454545 127.027273 137.454545 42.8181818 83.3273669 70.65 83.3273669 157"></polygon>
+                <polygon id="Path-12-Copy-2" fill="#FFFFFF" points="0 87.7772727 14.9561941 55.6636364 83.3273669 70.65 65.522374 102.05"></polygon>
+                <polygon id="Path-12-Copy" fill="#FFFFFF" points="167.366934 70.65 115.376354 99.9090909 83.3273669 70.65 138.878945 42.1045455"></polygon>
+                <g id="Group" transform="translate(53.414979, 0.000000)">
+                    <path d="M25.9952897,62.8 C43.3254828,48.0515152 51.9905794,35.8007576 51.9905794,26.0477273 C51.9905794,11.4181818 40.3520917,0 25.9952897,0 C11.6384876,0 0,11.6619647 0,26.0477273 C0,35.6382356 8.66509656,47.8889932 25.9952897,62.8 Z" id="Oval-6" fill="#4A4A4A"></path>
+                    <ellipse id="Oval" fill="#FFFFFF" cx="26.3513895" cy="24.2636364" rx="9.25859633" ry="9.27727273"></ellipse>
+                </g>
+            </g>
+        </g>
+        <text id="Something-triggers-t" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" letter-spacing="-0.482353032" fill="#4A4A4A">
+            <tspan x="67" y="75">Something triggers the need…</tspan>
+        </text>
+        <text id="1" font-family="OpenSans-Bold, Open Sans" font-size="36" font-weight="bold" letter-spacing="-0.868235469" fill="#4A4A4A">
+            <tspan x="190" y="43">1</tspan>
+        </text>
+        <text id="•-Move-to-a-new-city" font-family="OpenSans-Light, Open Sans" font-size="18" font-weight="300" letter-spacing="-0.434117734" fill="#4A4A4A">
+            <tspan x="67" y="110">	• 	Move to a new city</tspan>
+        </text>
+    </g>
+</svg>

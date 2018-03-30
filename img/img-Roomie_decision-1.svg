@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="450px" height="212px" viewBox="0 0 450 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="180" height="164" rx="2"></rect>
+        <rect id="path-2" x="19" y="128" width="153" height="25" rx="3"></rect>
+        <rect id="path-3" x="20" y="62" width="137" height="53"></rect>
+        <rect id="path-4" x="36" y="70" width="88" height="28" rx="2"></rect>
+        <path d="M35.236068,97 L124.929632,97 C125.598339,97 126.222802,97.3342023 126.593733,97.8905996 L138,115 L25,115 L33.4472136,98.1055728 C33.7859976,97.4280048 34.4785239,97 35.236068,97 Z" id="path-5"></path>
+        <rect id="path-6" x="135" y="70" width="15" height="22"></rect>
+        <rect id="path-7" x="145" y="100" width="3" height="5"></rect>
+        <rect id="path-8" x="141" y="91" width="2" height="23"></rect>
+        <rect id="path-9" x="64" y="17" width="93" height="4"></rect>
+        <rect id="path-10" x="64" y="25" width="93" height="4"></rect>
+        <rect id="path-11" x="64" y="33" width="93" height="4"></rect>
+        <rect id="path-12" x="64" y="40" width="93" height="4"></rect>
+        <rect id="path-13" x="64" y="48" width="93" height="4"></rect>
+        <rect id="path-14" x="0" y="0" width="186" height="164" rx="2"></rect>
+        <rect id="path-15" x="52" y="124" width="58" height="25" rx="3"></rect>
+        <rect id="path-16" x="81" y="15" width="93" height="20"></rect>
+        <rect id="path-17" x="81" y="42" width="93" height="20"></rect>
+        <rect id="path-18" x="81" y="68" width="93" height="20"></rect>
+    </defs>
+    <g id="Illustration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SignUpLater" transform="translate(251.000000, 22.000000)">
+            <g id="Rectangle">
+                <use fill="#F4F3F3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="0.5" y="0.5" width="179" height="163" rx="2"></rect>
+            </g>
+            <g id="Rectangle-5">
+                <use fill="#49C89F" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="19.5" y="128.5" width="152" height="24" rx="3"></rect>
+            </g>
+            <text id="Sign-Up-to-Message-S" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" fill="#FFFFFF">
+                <tspan x="25" y="145">Sign Up to Message Sam</tspan>
+            </text>
+            <g id="Rectangle-4">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="20.5" y="62.5" width="136" height="52"></rect>
+            </g>
+            <g id="Rectangle-6">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="36.5" y="70.5" width="87" height="27" rx="2"></rect>
+            </g>
+            <g id="Rectangle-7">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <path stroke="#4A4A4A" stroke-width="1" d="M25.809017,114.5 L137.065741,114.5 L126.177708,98.1679497 C125.899509,97.7506517 125.431162,97.5 124.929632,97.5 L35.236068,97.5 C34.6679099,97.5 34.1485152,97.8210036 33.8944272,98.3291796 L25.809017,114.5 Z"></path>
+            </g>
+            <g id="Rectangle-8">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="135.5" y="70.5" width="14" height="21"></rect>
+            </g>
+            <path d="M146.5,91.5 L146.5,100.5" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+            <g id="Rectangle-10">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="145.5" y="100.5" width="2" height="4"></rect>
+            </g>
+            <g id="Rectangle-9">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="141.5" y="91.5" width="1" height="22"></rect>
+            </g>
+            <g id="Rectangle-3">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="64.5" y="17.5" width="92" height="3"></rect>
+            </g>
+            <g id="Rectangle-3">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="64.5" y="25.5" width="92" height="3"></rect>
+            </g>
+            <g id="Rectangle-3">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="64.5" y="33.5" width="92" height="3"></rect>
+            </g>
+            <g id="Rectangle-3">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="64.5" y="40.5" width="92" height="3"></rect>
+            </g>
+            <g id="Rectangle-3">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="64.5" y="48.5" width="92" height="3"></rect>
+            </g>
+            <circle id="Oval-2" stroke="#4A4A4A" fill="#FFFFFF" cx="36" cy="24" r="9"></circle>
+            <path d="M52,47.6776695 C52,37.9145622 44.836556,30 36,30 C27.163444,30 20,37.9145622 20,47.6776695 C20,57.4407768 52,57.4407768 52,47.6776695 Z" id="Oval-3" stroke="#4A4A4A" fill="#FFFFFF"></path>
+        </g>
+        <text id="OR" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" fill="#4A4A4A">
+            <tspan x="219" y="96">OR</tspan>
+        </text>
+        <g id="SignUpFirst" transform="translate(15.000000, 22.000000)">
+            <g id="Rectangle">
+                <use fill="#F4F3F3" fill-rule="evenodd" xlink:href="#path-14"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="0.5" y="0.5" width="185" height="163" rx="2"></rect>
+            </g>
+            <g id="Rectangle-5">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="52.5" y="124.5" width="57" height="24" rx="3"></rect>
+            </g>
+            <text id="Sign-Up" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                <tspan x="59" y="140">Sign Up</tspan>
+            </text>
+            <g id="Rectangle-2">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-16"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="81.5" y="15.5" width="92" height="19"></rect>
+            </g>
+            <g id="Rectangle-2">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="81.5" y="42.5" width="92" height="19"></rect>
+            </g>
+            <text id="Email:" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                <tspan x="32" y="28">Email:</tspan>
+            </text>
+            <text id="Password:" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                <tspan x="10" y="57">Password:</tspan>
+            </text>
+            <g id="Rectangle-2">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-18"></use>
+                <rect stroke="#4A4A4A" stroke-width="1" x="81.5" y="68.5" width="92" height="19"></rect>
+            </g>
+            <text id="Phone:" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                <tspan x="28" y="83">Phone:</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

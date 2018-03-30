@@ -1,0 +1,410 @@
+ul
+{
+	list-style:none;
+}
+#dark_body
+{
+	z-index:1990;
+	display:none;
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:url('../demo-stuff/body_dark.png') repeat;
+}
+#body
+{
+	overflow-y:hidden;
+}
+.lightblue
+{
+	color:Blue;
+}
+.caipu_wrapper,.upLoad_dish
+{
+	width:800px;
+	margin:0 auto;
+}
+.clear
+{
+	clear:both;
+}
+.caipu
+{
+	box-shadow:3px 3px 15px 2px #523F50;
+	display:none;
+	padding-top:20px;
+	overflow:hidden;
+	position:absolute;
+	z-index:2001;
+	width:800px;
+	height:600px;
+	position:fixed;
+	margin:10px auto;
+	background:url('../img/caipu_bg_large.png') repeat;
+}
+.caipu .closeBtn,.myPage .closeBtn
+{
+	float:right;
+	margin-right:10px;
+	cursor:pointer;
+	background:url('../img/close_button.png');
+	width:20px;
+	height:20px;
+	background-size:100% auto;
+}
+.caipu .closeBtn:hover,.myPage .closeBtn:hover
+{
+	background:url('../img/close_button_hover.png');
+	background-size:100% auto;
+}
+.caipu_name .hearts
+{
+	overflow:hidden;
+}
+.caipu_name .hearts img
+{
+	float:left;
+	margin:5px;
+}
+.caipu p
+{
+	line-height:32px;
+	font-size:20px;
+}
+.caipu .caipu_txt
+{
+	padding-top:10px;
+	padding-left:26px;
+	font-family:"XJLFONT";
+}
+
+.caipu .first_col
+{
+	padding-left:30px;
+	width:260px;
+	float:left;
+}
+.caipu_zhuliao,.caipu_fuliao,.caipu_tips
+{
+	padding-top:30px;
+}
+
+.caipu .second_col
+{
+	width:360px;
+	float:left;
+	padding-left:60px;
+}
+.caipu h1
+{
+	line-height:30px;
+	padding-left:26px;
+	font-size:24px;
+	background:url('../img/powder_s.png') left no-repeat;
+}
+@font-face {
+	font-family: 'XJLFONT';
+	src: url('../font/XJLFONT.FON');
+	src: local('方正静蕾简体'), url('../font/XJLFONT.FON') format('truetype');
+}
+#inform
+{
+	z-index:0;
+	position:relative;
+}
+#inform .login_plate
+{
+ 	background:url("../img/plate.png");
+	height:400px;
+	width:400px;
+	background-size:100% auto;
+	position:relative;
+	top:270px;
+	left:310px;
+ 	
+}
+#inform #logIn
+{
+	position:absolute;
+	right:170px;
+	bottom:65px;
+	cursor:pointer;
+}
+#inform #reg
+{
+	position:absolute;
+	right:80px;
+	bottom:95px;
+	cursor:pointer;
+}
+#inform .login_cloud
+{
+	width:693px;
+	height:553px;
+	background:url("../img/first_bg.png");	
+	position:relative;
+	top:150px;
+	left:70px;
+	display:none;
+}
+#inform .login_cloud #userName
+{
+	padding:20px;
+}
+#inform .login_cloud #password
+{
+	padding:20px;
+}
+#inform .login_cloud p
+{
+	width:4em;
+	
+	float:left;
+	font-size:15px;
+	
+}
+#inform .login_cloud input
+{
+	float:left;
+	width:140px;
+	font-size:15px;
+}
+.login_cloud .cloud_item
+{
+	padding-left:160px;
+	padding-top:200px;
+}
+.fl
+{
+	float:left;
+}
+.fr
+{
+	float:right;
+}
+.reg_rightNow
+{
+	text-indent:-1000em;
+	display:block;
+	width:90px;
+	height:90px;
+	background:url("../img/reg.png");
+	cursor:pointer;
+	
+}
+.logIn_btn
+{
+	cursor:pointer;
+	width:40px;
+	text-align:center;
+	color:white;
+	background:green;
+	display:block;
+	line-height:20px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	font-family:"微软雅黑";
+	margin-left:60px;
+	font-size:14px;
+}
+.logIn_btn:hover
+{
+	background:#005628
+}
+.cancel_btn:hover
+{
+	background:#707070;
+}
+.cancel_btn
+{
+	cursor:pointer;
+	width:40px;
+	text-align:center;
+	color:white;
+	background:grey;
+	display:block;
+	line-height:20px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	
+	margin-left:10px;
+}
+#control_bar
+{
+	padding:20px;
+}
+.cloud_item .reg
+{
+	padding-left:25px;
+	background:url("../img/border_line.png") no-repeat;
+}
+#inform .cloud_item .reg p
+{
+	padding-bottom:15px;
+	float:none;
+	width:auto;
+}
+.myHomePage
+{
+	display:none;
+}
+.myHomePage .myCaipu
+{
+	width:550px;
+	padding-left:133px;
+	padding-top:175px;
+}
+.myHomePageNav
+{
+	float:right;
+	position:relative;
+	margin-top:20px;
+	margin-right:20px;
+	width:260px;
+	box-shadow:3px 3px 15px 2px #523F50;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+}
+.myHomePageNav .opacityBg
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:white;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	opacity:0.5;
+	z-index:-10;
+}
+.myHomePageNav ul
+{
+	list-style:none;
+}
+.myHomePageNav li
+{
+	float:left;
+}
+.myHomePageNav li a
+{
+	display:block;
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	margin:10px;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+}
+.myHomePageNav li a:hover
+{
+	width:80px;
+	height:80px;
+	background-size:100%; auto ;
+}
+.myHomePageNav .nav_caipu{background:url("../img/caipu.png");background-size:100%; auto ;}
+.myHomePageNav .nav_profile{background:url("../img/profile_icon.png");background-size:100%; auto ;}
+.myHomePageNav .nav_upload{background:url("../img/upload.png");background-size:100%; auto ;}
+
+.myPage
+{
+	background:url('../img/caipu_bg.png') repeat;
+	padding:50px 45px;
+	margin:10px auto;
+	width:600px;
+	display:none;
+	position:relative;
+	z-index:3000;
+	box-shadow:3px 3px 15px 2px #523F50;
+}
+.myPage .myPage_header h1
+{
+	padding-left:20px;
+	padding-top:10px;
+}
+.myPage .myPage_text
+{
+	margin-top:20px;
+}
+.myPage .myPage_nav li
+{
+	margin:0px 5px;
+	float:left;
+	color:#283734; 
+	font-family:"XJLFONT";
+	line-height:30px;
+	font-size:22px;
+}
+.myPage .myPage_nav li a
+{
+	display:block;
+	line-height:30px;
+	color:#283734; 
+	padding:0 10px;
+	font-family:"XJLFONT";
+	text-align:center;
+	cursor:pointer;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+}
+.myPage .myPage_nav li a:hover
+{
+	background:#283734; 
+	color:white;
+}
+.myPage_text .myPage_item
+{
+	background:url("../img/profile_bg.png") repeat;
+	width:400px;
+	padding:30px 50px;
+	font-family:"XJLFONT";
+	font-size:18px;
+	display:none;
+}
+.myPage_item label
+{
+	padding:10px;
+	overflow:hidden;
+	display:block;
+}
+.myPage_item label p
+{
+	width:5em;
+}
+.myPage_item input
+{
+	width:140px;
+}
+.myPage_item .logIn_btn
+{
+	margin-top:10px;
+	margin-left:100px;
+}
+.caipu_icon
+{
+	padding-top:100px;
+}
+.profile_icon
+{
+	padding-top:70px;
+	position:relative;
+	top:-60px;
+}
+
+.upLoad_text
+{
+	box-shadow:3px 3px 15px 2px #523F50;
+	display:none;
+	padding-top:20px;
+	overflow:hidden;
+	z-index:2001;
+	width:800px;
+	height:600px;
+	position:fixed;
+	margin:10px auto;
+	background:url('../img/up_bg.png') repeat;
+}

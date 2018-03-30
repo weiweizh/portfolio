@@ -1,0 +1,137 @@
+<!Doctype html>
+<html>
+<head>
+<meta content="text/html"; charset="utf-8" http-equiv="content-type">
+<meta content="A tour with Yoshitomo Nara" property="og:title">
+<meta content="img/icon.png" property="og:image">
+<meta content="Let's begin a tour with Yoshitomo Nara, to see the inner world of the little girl in everyone's heart..." property="og:description">
+<link rel="shortcut icon" href="img/icon.ico"/>
+<link rel="bookmark" href="img/icon.ico"/>
+<title>A tour with Yoshitomo Nara - 跟着奈良美智去旅行</title>
+<link href="css/main.css" type="text/css" rel="stylesheet"/>
+<link href="css/sec_2.css" type="text/css" rel="stylesheet"/>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" async src="http://www.google-analytics.com/ga.js"></script>
+<script src="js/config.js"></script>
+<script src="js/aniscroll.js"></script>
+<script src="js/mantra.js"></script>
+<script src="js/Tween.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-min.js"></script> 
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
+<script type="text/javascript" src='js/bindcap.js'></script> 
+<script type="text/javascript" src="js/liuyanben.js"></script>
+
+</head>
+<body onLoad="init()">
+<div id="wrapper">
+<div id="Nara">
+<a onClick="setAniscroll()">
+<img border="0" height="444px" width="849px" src="img/Nara's_por/curtain.png"/>
+</a>
+</div>
+</div>
+<nav id="myNav">
+<ul>
+<li ><a id='isun' onClick=$.scrollTo('#line_1','5000')>  <img class="dot" src="img/nav_sun.png"/></a></li>
+<li ><a id='imoon' onClick=$.scrollTo("#line_1_down","5000")><img class="dot" src="img/nav_moon.png"/></a></li>
+<li ><a id='inight' onClick=$.scrollTo("#line_2","5000")><img class="dot" src="img/nav_night.png"/></a></li>
+<li ><a id='istar' onClick=$.scrollTo("#line_3","5000")><img class="dot" src="img/nav_star.png"/></a></li>
+</ul>
+</nav> 
+
+<div id="line_1"></div>
+<div id="line_1_down" class='down'></div>
+<div id="line_2"></div>
+<div id="line_3"></div>
+<div id="line_4"></div>
+<div id="sun" class="sec_bg" ></div>
+<div id="moon" class="sec_bg"></div>
+<div id="star" class="sec_bg"></div>
+<div id="end" class= "sec_bg"></div> 
+<div id="girl_bg"></div>
+
+<nav id = 'top_down'>
+<ul>
+<li><a onClick = $.scrollTo('#line_1','3000')><img src="img/up.png"/></a></li>
+<li><a onClick= $.scrollTo('#line_4','3000')><img src="img/down.png"/></a></li>
+</ul>
+</nav>
+ 
+<nav id = 'mynav2'>
+<img id= 'logo' src="img/Nara_logo.png" width="200px" height="159px"/>
+<ul id = 'navigation'>
+<li><a id = 'link-about' class = 'buttons' href = '#about'>奈良美智简介</a></li>
+<li><a id = 'link-game' class = 'buttons' href = '#game'>玩玩小游戏吧</a></li>
+<li><a id = 'link-contact' class = 'buttons' href = '#contact'>想说点什么呢</a></li>
+<li><a id = 'link-link' class = 'buttons' href = '#link'>友情站点链接</a></li>
+</ul>
+</nav>
+ 
+
+<div id = 'about' class = 'panel'>
+ <div class='content'>
+<h2>About Nara Yoshitomo</h2>
+<h2>关于奈良美智</h2>
+
+ <div id = 'about_inner'>
+<p> 奈良美智（Yoshitomo Nara，1959年12月5日——）</p>
+<p>日本当代最具代表性的艺术家之一，日本青森县弘前市人。</p>
+ <p>奈良美智早期的作品以插画性质为多，在1980年代后期即发展出以儿童头像为主的角色风格；奈良美智对于有着大眼睛和大头的儿童形象相当着迷，他的特色在于塑造各种带有情感的 
+眼神，其中最具代表性之一为斜视的眼神。此外，奈良美智的作品几乎不含有透视的背景，而只突显人物。作品中的涂鸦字句也很情绪化和风格化。</p>
+<p>在1990年代后期，他也开始创作立体作品，主要是将画作中的孩童或小狗等，作成大型的立体雕塑，或采用不同媒材拼组的方式构成。</p>
+<p>他的作品情感充沛，单纯、直接，不仅深受喜爱，风靡世界，也多次在拍卖市场屡创高价，是亚洲重要的艺术旗帜。</p>
+<p>而他内敛、真诚的性格和追求自由生活方式、摇滚叛逆的精神也被许多年轻人崇拜和效仿。</p>
+  </div>
+ </div>
+</div>
+ 
+
+ 
+</div>
+
+<div id='game' class = 'panel'>
+  <div class="content">
+  <div id='slider'>
+  <form>
+  <label><p>Easy</p></label>
+  <input type = 'range' id='scale' value ='4' min = '2' max = '6' step = '1'/>
+  <label><p>Hard</p></label>
+  </form>
+  <br>
+   </div>
+   
+  <div id='main'>
+   <canvas id='pintu' width="500px" height="500px" style="border:1px dotted #c3c3c3;"></canvas>
+   </div>
+   <input type = 'button' class="buttons" value="换一张" onClick="setTimeout('ne_img()',3000)"/>
+    </div>
+  </div>
+<script type = 'text/javascript' src="js/pintu.js"></script>
+<div id = 'contact' class = 'panel'>
+<div class = 'content'>
+ <h2>leave a message to Nara Yoshitomo</h2>
+ <form id = 'form' >
+ <p><label>昵称：</label><input id ='nickname' value="" type="text"/></p>
+ <p><label>留言：</label></p>
+ <textarea id="demo" cols="60" rows="10"></textarea><br />
+ <br/>
+ <input type="button" class="buttons" value="留言" onClick="savelocalStorage('demo');" />
+ <input type="button" class='buttons' value="清除留言" onClick="clearlocalStorage('msg');" />
+ </form>
+<hr color="#CCCCCC" />
+<p id="msg"></p>
+</div>
+</div>
+
+<div id = 'link' class = 'panel'>
+<div class="content">
+ <h2>link pages</h2>
+ <a href="http://site.douban.com/nara/" target="_new"><p>奈良美智豆瓣小站</p></a>
+</div>
+</div>
+ 
+<div id = 'popupcontent'></div>
+<footer><p> "跟着奈良美智去旅行"版权所有©:cherrykaka  since 2012</p></footer>
+</body>
+</html>

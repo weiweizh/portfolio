@@ -1,0 +1,1247 @@
+* {
+    color: #283734;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+#navigation #aboutUs{
+	display:block;
+	width:32px;
+	height:32px;
+	background:url("../img/about.png");
+	margin-left:20px;
+	position:relative;
+}
+#navigation #aboutUs label{
+	display:none;
+}
+#navigation #aboutUs:hover label{
+	background:url(../img/about_tab.png);
+	width:187px;
+	height:138px;
+	display:block;
+	position:absolute;
+	top:-140px;
+	left:-60px;
+}
+#navigation #contactUs{
+	display:block;
+	width:32px;
+	height:32px;
+	background:url("../img/contact.png");
+	margin-left:20px;
+	position:relative;
+}
+#navigation #contactUs label{
+	display:none;
+}
+#navigation #contactUs:hover label{
+	background:url(../img/contact_tab.png);
+	width:179px;
+	height:132px;
+	display:block;
+	position:absolute;
+	top:-130px;
+	left:-60px;
+}
+#dark_body {
+    z-index: 1990;
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: url('../demo-stuff/body_dark.png') repeat;
+}
+#dark_body .table-cell
+{
+	display:table-cell;
+	vertical-align:middle;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+}
+#body {
+    overflow-y: hidden;
+}
+
+.lightblue {
+    color: Blue;
+}
+
+.caipu_wrapper, .upLoad_dish {
+    width: 800px;
+    margin: 0 auto;
+	position:static;
+	top:50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.caipu {
+    box-shadow: 3px 3px 15px 2px #523F50;
+    display: none;
+    padding-top: 20px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2001;
+    width: 800px;
+    height: 600px;
+    position: fixed;
+    margin: 10px auto;
+    background: url('../img/caipu_bg_large.png') repeat;
+	position:static;
+	top:-50%;
+}
+
+.caipu .closeBtn, .myPage .closeBtn {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    background: url('../img/close_button.png');
+    width: 20px;
+    height: 20px;
+    background-size: 100% auto;
+}
+.myPage .closeBtn{
+	top:-40px;
+	left:45px;
+	position:relative;
+}
+
+.caipu .closeBtn:hover, .myPage .closeBtn:hover {
+    background: url('../img/close_button_hover.png');
+    background-size: 100% auto;
+}
+
+.caipu_name .hearts {
+    overflow: hidden;
+}
+
+.caipu_name .hearts img {
+    float: left;
+    margin: 5px;
+}
+.hearts a{
+	font-family:'Georgia','Arial',sans-serif;
+	float:left;
+	display:block;
+	text-align:center;
+	width:3em;
+	line-height:16px;
+	margin:5px;
+	font-size: 14px;
+    cursor: pointer;
+    background-color: #283734;
+    font-size: 14px;
+    padding: 3px;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.caipu p {
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.caipu .caipu_txt {
+    padding-top: 10px;
+    padding-left: 26px;
+    font-family: "XJLFONT";
+}
+
+.caipu .first_col {
+    padding-left: 30px;
+    width: 260px;
+    float: left;
+}
+
+.caipu_zhuliao, .caipu_fuliao, .caipu_tips {
+    padding-top: 30px;
+}
+
+.caipu .second_col {
+    width: 360px;
+    float: left;
+    padding-left: 60px;
+}
+
+.caipu h1 {
+    line-height: 30px;
+    padding-left: 26px;
+    font-size: 24px;
+    background: url('../img/powder_s.png') left no-repeat;
+}
+@font-face {font-family:
+    'XJLFONT';
+    src:
+    url('../font/XJLFONT.FON');
+    src:
+    local('方正静蕾简体'), url('../font/XJLFONT.FON') format('truetype');
+}
+
+#inform {
+    z-index: 0;
+    position: relative;
+}
+
+#inform .login_plate {
+    background: url("../img/plate.png");
+    height: 400px;
+    width: 400px;
+    background-size: 100% auto;
+    position: relative;
+    top: 270px;
+    left: 310px;
+}
+
+#inform #logIn {
+    position: absolute;
+    right: 170px;
+    bottom: 65px;
+    cursor: pointer;
+}
+
+#inform #logIn_text {
+    width: 83px;
+    height: 0px;
+    background: url("../img/log_in_1.png") bottom;
+    position: absolute;
+    right: 150px;
+    bottom: 140px;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+#inform #reg_text {
+    width: 83px;
+    height: 0px;
+    background: url("../img/register_1.png") bottom;
+    position: absolute;
+    right: 150px;
+    bottom: 170px;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+#inform #reg {
+    position: absolute;
+    right: 80px;
+    bottom: 95px;
+    cursor: pointer;
+}
+
+#inform .login_cloud {
+    width: 693px;
+    height: 280px;
+    background: url("../img/first_bg.png") no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    top: 200px;
+    left: 220px;
+    display: none;
+}
+
+
+
+#inform .login_cloud #userName {
+    padding: 20px;
+}
+
+#inform .login_cloud #password {
+    padding: 20px;
+}
+
+#inform .login_cloud p {
+    width: 4em;
+    float: left;
+    font-size: 15px;
+}
+
+#inform .login_cloud input {
+    float: left;
+    width: 140px;
+    font-size: 15px;
+}
+
+.login_cloud .cloud_item {
+    padding-left: 35px;
+    padding-top: 80px;
+}
+#inform .register_cloud {
+	width: 515px;
+    height: 400px;
+    background: url("../img/register_bg.png") no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    top: 180px;
+    left: 230px;
+	display:none;
+	
+}
+#inform .register_cloud .cloud_item
+{
+	padding:100px 0px 0px 50px;
+}
+#inform .register_cloud p {
+    width: 5em;
+    float: left;
+    font-size: 15px;
+}
+#register_userName{
+	overflow:hidden;
+	padding-top:20px;
+}
+#register_password
+{
+	overflow:hidden;
+	padding-top:20px;
+}
+#register_confirmPassword
+{
+	overflow:hidden;
+	padding-top:20px;
+}
+#register_nickname
+{
+	overflow:hidden;
+	padding-top:20px;
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.reg_rightNow {
+    text-indent: -1000em;
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: url("../img/reg.png");
+    cursor: pointer;
+}
+
+.logIn_btn {
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+    color: white;
+    background: #283734;
+    display: block;
+    line-height: 20px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-family: "微软雅黑";
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.logIn_btn:hover {
+    background: #005628
+}
+
+.cancel_btn:hover {
+    background: #707070;
+}
+
+.register_btn {
+    color: red;
+    margin-left: 35px;
+}
+
+.cancel_btn {
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+    color: white;
+    background: grey;
+    display: block;
+    line-height: 20px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-left: 10px;
+}
+
+#control_bar {
+    padding: 20px;
+}
+
+.cloud_item .reg {
+    padding-left: 25px;
+    background: url("../img/border_line.png") no-repeat;
+}
+
+#inform .cloud_item .reg p {
+    padding-bottom: 15px;
+    float: none;
+    width: auto;
+}
+
+.myHomePage {
+    display: none;
+}
+
+.myHomePage .myCaipu {
+    width: 550px;
+    padding-left: 133px;
+    padding-top: 175px;
+}
+
+.myHomePageNav {
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 260px;
+    box-shadow: 3px 3px 15px 2px #523F50;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.myHomePageNav .opacityBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    opacity: 0.5;
+    z-index: -10;
+}
+
+.myHomePageNav ul {
+    list-style: none;
+}
+
+.myHomePageNav li {
+    float: left;
+}
+
+.myHomePageNav li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin: 10px;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+.myHomePageNav li a:hover {
+    width: 80px;
+    height: 80px;
+    background-size: 100%;
+    auto;
+}
+
+.myHomePageNav .nav_caipu {
+    background: url("../img/caipu.png");
+    background-size: 100%;
+    auto;
+}
+
+.myHomePageNav .nav_profile {
+    background: url("../img/profile_icon.png");
+    background-size: 100%;
+    auto;
+}
+
+.myHomePageNav .nav_upload {
+    background: url("../img/upload.png");
+    background-size: 100%;
+    auto;
+}
+
+.myPage {
+    background: url('../img/caipu_bg.png') repeat;
+    padding: 50px 45px;
+    margin: 10px auto;
+    width: 600px;
+    display: none;
+    position: relative;
+    z-index: 3000;
+    box-shadow: 3px 3px 15px 2px #523F50;
+}
+
+.myPage .myPage_header h1 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.myPage .myPage_text {
+    margin-top: 20px;
+}
+
+.myPage .myPage_nav li {
+    margin: 0px 5px;
+    float: left;
+    color: #283734;
+    font-family: "XJLFONT";
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.myPage .myPage_nav li a {
+    display: block;
+    line-height: 30px;
+    color: #283734;
+    padding: 0 10px;
+    font-family: "XJLFONT";
+    text-align: center;
+    cursor: pointer;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+.myPage .myPage_nav li a:hover {
+    background: #283734;
+    color: white;
+}
+
+.myPage_text .myPage_item {
+    background: url("../img/profile_bg.png") repeat;
+    width: 400px;
+    padding: 30px 50px;
+    font-family: "XJLFONT";
+    font-size: 18px;
+    display: none;
+}
+
+.myPage_item label {
+    padding: 10px;
+    overflow: hidden;
+    display: block;
+}
+
+.myPage_item label p {
+    width: 5em;
+}
+
+.myPage_item input {
+    width: 140px;
+}
+
+.myPage_item .logIn_btn {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.caipu_icon {
+    padding-top: 100px;
+}
+
+.profile_icon {
+    padding-top: 70px;
+    position: relative;
+    top: -60px;
+}
+
+.upLoad_text {
+    box-shadow: 3px 3px 15px 2px #523F50;
+    display: none;
+    overflow: hidden;
+    z-index: 2001;
+    width: 800px;
+    height: 580px;
+    position: fixed;
+    margin: 10px auto;
+    background: url('../img/up_bg.png') no-repeat;
+	position:static;
+	top:-50%;
+}
+
+.upLoad_text .first_col {
+    padding-left: 30px;
+    width: 320px;
+    float: left;
+}
+
+.upLoad_text .second_col {
+    width: 360px;
+    float: left;
+    padding-left: 60px;
+}
+
+.upLoad_text .upLoad_panel, .upLoad_text .steps {
+    padding-top: 50px;
+}
+
+.upLoad_text .upLoad_panel a {
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #283734;
+    font-size: 14px;
+    padding: 3px;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.upLoad_text .cooker_needed, .upLoad_text .main_material, .upLoad_text .assist_material, .upLoad_text .time_use, .upLoad_text .tips {
+    padding-top: 25px;
+}
+
+.upLoad_text h1 {
+    line-height: 30px;
+    padding-left: 34px;
+    font-size: 24px;
+    background: url('../img/upload_s.png') left no-repeat;
+}
+
+.upLoad_text p, .upLoad_text table {
+    line-height: 32px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.upLoad_text .caipu_txt {
+    padding-top: 10px;
+    padding-left: 26px;
+    font-family: "XJLFONT";
+}
+
+.cooker_needed label {
+    margin-left: 5px;
+}
+
+.main_material .caipu_txt, .assist_material .caipu_txt {
+    position: relative;
+}
+
+.main_material .caipu_txt .opacity_bg, .assist_material .caipu_txt .opacity_bg, .tips .caipu_txt .opacity_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.caipu_txt table th {
+    padding: 0 5px;
+}
+
+.new_item #mat_input, #majorMat_input {
+    width: 145px;
+}
+
+.new_item #size_input, #majorSize_input {
+    width: 40px;
+}
+
+.new_item #remark_input, #majorRemark_input {
+    width: 80px;
+}
+
+.new_item {
+    position: relative;
+}
+
+.assist_material #assist_submit, #main_submit {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-indent: -1000em;
+    background: url("../img/add.png") no-repeat;
+    top: 0px;
+    right: -10px;
+}
+
+.caipu_txt table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.caipu_txt table td {
+    padding: 2px;
+}
+
+.steps textarea {
+    height: 20px;
+    background: none;
+    border: none;
+    border-bottom: 1px dashed #5b6661;
+}
+
+.time_use .caipu_txt {
+    padding-top: 0px;
+    float: left;
+    padding-left: 5px;
+}
+
+.time_use .caipu_txt input {
+    width: 3em;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px dashed #5b6661;
+}
+
+.tips .tips_txt {
+    position: relative;
+    width: 290px;
+    height: 127px;
+}
+
+.tips textarea {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    resize: none;
+}
+
+.uploadControlBar {
+    padding-left: 26px;
+    padding-top: 18px;
+    font-family: "XJLFONT";
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.uploadControlBar_btns {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.uploadControlBar_btns a {
+    width: 80px;
+    line-height: 24px;
+    color: white;
+    background: #283734;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    float: left;
+    margin: 0 15px;
+    font-family: 'Georgia', 'Arial', sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#logout_logo {
+    position: absolute;
+    top: 55px;
+    right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.tryWrapper {
+    padding-top: 180px;
+    position: relative;
+}
+
+.trySmallPlates {
+    overflow: hidden;
+    width: 610px;
+    margin: 0 auto;
+}
+
+#platesSubmit {
+    background: url("../img/go.png") no-repeat;
+    width: 75px;
+    height: 73px;
+    background-size: auto 100%;
+}
+
+#platesTime {
+    background: url("../img/plate_time.png") no-repeat;
+    width: 75px;
+    height: 73px;
+    background-size: 100% auto;
+}
+
+.tryBigPlatesWrapper {
+    margin: 20px auto;
+    width: 580px;
+    overflow: hidden;
+}
+
+.tryBigPlates {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.tryBigPlates .bigPlate {
+    width: 400px;
+    height: 400px;
+    display: none;
+}
+
+.tryBigPlates #plates_1 {
+    background: url("../img/wooden_plates_bg.png") no-repeat;
+    background-size: 100% auto;
+    display: block;
+}
+
+.tryBigPlates #plates_2 {
+    background: url("../img/white_plates_bg.png") no-repeat;
+    background-size: 100% auto;
+}
+
+.bigPlates_btn {
+    display: block;
+    width: 80px;
+    height: 50px;
+    float: left;
+    margin-top: 170px;
+}
+
+#left_btn {
+    background: url("../img/left.png") no-repeat;
+	background-size:auto 100%;
+}
+
+#right_btn {
+    background: url("../img/right.png") no-repeat right;
+	background-size:auto 100%;
+}
+
+.foodSelect {
+    width: 643px;
+    background: url("../img/60perDark.png") repeat;
+    margin: 10px auto;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    height: 0px;
+}
+
+.foodSelect .foodType {
+    overflow: hidden;
+}
+
+.foodSelect .foodItem {
+    margin: 10px;
+    float: left;
+}
+
+.foodType .timeItem {
+    margin: 10px;
+    float: left;
+}
+
+.foodSelect .foodItem a {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    display: block;
+    height: 60px;
+    width: 60px;
+    opacity: 1;
+}
+
+.foodType .timeItem a {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    display: block;
+    line-height: 20px;
+    padding: 3px 10px;
+    background: white;
+    opacity: 1;
+    text-align: center;
+    color: #464646;
+    text-decoration: none;
+    -moz-transition: none;
+    transition: none;
+    -webkit-transition: none;
+}
+
+.foodType .timeItem a:hover {
+    background: orange;
+}
+
+.foodType {
+    display: none;
+}
+
+.food_arrow {
+    display: block;
+    width: 22px;
+    height: 7px;
+    position: absolute;
+    background: url("../img/food_arrow.png");
+    top: 256px;
+    left: 123px;
+    display: none;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+.trySmallPlates li {
+    float: left;
+    background: url("../img/smallPlates_bg.png") no-repeat;
+    margin-right: 12px;
+}
+
+.smallPlate div {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    width: 75px;
+    height: 73px;
+}
+
+.bigPlate div {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+}
+
+.smallPlate div p, .bigPlate div p {
+    position: static; +position:absolute;
+    top:
+    50%;
+}
+
+.smallPlate div p img, .bigPlate div p img {
+    position: static; +position:absolute;
+    top:
+    -50%;
+    left:
+    50%;
+    border-radius:
+    4px;
+    -moz-border-radius:
+    4px;
+    -webkit-border-radius:
+    4px;
+}
+
+.bigPlate div p img {
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.foodItem .none {
+    text-indent: -1000em;
+    background: url("../img/foodItem_none.jpg");
+}
+
+#timeShow {
+    margin-top: 50px;
+    text-align: center;
+    background: orange;
+    color: #464646;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.searchBar
+{
+	text-align:right;
+	margin-bottom:12px;
+}
+.searchBar input
+{
+	width:180px;
+	line-height:24px;
+	height:24px;
+	border:1px dashed black;
+	border-bottom:none;
+	background:url("../img/profile_bg.png") repeat;
+}
+.searchBar .btn
+{
+	background:black;
+	color:white;
+	width:40px;
+	height:24px;
+}
+#inform .register_cloud .afterRegister
+{
+	display:none;
+	margin-top:20px;
+
+}
+#inform .register_cloud .afterRegister p
+{
+	float:none;
+	width:auto;
+
+}
+#inform .register_cloud .afterRegister p a
+{
+	border:1px dotted balck;
+	font-size:18px;
+	line-height:40px;
+	color:black;
+	text-decoration:underline;
+	display:block;
+	margin-left:60px;
+	font-family: "宋体";
+	width:6em;
+	
+}
+
+
+.jsstar{
+	background:url("../img/60perDark.png");
+	border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+	display:none;
+}
+.jsstars
+{
+	float:left;
+	overflow:hidden;
+	width:100px;
+	padding:7px 0 0 35px;
+}
+.jsstar li
+{
+	float:left;
+	background:url("../img/heart_select.png") top;
+	width:19px;
+	height:19px;
+}
+.starBtn{
+	display:block;
+	float:left;
+	margin:15px;
+	line-height: 16px;
+	
+	font-size: 14px;
+    cursor: pointer;
+    background-color: #283734;
+    font-size: 14px;
+    padding: 3px;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+	
+}
+
+
+
+#xiangchun {
+    background: url("../img/food/vegetable/xiangchun.jpg");
+}
+
+#kugua {
+    background: url("../img/food/vegetable/kugua.jpg");
+}
+
+#carrote {
+    background: url("../img/food/vegetable/carrote.jpg");
+}
+
+#jiucai {
+    background: url("../img/food/vegetable/jiucai.jpg");
+}
+
+#potato {
+    background: url("../img/food/vegetable/potato.jpg");
+}
+
+#baicai {
+    background: url("../img/food/vegetable/baicai.jpg");
+}
+
+#bocai {
+    background: url("../img/food/vegetable/bocai.jpg");
+}
+
+#xilanhua {
+    background: url("../img/food/vegetable/xilanhua.jpg");
+}
+
+#huanggua {
+    background: url("../img/food/vegetable/huanggua.jpg");
+}
+
+#tomato {
+    background: url("../img/food/vegetable/tomato.jpg");
+}
+
+#donggua {
+    background: url("../img/food/vegetable/donggua.jpg");
+}
+
+#chicken {
+    background: url("../img/food/meat/chicken.jpg");
+}
+
+#cow {
+    background: url("../img/food/meat/cow.jpg");
+}
+
+#duck {
+    background: url("../img/food/meat/duck.jpg");
+}
+
+#fish {
+    background: url("../img/food/meat/fish.jpg");
+}
+
+#longxia {
+    background: url("../img/food/meat/longxia.jpg");
+}
+
+#niupai {
+    background: url("../img/food/meat/niupai.jpg");
+}
+
+#pork {
+    background: url("../img/food/meat/pork.jpg");
+}
+
+#sheep {
+    background: url("../img/food/meat/sheep.jpg");
+}
+
+#shram {
+    background: url("../img/food/meat/shram.jpg");
+}
+
+#xie {
+    background: url("../img/food/meat/xie.jpg");
+}
+
+#anchun {
+    background: url("../img/food/egg/anchun.jpg");
+}
+
+#eggs {
+    background: url("../img/food/egg/eggs.jpg");
+}
+
+#ludan {
+    background: url("../img/food/egg/ludan.jpg");
+}
+
+#pidan {
+    background: url("../img/food/egg/pidan.jpg");
+}
+
+#xiandan {
+    background: url("../img/food/egg/xiandan.jpg");
+}
+
+#yadan {
+    background: url("../img/food/egg/yadan.jpg");
+}
+
+#beidoufu {
+    background: url("../img/food/beans/beidoufu.jpg");
+}
+
+#chandou {
+    background: url("../img/food/beans/chandou.jpg");
+}
+
+#dongdoufu {
+    background: url("../img/food/beans/dongdoufu.jpg");
+}
+
+#doupi {
+    background: url("../img/food/beans/doupi.jpg");
+}
+
+#douya {
+    background: url("../img/food/beans/douya.jpg");
+}
+
+#hongdou {
+    background: url("../img/food/beans/hongdou.png");
+}
+
+#hongyaodou {
+    background: url("../img/food/beans/hongyaodou.jpg");
+}
+
+#nandoufu {
+    background: url("../img/food/beans/nandoufu.jpg");
+}
+
+#sijidou {
+    background: url("../img/food/beans/sijidou.jpg");
+}
+
+#wandou {
+    background: url("../img/food/beans/wandou.jpg");
+}
+
+#xianggan {
+    background: url("../img/food/beans/xianggan.jpg");
+}
+
+#yellow_bean {
+    background: url("../img/food/beans/yellow_bean.jpg");
+}
+
+#bingtang {
+    background: url("../img/food/jiang/bingtang.jpg");
+}
+
+#cong {
+    background: url("../img/food/jiang/cong.jpg");
+}
+
+#cu {
+    background: url("../img/food/jiang/cu.jpg");
+}
+
+#doubanjiang {
+    background: url("../img/food/jiang/doubanjiang.jpg");
+}
+
+#doufuru {
+    background: url("../img/food/jiang/doufuru.jpg");
+}
+
+#jiang {
+    background: url("../img/food/jiang/jiang.jpg");
+}
+
+#jiangyou {
+    background: url("../img/food/jiang/jiangyou.jpg");
+}
+
+#shachajiang {
+    background: url("../img/food/jiang/shachajiang.jpg");
+}
+
+#suan {
+    background: url("../img/food/jiang/suan.jpg");
+}
+
+#xiangyou {
+    background: url("../img/food/jiang/xiangyou.jpg");
+}

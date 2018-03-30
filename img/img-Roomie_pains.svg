@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="510px" height="170px" viewBox="0 0 510 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>img-Roomie_pains</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="480" height="140"></rect>
+        <filter x="-4.7%" y="-16.1%" width="109.4%" height="132.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.92   0 0 0 0 0.92   0 0 0 0 0.92  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="img-Roomie_pains" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(12.000000, 13.000000)">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#EBEBEB" stroke-width="1" x="0.5" y="0.5" width="479" height="139"></rect>
+            </g>
+            <g id="icon-pain" transform="translate(21.000000, 21.000000)" stroke="#4A4A4A">
+                <g>
+                    <path d="M14.113883,0.128972923 C19.2389139,0.809567437 21.1366665,3.02798438 22.8303688,5.57372903 C23.9595037,7.27089213 23.9595037,9.08581084 22.8303688,11.0184851 C24.9434563,13.6362656 26,15.2243195 26,15.7826467 C26,16.340974 24.6793203,16.5678388 22.037961,16.4632412 C22.7696001,17.8414825 23.0337361,18.7489419 22.8303688,19.1856193 C22.5253179,19.8406354 21.2455532,19.6960652 21.2455532,20.5468083 C21.2455532,21.3975515 22.037961,21.9079974 21.2455532,23.2691864 C20.4531454,24.6303754 17.7366111,23.8497333 16.4911064,23.9497809 C15.9534287,23.9929709 17.0203351,25.9868299 16.4911064,25.9915644 C15.2338698,26.0028119 12.8566464,26.0028119 9.35943621,25.9915644 C9.65373915,24.2896933 9.38960321,22.9285043 8.56702841,21.9079974 C6.23505552,19.0148934 4.60498942,19.8662138 2.22776602,17.1438358 C-0.149457381,14.4214577 -0.941865181,9.65729611 1.43535822,5.57372903 C3.81258162,1.49016195 8.98885217,-0.55162159 14.113883,0.128972923 Z" id="Path-25"></path>
+                    <path d="M0.65,7.58938547 C1.43448276,6.83044693 1.88275862,-3.46710054e-16 12.35,0 C20.7327586,4.33387568e-16 24.7,6.5 23.4,10.4 C21.45,11.5837989 16.3172414,14.0748603 11.7,11.05 C3.07068966,4.97849162 0.65,8.34832402 0.65,7.58938547 Z" id="Path-28" fill="#F2F2F2"></path>
+                    <path d="M0.65,7.8 C3.68333333,6.93333333 6.93333333,7.8 10.4,10.4 C13.8666667,13 18.2,13 23.4,10.4" id="Path-26" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M11.7,4.55 C11.7,4.55 11.05,4.55 11.05,5.525 C11.05,6.175 11.2666667,6.5 11.7,6.5" id="Path-27" stroke-linecap="round"></path>
+                    <path d="M15.6,4.55 C15.6,4.55 14.95,4.55 14.95,5.525 C14.95,6.175 15.1666667,6.5 15.6,6.5" id="Path-27" stroke-linecap="round" transform="translate(15.275000, 5.525000) scale(-1, 1) translate(-15.275000, -5.525000) "></path>
+                    <path d="M13.65,2.6 C13.65,2.6 13,2.6 13,3.575 C13,4.225 13.2166667,4.55 13.65,4.55" id="Path-27" stroke-linecap="round" transform="translate(13.325000, 3.575000) scale(-1, 1) rotate(90.000000) translate(-13.325000, -3.575000) "></path>
+                    <path d="M13.65,6.5 C13.65,6.5 13,6.5 13,7.475 C13,8.125 13.2166667,8.45 13.65,8.45" id="Path-27" stroke-linecap="round" transform="translate(13.325000, 7.475000) scale(-1, -1) rotate(90.000000) translate(-13.325000, -7.475000) "></path>
+                    <path d="M15.275,7.475 L15.925,8.125" id="Line" stroke-linecap="round"></path>
+                    <path d="M10.725,2.925 L11.375,3.575" id="Line" stroke-linecap="round"></path>
+                    <path d="M15.925,2.925 L15.275,3.575" id="Line" stroke-linecap="round"></path>
+                    <path d="M11.375,7.475 L10.725,8.125" id="Line" stroke-linecap="round"></path>
+                </g>
+            </g>
+            <text id="Address-the-users’-p" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" fill="#4A4A4A">
+                <tspan x="68" y="42">Address the users’ pains</tspan>
+            </text>
+            <text id="Take-safety,-communi" font-family="OpenSans-Light, Open Sans" font-size="20" font-weight="300" fill="#747473">
+                <tspan x="68" y="73">Take safety, communication and </tspan>
+                <tspan x="68" y="100">roommates’ interaction into consideration</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

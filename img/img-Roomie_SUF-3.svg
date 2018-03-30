@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1766px" height="120px" viewBox="0 0 1766 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>SignupFlow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="SignupFlow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Option3" transform="translate(1.000000, 36.000000)">
+            <g id="Group-3">
+                <rect id="BG" stroke="#4A4A4A" fill="#CCFFF5" x="0" y="0" width="254" height="47" rx="5"></rect>
+                <text id="10:20" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#4A4A4A">
+                    <tspan x="20" y="31">Sign up/ID verification</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(277.600000, 0.000000)">
+                <rect id="BG" stroke="#4A4A4A" fill="#FFFFFF" x="0" y="0" width="297" height="47" rx="5"></rect>
+                <text id="Browse-the-general-r" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="20" y="31">Browse the</tspan>
+                    <tspan x="124.472656" y="31" font-family="OpenSans-Semibold, Open Sans" font-weight="500"> </tspan>
+                    <tspan x="129.667969" y="31" font-family="OpenSans-Bold, Open Sans" font-weight="bold">general</tspan>
+                    <tspan x="204.609375" y="31" font-family="OpenSans-Semibold, Open Sans" font-weight="500"> </tspan>
+                    <tspan x="209.804688" y="31">results</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(598.200000, 0.000000)">
+                <rect id="BG" stroke="#4A4A4A" fill="#FFFFFF" x="0" y="0" width="257" height="47" rx="5"></rect>
+                <text id="10:20" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#4A4A4A">
+                    <tspan x="20" y="31">Filter room preference</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(878.800000, 0.000000)">
+                <rect id="BG" stroke="#4A4A4A" fill="#FFFFFF" x="0" y="0" width="307" height="47" rx="5"></rect>
+                <text id="10:20" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#4A4A4A">
+                    <tspan x="20" y="31">Filter roommate preference</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(1575.000000, 0.000000)">
+                <rect id="BG" stroke="#4A4A4A" fill="#FFFFFF" x="0" y="0" width="187" height="47" rx="5"></rect>
+                <text id="10:20" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#4A4A4A">
+                    <tspan x="20" y="31">Send messages</tspan>
+                </text>
+            </g>
+            <g id="FindRoommate" transform="translate(1209.400000, 0.000000)">
+                <rect id="BG" stroke="#4A4A4A" fill="#49C89F" x="0" y="0" width="342" height="47" rx="5"></rect>
+                <text id="10:20" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" fill="#FFFFFF">
+                    <tspan x="20" y="31">Find ideal roommate candidate</tspan>
+                </text>
+            </g>
+        </g>
+        <path d="M257.5,60.5 L275.5,60.5" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path id="Line-decoration-1" d="M264.7,63.5 L275.5,60.5 L264.7,57.5" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path d="M579.5,60.5 L597.5,60.5" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path id="Line-decoration-1" d="M586.7,63.5 L597.5,60.5 L586.7,57.5" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path d="M860.5,60.5 L878.5,60.5" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path id="Line-decoration-1" d="M867.7,63.5 L878.5,60.5 L867.7,57.5" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path d="M1189.5,60.5 L1207.5,60.5" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path id="Line-decoration-1" d="M1196.7,63.5 L1207.5,60.5 L1196.7,57.5" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path d="M1558.5,60.5 L1576.5,60.5" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+        <path id="Line-decoration-1" d="M1565.7,63.5 L1576.5,60.5 L1565.7,57.5" stroke="#4A4A4A" stroke-linecap="square"></path>
+    </g>
+</svg>

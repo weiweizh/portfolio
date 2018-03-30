@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>iconClose</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="4-2-10.modeling-regression-simpleView-SampleSize" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1201.000000, -507.000000)">
+        <g id="SelectSize-Popup" transform="translate(1002.000000, 490.000000)">
+            <g id="iconClose" transform="translate(199.000000, 17.000000)">
+                <g id="Group-3">
+                    <circle id="Oval-6" fill="#E4E4E4" cx="8.5" cy="8.5" r="8.5"></circle>
+                    <g id="Group-2" transform="translate(8.500000, 8.500000) rotate(45.000000) translate(-8.500000, -8.500000) translate(2.833333, 2.833333)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M5.66666667,0 L5.66666667,11.3333333" id="Line-2"></path>
+                        <path d="M0,5.63968254 L11.3333333,5.63968254" id="Line-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

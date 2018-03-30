@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2454px" height="1478px" viewBox="0 0 2454 1478" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>NewaPedia_SignupFlow_Improvement</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="400" height="300" rx="4"></rect>
+        <rect id="path-2" x="0" y="0" width="400" height="300" rx="4"></rect>
+        <rect id="path-3" x="0" y="0" width="400" height="300" rx="4"></rect>
+        <rect id="path-4" x="0" y="0" width="400" height="300" rx="4"></rect>
+        <rect id="path-5" x="0" y="0" width="400" height="300" rx="4"></rect>
+    </defs>
+    <g id="wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NewaPedia_SignupFlow_Improvement">
+            <g id="Screen-Signup" transform="translate(74.000000, 145.000000)">
+                <g id="bg" transform="translate(289.000000, 36.000000)">
+                    <g id="Rectangle">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#4A4A4A" stroke-width="2" x="1" y="1" width="398" height="298" rx="4"></rect>
+                    </g>
+                </g>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="291" y="38" width="396" height="36"></rect>
+                <rect id="Rectangle-7" fill="#9B9B9B" x="511" y="291" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#F2F2F2" x="613" y="44" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#F2F2F2" x="536" y="44" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#E4E4E4" x="301" y="45" width="22" height="22" rx="11"></rect>
+                <rect id="Rectangle-16" fill="#F4F3F3" x="312" y="96" width="125" height="221" rx="4"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="453" y="96" width="60" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="453" y="122" width="125" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="453" y="150" width="125" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="453" y="178" width="100" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="453" y="207" width="190" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="453" y="236" width="190" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="453" y="264" width="20" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="563" y="178" width="90" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="523" y="96" width="60" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="593" y="96" width="60" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="593" y="122" width="60" height="20"></rect>
+                <text id="Sign-Up-Page" font-family="SFUIDisplay-Black, SF UI Display" font-size="12" font-weight="700" fill="#4A4A4A">
+                    <tspan x="450" y="11">Sign Up Page</tspan>
+                </text>
+                <circle id="Oval-Copy-4" fill="#47DFBA" cx="334" cy="267" r="11"></circle>
+                <path d="M334,267 L234,267" id="Line-Copy-2" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-2-decoration-1" d="M234,270 L234,264" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Explain-the-benifits" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="271">Explain the benifits of the product,</tspan>
+                    <tspan x="0" y="287">why sign up.</tspan>
+                </text>
+                <rect id="Rectangle-15" fill-opacity="0.3" fill="#47DFBA" x="450" y="91" width="203" height="194" rx="4"></rect>
+                <circle id="Oval-Copy-5" fill="#47DFBA" cx="612" cy="181" r="11"></circle>
+                <path d="M623,181 L770,181" id="Line-Copy-3" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-3-decoration-1" d="M770,178 L770,184" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Sign-Up-form" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="778" y="186">Sign Up form</tspan>
+                </text>
+                <text id="User-name-/-password" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="785" y="212">	• 	User name / password</tspan>
+                    <tspan x="785" y="228">	• 	Personal info</tspan>
+                    <tspan x="785" y="244">	• 	Company info</tspan>
+                </text>
+                <circle id="Oval-Copy-6" fill="#47DFBA" cx="563" cy="306" r="11"></circle>
+                <path d="M574,306 L721,306" id="Line-Copy-4" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-4-decoration-1" d="M721,303 L721,309" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Submit-button" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="729" y="311">Submit button</tspan>
+                </text>
+            </g>
+            <g id="Screen-Signup" transform="translate(1257.000000, 145.000000)">
+                <g id="bg" transform="translate(289.000000, 36.000000)">
+                    <g id="Rectangle">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#4A4A4A" stroke-width="2" x="1" y="1" width="398" height="298" rx="4"></rect>
+                    </g>
+                </g>
+                <path d="M486.5,340.5 L486.5,373" id="Line-5" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+                <path id="Line-5-decoration-1" d="M489.5,340.5 L483.5,340.5" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+                <path id="Line-5-decoration-2" d="M486.5,373 L489.5,362.2 L483.5,362.2 L486.5,373 Z" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M480.5,112.5 L576.5,112.5" id="Line" stroke="#9B9B9B" stroke-width="3" stroke-linecap="square"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="480.5" cy="112.5" r="9.5"></circle>
+                <circle id="Oval-Copy" fill="#9B9B9B" cx="528.5" cy="112.5" r="9.5"></circle>
+                <circle id="Oval-Copy-2" fill="#9B9B9B" cx="578.5" cy="112.5" r="9.5"></circle>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="291" y="38" width="396" height="36"></rect>
+                <rect id="Rectangle-7" fill="#9B9B9B" x="511" y="291" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#F2F2F2" x="613" y="44" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#F2F2F2" x="536" y="44" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#E4E4E4" x="301" y="45" width="22" height="22" rx="11"></rect>
+                <rect id="Rectangle-16" fill="#F4F3F3" x="312" y="96" width="125" height="221" rx="4"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="466" y="144" width="125" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="466" y="172" width="125" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="466" y="200" width="125" height="20"></rect>
+                <text id="Sign-Up-Page--1" font-family="SFUIDisplay-Black, SF UI Display" font-size="12" font-weight="700" fill="#4A4A4A">
+                    <tspan x="450" y="11">Sign Up Page -1</tspan>
+                </text>
+                <circle id="Oval-Copy-4" fill="#47DFBA" cx="334" cy="267" r="11"></circle>
+                <path d="M334,267 L234,267" id="Line-Copy-2" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-2-decoration-1" d="M234,270 L234,264" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Explain-the-benifits" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="271">Explain the benifits of the product,</tspan>
+                    <tspan x="0" y="287">why you should sign up.</tspan>
+                </text>
+                <circle id="Oval-Copy-5" fill="#47DFBA" cx="614" cy="113" r="11"></circle>
+                <path d="M625,113 L772,113" id="Line-Copy-3" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-3-decoration-1" d="M772,110 L772,116" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Segmented-Sign-up-st" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="780" y="118">Segmented Sign up steps</tspan>
+                </text>
+                <circle id="Oval-Copy-8" fill="#47DFBA" cx="618" cy="181" r="11"></circle>
+                <path d="M629,181 L776,181" id="Line-Copy-6" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-6-decoration-1" d="M776,178 L776,184" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Username/Password" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="784" y="186">Username/Password</tspan>
+                </text>
+                <circle id="Oval-Copy-6" fill="#47DFBA" cx="563" cy="306" r="11"></circle>
+                <path d="M574,306 L721,306" id="Line-Copy-4" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-4-decoration-1" d="M721,303 L721,309" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Next-button" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="729" y="311">Next button</tspan>
+                </text>
+            </g>
+            <g id="Screen-Signup" transform="translate(1257.000000, 531.000000)">
+                <g id="bg" transform="translate(289.000000, 36.000000)">
+                    <g id="Rectangle">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#4A4A4A" stroke-width="2" x="1" y="1" width="398" height="298" rx="4"></rect>
+                    </g>
+                </g>
+                <path d="M480.5,112.5 L576.5,112.5" id="Line" stroke="#9B9B9B" stroke-width="3" stroke-linecap="square"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="480.5" cy="112.5" r="9.5"></circle>
+                <circle id="Oval-Copy" fill="#FFFFFF" cx="528.5" cy="112.5" r="9.5"></circle>
+                <circle id="Oval-Copy-2" fill="#9B9B9B" cx="578.5" cy="112.5" r="9.5"></circle>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="291" y="38" width="396" height="36"></rect>
+                <rect id="Rectangle-7" fill="#9B9B9B" x="465" y="290" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7-Copy" fill="#BAB9BA" x="536" y="290" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#F2F2F2" x="613" y="44" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#F2F2F2" x="536" y="44" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#E4E4E4" x="301" y="45" width="22" height="22" rx="11"></rect>
+                <rect id="Rectangle-16" fill="#F4F3F3" x="312" y="96" width="125" height="221" rx="4"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="466" y="144" width="40" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="508.5" y="144" width="40" height="20"></rect>
+                <rect id="Rectangle-17-Copy-2" fill="#FFFFFF" x="551" y="144" width="40" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="466" y="172" width="65" height="20"></rect>
+                <rect id="Rectangle-17-Copy-3" fill="#FFFFFF" x="536" y="172" width="55" height="20"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="466" y="197" width="50" height="20"></rect>
+                <rect id="Rectangle-17-Copy-3" fill="#FFFFFF" x="524" y="197" width="67" height="20"></rect>
+                <text id="Sign-Up-Page--2" font-family="SFUIDisplay-Black, SF UI Display" font-size="12" font-weight="700" fill="#4A4A4A">
+                    <tspan x="450" y="11">Sign Up Page -2</tspan>
+                </text>
+                <circle id="Oval-Copy-4" fill="#47DFBA" cx="334" cy="267" r="11"></circle>
+                <path d="M334,267 L234,267" id="Line-Copy-2" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-2-decoration-1" d="M234,270 L234,264" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Explain-the-benifits" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="271">Explain the benifits of the product,</tspan>
+                    <tspan x="0" y="287">why you should sign up.</tspan>
+                </text>
+                <circle id="Oval-Copy-5" fill="#47DFBA" cx="612" cy="181" r="11"></circle>
+                <path d="M623,181 L770,181" id="Line-Copy-3" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-3-decoration-1" d="M770,178 L770,184" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Personal/Company-inf" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="778" y="186">Personal/Company info</tspan>
+                </text>
+                <circle id="Oval-Copy-6" fill="#47DFBA" cx="563" cy="306" r="11"></circle>
+                <path d="M574,306 L721,306" id="Line-Copy-4" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-4-decoration-1" d="M721,303 L721,309" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Next-/-Fill-out-late" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="729" y="311">Next / Fill out later</tspan>
+                </text>
+            </g>
+            <g id="Screen-Signup" transform="translate(1257.000000, 755.000000)">
+                <g id="bg" transform="translate(289.000000, 198.000000)">
+                    <g id="Rectangle">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#4A4A4A" stroke-width="2" x="1" y="1" width="398" height="298" rx="4"></rect>
+                    </g>
+                </g>
+                <circle id="Oval-2" stroke="#9B9B9B" stroke-width="3" cx="485.5" cy="324.5" r="19.5"></circle>
+                <path d="M474.536627,318.15176 C473.7942,318.955006 473.835446,320.561497 474.577873,321.343604 L483.631359,330.750034 C484.394409,331.553279 485.920509,331.574417 486.704182,330.813448 L488.147791,329.397199 L491.26186,326.332183 L506.399124,311.535552 C507.182797,310.774583 507.20342,309.210367 506.44037,308.42826 L504.687417,306.58925 C503.924367,305.807143 502.398267,305.807143 501.635217,306.568112 L486.82792,321.724089 C486.06487,322.506197 484.53877,322.485059 483.796343,321.702951 L478.867452,316.608683 C478.125025,315.805437 476.64017,315.826575 475.897743,316.650959 L474.536627,318.15176 L474.536627,318.15176 Z" id="Shape" fill="#9B9B9B"></path>
+                <rect id="Rectangle-7" fill="#9B9B9B" x="470" y="384" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="470" y="354" width="84" height="20"></rect>
+                <path d="M480.5,274.5 L576.5,274.5" id="Line" stroke="#9B9B9B" stroke-width="3" stroke-linecap="square"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="480.5" cy="274.5" r="9.5"></circle>
+                <circle id="Oval-Copy" fill="#FFFFFF" cx="528.5" cy="274.5" r="9.5"></circle>
+                <circle id="Oval-Copy-2" fill="#FFFFFF" cx="578.5" cy="274.5" r="9.5"></circle>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="291" y="200" width="396" height="36"></rect>
+                <rect id="Rectangle-7" fill="#F2F2F2" x="613" y="206" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#F2F2F2" x="536" y="206" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#E4E4E4" x="301" y="207" width="22" height="22" rx="11"></rect>
+                <rect id="Rectangle-16" fill="#F4F3F3" x="312" y="258" width="125" height="221" rx="4"></rect>
+                <text id="Sign-Up-Page--3" font-family="SFUIDisplay-Black, SF UI Display" font-size="12" font-weight="700" fill="#4A4A4A">
+                    <tspan x="450" y="173">Sign Up Page -3</tspan>
+                </text>
+                <rect id="Rectangle" fill="#FFFFFF" x="466" y="0" width="16" height="16"></rect>
+                <circle id="Oval-Copy-4" fill="#47DFBA" cx="334" cy="429" r="11"></circle>
+                <path d="M334,429 L234,429" id="Line-Copy-2" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-2-decoration-1" d="M234,432 L234,426" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Explain-the-benifits" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="433">Explain the benifits of the product,</tspan>
+                    <tspan x="0" y="449">why your should sign up.</tspan>
+                </text>
+                <circle id="Oval-Copy-5" fill="#47DFBA" cx="612" cy="343" r="11"></circle>
+                <path d="M623,343 L770,343" id="Line-Copy-3" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-3-decoration-1" d="M770,340 L770,346" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Email-confirmation" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="778" y="348">Email confirmation</tspan>
+                </text>
+            </g>
+            <g id="Screen-Signup" transform="translate(153.000000, 555.000000)">
+                <g id="bg" transform="translate(208.000000, 36.000000)">
+                    <g id="Rectangle">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <rect stroke="#4A4A4A" stroke-width="2" x="1" y="1" width="398" height="298" rx="4"></rect>
+                    </g>
+                </g>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="210" y="38" width="396" height="36"></rect>
+                <rect id="Rectangle-7" fill="#9B9B9B" x="244" y="164" width="67" height="22" rx="2"></rect>
+                <rect id="Rectangle-7" fill="#E4E4E4" x="220" y="45" width="22" height="22" rx="11"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="244" y="99" width="314" height="6" rx="3"></rect>
+                <rect id="Rectangle-17-Copy" fill="#FFFFFF" x="244" y="115" width="314" height="6" rx="3"></rect>
+                <rect id="Rectangle-17" fill="#FFFFFF" x="244" y="134" width="84" height="20"></rect>
+                <circle id="Oval-Copy-4" fill="#47DFBA" cx="252" cy="138" r="11"></circle>
+                <path d="M252,138 L152,138" id="Line-Copy-2" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-2-decoration-1" d="M152,141 L152,135" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Input-verification-c" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="142">Input verification code</tspan>
+                </text>
+                <circle id="Oval-Copy-7" fill="#47DFBA" cx="252" cy="181" r="11"></circle>
+                <path d="M252,181 L152,181" id="Line-Copy-5" stroke="#47DFBA" stroke-linecap="square"></path>
+                <path id="Line-Copy-5-decoration-1" d="M152,184 L152,178" stroke="#47DFBA" stroke-linecap="square"></path>
+                <text id="Verify-button" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="62" y="185">Verify button</tspan>
+                </text>
+                <text id="Email-Confirmation" font-family="SFUIDisplay-Black, SF UI Display" font-size="12" font-weight="700" fill="#4A4A4A">
+                    <tspan x="351" y="11">Email Confirmation</tspan>
+                </text>
+            </g>
+            <path d="M555.5,482.5 L555.5,545.5" id="Line-5" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-5-decoration-1" d="M558.5,482.5 L552.5,482.5" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-5-decoration-2" d="M555.5,545.5 L558.5,534.7 L552.5,534.7 L555.5,545.5 Z" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+            <text id="Before" font-family="SFProText-Regular, SF Pro Text" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="520" y="107">Before</tspan>
+            </text>
+            <text id="After" font-family="SFProText-Regular, SF Pro Text" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="1708" y="107">After</tspan>
+            </text>
+            <path d="M1743.5,875.5 L1743.5,908" id="Line-5" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-5-decoration-1" d="M1746.5,875.5 L1740.5,875.5" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-5-decoration-2" d="M1743.5,908 L1746.5,897.2 L1740.5,897.2 L1743.5,908 Z" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

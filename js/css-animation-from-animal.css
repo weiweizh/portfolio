@@ -1,0 +1,22 @@
+/*source: http://www.animalmade.com/work/y-series*/
+
+.sprite-menu-drip {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    width: 136px;
+    height: 141px;
+    background-image: url("http://www.animalmade.com/files/css/../images/sprite/sprite-menu-drip.png");
+    animation: drip 5s steps(66) infinite;
+    animation-name: drip;
+    animation-duration: 5s;
+    animation-timing-function: steps(66, end);
+    animation-delay: initial;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}

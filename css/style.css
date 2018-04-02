@@ -37,9 +37,33 @@ header .info p{
   font-weight: 200;
 }
 
+.foot_wraper{
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 50px;
 
+}
 
+.portfolio-content-process-2 .end-of-article p{
+  margin: 0;
+  padding: 0;
+}
 
+.end-of-article .big{
+  font-size: 2em;
+  padding: 5% 0;
+  margin: 0;
+
+}
+
+.end-of-article .foot_text{
+  font-size:1em;
+  color: #4c4c4c;
+  font-weight: 200;
+  padding: 5px 0;
+  margin: 0;
+}
 
 #introduction{
   text-align: left;

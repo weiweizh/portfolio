@@ -993,32 +993,32 @@ xtab-filter
     height:300px;
   }
 
-  .finalDesign-1, .finalDesign-4{
+  .finalDesign-1{
     min-height: 500px;
     background-size: 90% auto;
     background-repeat: no-repeat;
-    background-position: 5vw 25vh;
+    background-position: 5vw 20vh;
   }
 
   .finalDesign-2{
     min-height: 500px;
     background-size: 90% auto;
     background-repeat: no-repeat;
-    background-position: 5vw 35vh;
+    background-position: 5vw 20vh;
   }
 
   .finalDesign-3{
     min-height: 450px;
     background-size: 90% auto;
     background-repeat: no-repeat;
-    background-position: 5vw 35vh;
+    background-position: 5vw 22vh;
   }
 
   .finalDesign-4{
     min-height: 500px;
     background-size: 90% auto;
     background-repeat: no-repeat;
-    background-position: 5vw 35vh;
+    background-position: 5vw 25vh;
   }
 
   .finalDesign-1 .hPadding-1, .finalDesign-2 .hPadding-2,.finalDesign-3 .hPadding-3, .finalDesign-4 .hPadding-4{

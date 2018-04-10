@@ -989,8 +989,8 @@ xtab-filter
     opacity: 1;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
-    height:300px;
+    background-size: 180%;
+    height:200px;
   }
 
   .finalDesign-1{
@@ -1306,6 +1306,22 @@ xtab-filter
     padding-right: 30%;
 
   }
+
+  .portfolio-content-process-2 p, .portfolio-content-header-2 p{
+
+    font-size: 1.4em;
+    padding: 20px 30%;
+  }
+
+  .portfolio-content-header-2 h1, .portfolio-content-process-2 h3, .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
+    font-size: 1.4em;
+    padding: 0px 30%;
+  }
+
+  .process .indent {
+    max-width: 54%;
+    margin-left: 22%;
+}
 
   .projectBg{
     height: 500px;

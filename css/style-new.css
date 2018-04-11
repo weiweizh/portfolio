@@ -103,6 +103,8 @@ ul.link-icons {
 
 /* headers and paragraph in projects - new */
 .portfolio-content-header-2 p, .portfolio-content-process-2 p, .portfolio-content-header-2 h1{
+  font-size:1.4em;
+  line-height: 1.8em;
   padding: 20px 30%;
 }
 .portfolio-content-header-2 h1{
@@ -110,6 +112,7 @@ ul.link-icons {
   margin-bottom: 20px;
   font-weight: 700;
   font-size:1.8em;
+  line-height:1.5em;
 }
 
 .portfolio-content-process-2 h3{
@@ -118,7 +121,7 @@ ul.link-icons {
   font-weight: 700;
   color:#222222;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 1.8em;
 }
 
@@ -377,8 +380,12 @@ Main Components, index page
 .index-header ul li{
   max-width: 3rem;
 }
-.index-header p {
+
+.green{
   color: #48CEB6;
+}
+.index-header p {
+  color: #8395a7;
   font-size: 0.8em;
   line-height: 1.6em;
   text-align: left;
@@ -515,7 +522,7 @@ Main Components, index page
 .caption h3{
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: .6em;
+  font-size: .8em;
 }
 
 .caption p{
@@ -554,7 +561,7 @@ footer{
   font-size: .5em;
 }
 .process h3{
-  font-size:1.8em;
+  font-size:1.4em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 
@@ -927,7 +934,7 @@ xtab-filter
   }
 
   .index-header p{
-    color: #48CEB6;
+
     font-size: .8em;
     line-height: 2.2rem;
     text-align: left;
@@ -975,13 +982,19 @@ xtab-filter
 
   .portfolio-content-process-2 p, .portfolio-content-header-2 p{
 
-    font-size: 1.4em;
+
+
     padding: 20px 5%;
   }
 
-  .portfolio-content-header-2 h1, .portfolio-content-process-2 h3, .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
+   .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
     font-size: 1.4em;
     padding: 0px 5%;
+  }
+
+  .portfolio-content-header-2 h1, .portfolio-content-process-2 h3{
+    padding: 5px 5%;
+
   }
 
   .projectBg{
@@ -1023,10 +1036,12 @@ xtab-filter
 
   .finalDesign-1 .hPadding-1, .finalDesign-2 .hPadding-2,.finalDesign-3 .hPadding-3, .finalDesign-4 .hPadding-4{
     padding:0 0 0 5vw;
+    line-height: 1.2em;
   }
 
   .finalDesign-1 .sPadding-1, .finalDesign-2 .sPadding-2, .finalDesign-3 .sPadding-3, .finalDesign-4 .sPadding-4{
     padding: 0 0 0 5vw;
+    line-height: 1.4em
   }
 
   .foot_wraper {
@@ -1039,6 +1054,11 @@ xtab-filter
 
 }
 
+/* remove hover on mobile devices */
+.tooltip2:hover .tooltiptext-top, .tooltip2:hover .tooltiptext-left, .tooltip2:hover .tooltiptext-right {
+  visibility: hidden;
+}
+
 
 }
 
@@ -1047,6 +1067,7 @@ xtab-filter
 
 /* width 640 - 1007 */
 @media only screen and (min-width: 641px){
+
 
   .end-of-article .big{
     font-size: 1.4em;
@@ -1093,14 +1114,16 @@ xtab-filter
     }
 
     .portfolio-content-process-2 p, .portfolio-content-header-2 p{
-
-      font-size: 1.4em;
       padding: 20px 15%;
     }
 
-    .portfolio-content-header-2 h1, .portfolio-content-process-2 h3, .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
-      font-size: 1.4em;
+    .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
+
       padding: 0px 15%;
+    }
+
+    .portfolio-content-header-2 h1, .portfolio-content-process-2 h3{
+      padding: 5px 15%;
     }
 
    .flow{
@@ -1172,14 +1195,16 @@ xtab-filter
     }
 
     .portfolio-content-process-2 p, .portfolio-content-header-2 p{
-
-      font-size: 1.4em;
       padding: 20px 20%;
     }
 
-    .portfolio-content-header-2 h1, .portfolio-content-process-2 h3, .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
-      font-size: 1.4em;
+    .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
+
       padding: 0px 20%;
+    }
+
+    .portfolio-content-header-2 h1, .portfolio-content-process-2 h3{
+      padding: 5px 20%;
     }
 
     .flow{
@@ -1308,14 +1333,16 @@ xtab-filter
   }
 
   .portfolio-content-process-2 p, .portfolio-content-header-2 p{
-
-    font-size: 1.4em;
     padding: 20px 30%;
   }
 
-  .portfolio-content-header-2 h1, .portfolio-content-process-2 h3, .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
+  .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
     font-size: 1.4em;
     padding: 0px 30%;
+  }
+
+  .portfolio-content-header-2 h1, .portfolio-content-process-2 h3{
+    padding: 5px 30%;
   }
 
   .process .indent {

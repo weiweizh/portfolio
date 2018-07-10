@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="820px" height="470px" viewBox="0 0 820 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>UserFlows-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UserFlows-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(74.000000, 107.000000)">
+            <rect id="Rectangle" fill="#E4E4E4" x="0" y="0" width="323" height="60" rx="2"></rect>
+            <text id="Group-Values-of-Same" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#4A4A4A">
+                <tspan x="21" y="37">Group Values of Same Meanings</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(40.000000, 250.000000)">
+            <rect id="Rectangle" fill="#E4E4E4" x="0" y="0" width="390" height="60" rx="2"></rect>
+            <text id="Decide-Primary-Value" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#4A4A4A">
+                <tspan x="19" y="35">Decide Primary Values for the 2 Groups</tspan>
+            </text>
+        </g>
+        <path d="M240,215 L246,215 L235,228 L224,215 L230,215 L230,181 L240,181 L240,215 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+        <text id="•-Values-which-don’t" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#4A4A4A">
+            <tspan x="82" y="339">	• 	Values which don’t fell into the </tspan>
+            <tspan x="118" y="363">2 groups will be deleted</tspan>
+        </text>
+        <g id="Graph" transform="translate(530.000000, 114.000000)">
+            <path d="M117,101 L123,101 L112,114 L101,101 L107,101 L107,67 L117,67 L117,101 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+            <circle id="Oval" fill="#E4E4E4" cx="10" cy="10" r="10"></circle>
+            <circle id="Oval" fill="#E4E4E4" cx="35" cy="35" r="10"></circle>
+            <circle id="Oval" fill="#E4E4E4" cx="10" cy="35" r="10"></circle>
+            <circle id="Oval" fill="#E4E4E4" cx="99" cy="10" r="10"></circle>
+            <circle id="Oval" fill="#E4E4E4" cx="99" cy="35" r="10"></circle>
+            <circle id="Oval" fill="#E4E4E4" cx="123" cy="35" r="10"></circle>
+            <circle id="Oval" fill="#E4E4E4" cx="148" cy="35" r="10"></circle>
+            <circle id="Oval" fill="#E4E4E4" cx="218" cy="35" r="10"></circle>
+            <circle id="Oval" fill="#A9E0C2" cx="10" cy="146" r="10"></circle>
+            <circle id="Oval" fill="#D6F1E2" cx="35" cy="171" r="10"></circle>
+            <circle id="Oval" fill="#D6F1E2" cx="10" cy="171" r="10"></circle>
+            <circle id="Oval" fill="#D9AEF6" cx="99" cy="146" r="10"></circle>
+            <circle id="Oval" fill="#EDD9FB" cx="99" cy="171" r="10"></circle>
+            <circle id="Oval" fill="#EDD9FB" cx="123" cy="171" r="10"></circle>
+            <circle id="Oval" fill="#EDD9FB" cx="148" cy="171" r="10"></circle>
+            <circle id="Oval" fill="#E4E4E4" cx="218" cy="171" r="10"></circle>
+            <g id="iconTrashBin" transform="translate(209.000000, 140.000000)">
+                <g>
+                    <rect id="Rectangle-1178" fill="#4A4A4A" x="4" y="0" width="7.5" height="2"></rect>
+                    <rect id="Rectangle-1178-Copy" fill="#4A4A4A" x="0" y="2" width="15" height="2"></rect>
+                    <path d="M2.43967015,3.00082993 L3.44327174,15.4010359 C3.4473498,15.4339842 3.52911422,15.5 3.61665529,15.5 L11.3835575,15.5 C11.4743583,15.5 11.5524583,15.4372342 11.5547836,15.4221018 L12.5593746,3.02031746 C12.5555157,3.0503749 12.4846663,3 12.3297772,3 L2.67038761,3 C2.51260345,3 2.44513762,3.04694499 2.43967015,3.00082993 Z M12.5593746,3.02031746 L12.5595236,3.01847783 C12.559499,3.0191219 12.5594494,3.01973479 12.5593746,3.02031745 Z" id="Rectangle-1180" stroke="#4A4A4A"></path>
+                    <path d="M7.75,5.75 L7.75,13.75" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+                    <path d="M5.75,5.75 L5.75,13.75" id="Line-Copy" stroke="#4A4A4A" stroke-linecap="square"></path>
+                    <path d="M9.75,5.75 L9.75,13.75" id="Line-Copy-2" stroke="#4A4A4A" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

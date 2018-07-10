@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="820px" height="470px" viewBox="0 0 820 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>UserFlows-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UserFlows-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#E4E4E4" x="90" y="107" width="280" height="60" rx="2"></rect>
+        <rect id="Rectangle" fill="#E4E4E4" x="55" y="250" width="360" height="60" rx="2"></rect>
+        <text id="Select-Two-Primary-V" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#4A4A4A">
+            <tspan x="116" y="144">Select Two Primary Values</tspan>
+        </text>
+        <text id="Decide-What-to-Do-wi" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#4A4A4A">
+            <tspan x="74" y="285">Decide What to Do with Other Values</tspan>
+        </text>
+        <path d="M228,215 L234,215 L223,228 L212,215 L218,215 L218,181 L228,181 L228,215 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+        <path d="M655,215 L661,215 L650,228 L639,215 L645,215 L645,181 L655,181 L655,215 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+        <text id="Replace-with-primary" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#4A4A4A">
+            <tspan x="68" y="339">	• 	Replace with primary value 1</tspan>
+            <tspan x="68" y="363">	• 	Replace with primary value 2</tspan>
+            <tspan x="68" y="387">	• 	Delete the value</tspan>
+        </text>
+        <circle id="Oval" fill="#E4E4E4" cx="567" cy="129" r="10"></circle>
+        <circle id="Oval" fill="#E4E4E4" cx="590" cy="129" r="10"></circle>
+        <circle id="Oval" fill="#A9E0C2" cx="613" cy="129" r="10"></circle>
+        <circle id="Oval" fill="#E4E4E4" cx="636" cy="129" r="10"></circle>
+        <circle id="Oval" fill="#E4E4E4" cx="659" cy="129" r="10"></circle>
+        <circle id="Oval" fill="#D9AEF6" cx="682" cy="129" r="10"></circle>
+        <circle id="Oval" fill="#E4E4E4" cx="706" cy="129" r="10"></circle>
+        <circle id="Oval" fill="#E4E4E4" cx="730" cy="129" r="10"></circle>
+        <circle id="Oval" fill="#D6F1E2" cx="544" cy="299" r="10"></circle>
+        <circle id="Oval" fill="#D6F1E2" cx="567" cy="299" r="10"></circle>
+        <circle id="Oval" fill="#A9E0C2" cx="544" cy="268" r="10"></circle>
+        <circle id="Oval" fill="#EDD9FB" cx="641" cy="299" r="10"></circle>
+        <circle id="Oval" fill="#EDD9FB" cx="664" cy="299" r="10"></circle>
+        <circle id="Oval" fill="#D9AEF6" cx="640" cy="268" r="10"></circle>
+        <circle id="Oval" fill="#EDD9FB" cx="687" cy="299" r="10"></circle>
+        <circle id="Oval" fill="#E4E4E4" cx="754" cy="299" r="10"></circle>
+        <g id="iconTrashBin" transform="translate(745.000000, 263.000000)">
+            <g>
+                <rect id="Rectangle-1178" fill="#4A4A4A" x="4" y="0" width="7.5" height="2"></rect>
+                <rect id="Rectangle-1178-Copy" fill="#4A4A4A" x="0" y="2" width="15" height="2"></rect>
+                <path d="M2.43967015,3.00082993 L3.44327174,15.4010359 C3.4473498,15.4339842 3.52911422,15.5 3.61665529,15.5 L11.3835575,15.5 C11.4743583,15.5 11.5524583,15.4372342 11.5547836,15.4221018 L12.5593746,3.02031746 C12.5555157,3.0503749 12.4846663,3 12.3297772,3 L2.67038761,3 C2.51260345,3 2.44513762,3.04694499 2.43967015,3.00082993 Z M12.5593746,3.02031746 L12.5595236,3.01847783 C12.559499,3.0191219 12.5594494,3.01973479 12.5593746,3.02031745 Z" id="Rectangle-1180" stroke="#4A4A4A"></path>
+                <path d="M7.75,5.75 L7.75,13.75" id="Line" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M5.75,5.75 L5.75,13.75" id="Line-Copy" stroke="#4A4A4A" stroke-linecap="square"></path>
+                <path d="M9.75,5.75 L9.75,13.75" id="Line-Copy-2" stroke="#4A4A4A" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

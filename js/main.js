@@ -1,18 +1,21 @@
 /* intercom scripts
-*/  window.intercomSettings = {
+  window.intercomSettings = {
     app_id: "fex7h07a"
   };
 
-(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/fex7h07a';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/fex7h07a';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()*/
+
 
 
 
 jQuery(document).ready(function($){
 
 	$('.index-filter-trigger').on('click', function(){
+    console.log("trigger filter true");
 		triggerFilter(true);
 	});
 	$('.index-filter .index-close').on('click', function(){
+    console.log("trigger filter false");
 		triggerFilter(false);
 	});
 
@@ -98,7 +101,7 @@ jQuery(document).ready(function($){
 	    }
 	});
 
-
+/*
 	//search filtering
 	//credits http://codepen.io/edprats/pen/pzAdg
 	var inputText;
@@ -110,7 +113,8 @@ jQuery(document).ready(function($){
 			clearTimeout (timer);
 		    timer = setTimeout(callback, ms);
 		};
-	})();
+	})();*/
+
 
 	$(".index-filter-content input[type='search']").keyup(function(){
 	  	// Delay function invoked to make sure user stopped typing
@@ -118,6 +122,7 @@ jQuery(document).ready(function($){
 	    	inputText = $(".index-filter-content input[type='search']").val().toLowerCase();
 	   		// Check to see if input field is empty
 	    	if ((inputText.length) > 0) {
+          console.log("I am here 1")
 	      		$('.mix').each(function() {
 		        	var $this = $(this);
 
@@ -131,12 +136,14 @@ jQuery(document).ready(function($){
 	      		});
 	      		$('.index-gallery ul').mixItUp('filter', $matching);
 	    	} else {
+          console.log("I am here")
 	      		// resets the filter to show all item if input is empty
-	      		$('.index-gallery ul').mixItUp('filter', 'all');
+	      		$('.index-gallery ul').mixItUp('filter', 'work');
 	    	}
 	  	}, 200 );
 	});
 });
+
 
 
 /*****************************************************
@@ -168,6 +175,18 @@ var buttonFilter = {
 	    });
 
 	    self.bindHandlers();
+
+      let interval = 10
+      window.setTimeout(function() {
+        if(self.$container.mixItUp('isLoaded')){
+          console.log("init mixItUp")
+    	    self.$container.mixItUp('filter', '.work');
+    		}
+        else {
+            window.setTimeout(arguments.callee, interval);
+        }
+      }, interval);
+
   	},
 
   	// The "bindHandlers" method will listen for whenever a button is clicked.
@@ -175,16 +194,17 @@ var buttonFilter = {
     	var self = this;
 
     	self.$filters.on('click', 'a', function(e){
+        console.log("parseFilters: click")
 	      	self.parseFilters();
     	});
 	    self.$filters.on('change', function(){
+        console.log("parseFilters: change")
 	      self.parseFilters();
 	    });
   	},
 
   	parseFilters: function(){
 	    var self = this;
-
 	    // loop through each filter group and grap the active filter from each one.
 	    for(var i = 0, group; group = self.groups[i]; i++){
 	    	group.active = [];
@@ -213,6 +233,7 @@ var buttonFilter = {
 	      	self.outputString += group.active;
 	    }
 
+      console.log("concatenate:" + self.outputString)
 	    // If the output string is empty, show all rather than none:
 	    !self.outputString.length && (self.outputString = 'all');
 

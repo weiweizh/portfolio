@@ -90,7 +90,7 @@ ul.link-icons {
   display: block;
   color: #a5b1c2;
   text-align: center;
-  padding: 16px;
+  padding: 0px 16px;
   text-decoration: none;
 }
 
@@ -377,10 +377,11 @@ Main Components, index page
 
 }
 
+/*
 .index-header ul li{
   max-width: 3rem;
 }
-
+*/
 .green{
   color: #48CEB6;
 }
@@ -392,7 +393,7 @@ Main Components, index page
   font-family: 'Open Sans',sans-serif;
   font-style: normal;
   font-weight: 400;
-  padding: 0px 7%;
+  padding: 16px 7%;
 
 }
 
@@ -555,6 +556,18 @@ footer{
   z-index: 555;
 }
 
+/* look of the tooltip of social icons */
+.tooltip .tooltip-inner {
+  background-color: #4b6584;
+  margin-top: 0px;
+}
+
+.tooltip .tooltip-arrow{
+  border-bottom: 5px solid #4b6584;
+
+
+}
+
 
 
 .copyright{
@@ -706,7 +719,14 @@ xtab-filter
   clear: both;
 }
 
+
+
 @media only screen and (max-width: 640px){
+
+  .index-header ul li{
+    max-width: 3rem;
+  }
+
   .index-tab-filter {
     /* tabbed navigation style on mobile - dropdown */
     position: relative;
@@ -714,6 +734,7 @@ xtab-filter
     width: 60vw;
     margin: 0 auto;
     z-index: 1;
+
   }
   .index-tab-filter::after {
     /* small arrow icon */
@@ -790,7 +811,183 @@ xtab-filter
   }
 
   /*index-tab-filter for mobile end */
+
+  /* project page for mobile */
+  .end-of-article .big{
+    font-size: 1em;
+  }
+  .content-nav-wrapper{
+      height: 20px;
+      width: 100%;
+
+      padding-bottom: 60px;
+      position: fixed;
+      bottom: 0px;
+    }
+
+  .content-nav ul li {
+        display: inline-block;
+        padding: 20px 10%;
+      }
+
+  .content-nav ul li a {
+      color: #a5b1c2;
+      text-decoration: none;
+    }
+
+    #More{
+      visibility: hidden;
+
+    }
+
+    .index-header p{
+      font-size: .8em;
+      line-height: 1.6em;
+    }
+
+    /* Index page */
+    .upButton{
+      position: fixed;
+    /*  display: none;*/
+      left: 90%;
+      bottom: 10%;
+      z-index:3;
+      font-size:1rem;
+
+    }
+
+    .index-main-content .index-gallery {
+      padding: 100px 12%;
+    }
+
+    .index-header p{
+
+      font-size: .8em;
+      line-height: 2.2rem;
+      text-align: left;
+      font-family: 'Open Sans',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      padding: 16px 12%;
+    }
+
+    /* Mobile version in project page, roomie */
+
+
+    #prototypeContainer, #interfaceContainer{
+      max-height:90vh;
+      max-width: 80vw;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    #More{
+      visibility: hidden;
+    }
+
+    .portfolio-content-header, .portfolio-content-process{
+      padding: 0px 2%;
+    }
+
+
+    .portfolio-content-header-2 .intro, .portfolio-content-header-2 .info, .portfolio-content-process-2{
+
+      padding: 0px 2%;
+
+    }
+    .process h3, .process h2{
+      margin-left:0;
+      margin-right:0;
+    }
+
+
+
+    .portfolio-content-process p, .portfolio-content-header p, .portfolio-content-header h1, .portfolio-content-process h3, .portfolio-content-header .info p,.portfolio-content-header .intro p{
+
+      font-size: 1em;
+      padding: 0;
+    }
+
+    .portfolio-content-process-2 p, .portfolio-content-header-2 p{
+
+
+
+      padding: 20px 5%;
+    }
+
+     .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
+      font-size: 1.4em;
+      padding: 0px 5%;
+    }
+
+    .portfolio-content-header-2 h1, .portfolio-content-process-2 h3{
+      padding: 5px 5%;
+
+    }
+
+    .projectBg{
+      position: relative;
+      opacity: 1;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: 180%;
+      height:200px;
+    }
+
+    .finalDesign-1{
+      min-height: 500px;
+      background-size: 90% auto;
+      background-repeat: no-repeat;
+      background-position: 5vw 25vh;
+    }
+
+    .finalDesign-2{
+      min-height: 500px;
+      background-size: 90% auto;
+      background-repeat: no-repeat;
+      background-position: 5vw 30vh;
+    }
+
+    .finalDesign-3{
+      min-height: 450px;
+      background-size: 90% auto;
+      background-repeat: no-repeat;
+      background-position: 5vw 30vh;
+    }
+
+    .finalDesign-4{
+      min-height: 500px;
+      background-size: 90% auto;
+      background-repeat: no-repeat;
+      background-position: 5vw 33vh;
+    }
+
+    .finalDesign-1 .hPadding-1, .finalDesign-2 .hPadding-2,.finalDesign-3 .hPadding-3, .finalDesign-4 .hPadding-4{
+      padding:0 0 0 5vw;
+      line-height: 1.2em;
+    }
+
+    .finalDesign-1 .sPadding-1, .finalDesign-2 .sPadding-2, .finalDesign-3 .sPadding-3, .finalDesign-4 .sPadding-4{
+      padding: 0 0 0 5vw;
+      line-height: 1.4em
+    }
+
+    .foot_wraper {
+      width:100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+      padding: 0 2vw 5vh 2vw;
+
+
+  }
+
+  /* remove hover on mobile devices */
+  .tooltip2:hover .tooltiptext-top, .tooltip2:hover .tooltiptext-left, .tooltip2:hover .tooltiptext-right, .tooltip {
+    visibility: hidden;
+  }
+
 }
+/* max-width 640px finish */
 
 /*carousel*/
 
@@ -814,7 +1011,9 @@ xtab-filter
 }
 
 
-@media only screen and (min-width: 640px) {
+
+
+@media only screen and (min-width: 641px) {
   .index-tab-filter {
     /* tabbed navigation style on medium devices */
     width: auto;
@@ -865,242 +1064,47 @@ xtab-filter
   .index-filters{
     height:80px;
   }
-}
-
-@media only screen and (min-width: 1007px) {
-  .index-tab-filter {
-    /* tabbed navigation on big devices */
-    width: 100%;
-    float: right;
-    margin: 0;
-    -webkit-transition: width 0.3s;
-    -moz-transition: width 0.3s;
-    transition: width 0.3s;
-    height:60px;
-  }
-  .index-tab-filter.filter-is-visible {
-    /* reduce width when filter is visible */
-    width: 80%;
-  }
-
-  .index-tab-filter a {
-    display: inline-block;
-    padding: 5px 1em;
-    width: auto;
-    color: #8395a7;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .6em;
-    height: 55px;
-  }
-}
 
 
 
-@media only screen and (max-width: 640px){
-  /* screens for mobile */
-/* bottom nav */
-
-.end-of-article .big{
-  font-size: 1em;
-}
-.content-nav-wrapper{
-    height: 20px;
-    width: 100%;
-
-    padding-bottom: 60px;
-    position: fixed;
-    bottom: 0px;
-  }
-
-.content-nav ul li {
-      display: inline-block;
-      padding: 20px 10%;
+  .index-main-content .index-gallery {
+      padding: 100px 12%;
     }
 
-.content-nav ul li a {
-    color: #a5b1c2;
-    text-decoration: none;}
-
-  #More{
-    visibility: hidden;
-
-  }
-
-  .index-header p{
-    font-size: .8em;
-    line-height: 1.6em;
-  }
-
-  /* Index page */
-  .upButton{
-    position: fixed;
-  /*  display: none;*/
-    left: 90%;
-    bottom: 10%;
-    z-index:3;
-    font-size:1rem;
-
-  }
-
-  .index-main-content .index-gallery {
-    padding: 100px 12%;
-  }
-
-  .index-header p{
-
-    font-size: .8em;
-    line-height: 2.2rem;
-    text-align: left;
-    font-family: 'Open Sans',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    padding: 0px 12%;
-  }
-
-  /* project page */
-
-
-  #prototypeContainer, #interfaceContainer{
-    max-height:90vh;
-    max-width: 80vw;
-    margin-left:auto;
-    margin-right:auto;
-  }
-  #More{
-    visibility: hidden;
-  }
-
-  .portfolio-content-header, .portfolio-content-process{
-    padding: 0px 2%;
-  }
-
-
-  .portfolio-content-header-2 .intro, .portfolio-content-header-2 .info, .portfolio-content-process-2{
-
-    padding: 0px 2%;
-
-  }
-  .process h3, .process h2{
-    margin-left:0;
-    margin-right:0;
-  }
-
-
-
-  .portfolio-content-process p, .portfolio-content-header p, .portfolio-content-header h1, .portfolio-content-process h3, .portfolio-content-header .info p,.portfolio-content-header .intro p{
-
-    font-size: 1em;
-    padding: 0;
-  }
-
-  .portfolio-content-process-2 p, .portfolio-content-header-2 p{
-
-
-
-    padding: 20px 5%;
-  }
-
-   .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
-    font-size: 1.4em;
-    padding: 0px 5%;
-  }
-
-  .portfolio-content-header-2 h1, .portfolio-content-process-2 h3{
-    padding: 5px 5%;
-
-  }
-
-  .projectBg{
-    position: relative;
-    opacity: 1;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 180%;
-    height:200px;
-  }
-
-  .finalDesign-1{
-    min-height: 500px;
-    background-size: 90% auto;
-    background-repeat: no-repeat;
-    background-position: 5vw 25vh;
-  }
-
-  .finalDesign-2{
-    min-height: 500px;
-    background-size: 90% auto;
-    background-repeat: no-repeat;
-    background-position: 5vw 30vh;
-  }
-
-  .finalDesign-3{
-    min-height: 450px;
-    background-size: 90% auto;
-    background-repeat: no-repeat;
-    background-position: 5vw 30vh;
-  }
-
-  .finalDesign-4{
-    min-height: 500px;
-    background-size: 90% auto;
-    background-repeat: no-repeat;
-    background-position: 5vw 33vh;
-  }
-
-  .finalDesign-1 .hPadding-1, .finalDesign-2 .hPadding-2,.finalDesign-3 .hPadding-3, .finalDesign-4 .hPadding-4{
-    padding:0 0 0 5vw;
-    line-height: 1.2em;
-  }
-
-  .finalDesign-1 .sPadding-1, .finalDesign-2 .sPadding-2, .finalDesign-3 .sPadding-3, .finalDesign-4 .sPadding-4{
-    padding: 0 0 0 5vw;
-    line-height: 1.4em
-  }
-
-  .foot_wraper {
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    padding: 0 2vw 5vh 2vw;
-
-
-}
-
-/* remove hover on mobile devices */
-.tooltip2:hover .tooltiptext-top, .tooltip2:hover .tooltiptext-left, .tooltip2:hover .tooltiptext-right {
-  visibility: hidden;
-}
-
-
-}
-
-/* max-width 640px finish */
-
-
-/* width 640 - 1007 */
-@media only screen and (min-width: 641px){
-
-
-  .end-of-article .big{
-    font-size: 1.4em;
-  }
-  .index-main-content .index-gallery {
-    padding: 100px 0;
-  }
   .index-main-content{
 
     padding: 20px 0;}
 
   .index-header p{
 
-      padding:0 20%;
+      padding:16px 20%;
     }
 
-  .index-main-content .index-gallery {
-      padding: 100px 12%;
+.index-gallery {
+
+      -webkit-transition: width 0.5s;
+      -moz-transition: width 0.5s;
+      transition: width 0.5s;
+      transition-timing-function: ease;
+
     }
+    .index-gallery h3{
+      text-align: left;
+    }
+    .index-gallery ul {
+      text-align: justify;
+    }
+    .index-gallery ul:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .index-gallery li {
+      width: 48%;
+      margin-bottom: 2em;
+    }
+
+    /*portfolio content header for each project */
   .portfolio-content-header-2, .portfolio-content-process-2{
       padding: 20px 0%;
     }
@@ -1155,6 +1159,11 @@ xtab-filter
      margin-top:20vh;
    }
 
+   .end-of-article .big{
+     font-size: 1.4em;
+   }
+
+/* Style for Roomie project */
  .projectBg{
 
       height:250px;
@@ -1187,6 +1196,7 @@ xtab-filter
       padding: 0 5vw 8vh 5vw;
   }
 }
+
 /* width 640 - 1007 finish */
 
 @media only screen and (min-width: 812px){
@@ -1195,10 +1205,94 @@ xtab-filter
   }
 }
 
+
 /* width >=1007 */
-@media only screen and (min-width:1008px){
+@media only screen and (min-width:1007px){
 
 
+
+
+/* Style of index page */
+  .index-tab-filter {
+    /* tabbed navigation on big devices */
+    width: 100%;
+    float: right;
+    margin: 0;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+    height:60px;
+  }
+  .index-tab-filter.filter-is-visible {
+    /* reduce width when filter is visible */
+    width: 80%;
+  }
+
+  .index-tab-filter a {
+    display: inline-block;
+    padding: 5px 1em;
+    width: auto;
+    color: #8395a7;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .6em;
+    height: 55px;
+  }
+
+  .index-header {
+    height: 500px;
+
+  }
+
+  .index-header p {
+    font-size: .8em;
+    line-height: 1.6em;
+    padding-left: 25%;
+    padding-right: 20%;
+
+    text-align: left;
+    /*max-width: 80rem;*/
+  }
+
+
+  .caption p{
+    font-size:  .5em;
+  }
+
+  .index-main-content.is-fixed .index-filter {
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .index-main-content.is-fixed .index-filter form {
+    height: 100vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .index-main-content.is-fixed .index-filter-trigger {
+    position: fixed;
+  }
+
+  .index-gallery {
+    /*  padding: 50px 0%;*/
+    float: right;
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    transition: width 0.5s;
+    transition-timing-function: ease;
+  }
+  .index-gallery li {
+    width: 32%;
+  }
+  .index-gallery.filter-is-visible {
+    /* reduce width when filter is visible */
+    width: 80%;
+  }
+
+
+
+
+/* look for headers in each project page */
 
 .portfolio-content-header-2, .portfolio-content-process-2{
       padding: 20px 0%;
@@ -1241,6 +1335,7 @@ xtab-filter
       height:400px;
     }
 
+/* Style for roomie project page */
 
 .finalDesign-1,  .finalDesign-4{
     min-height: 600px;
@@ -1289,40 +1384,6 @@ xtab-filter
     padding-top: 18vh;
   }
 
-  .index-header {
-    height: 500px;
-
-  }
-
-  .index-header p {
-    font-size: .8em;
-    line-height: 1.6em;
-    padding-left: 25%;
-    padding-right: 20%;
-
-    text-align: left;
-    /*max-width: 80rem;*/
-  }
-
-
-  .caption p{
-    font-size:  .5em;
-  }
-
-  .index-main-content.is-fixed .index-filter {
-    position: fixed;
-    height: 100vh;
-    overflow: hidden;
-  }
-  .index-main-content.is-fixed .index-filter form {
-    height: 100vh;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .index-main-content.is-fixed .index-filter-trigger {
-    position: fixed;
-  }
-
 
   .portfolio-content-process {
     padding: 20px 30%;
@@ -1339,12 +1400,96 @@ xtab-filter
   }
 }
 
+/* width >=1007 end */
+
+/* width >= 1170 for index filter */
+
+@media only screen and (min-width: 1170px) {
+  .index-filter {
+    width: 20%;
+  }
+  .index-filter form {
+    padding: 70px 10%;
+  }
+
+  .index-filter-trigger {
+    width: auto;
+    left: 2%;
+    text-indent: 0;
+    color: #9a9a9a;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-left: 24px;
+    background-position: left center;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .no-touch .index-filter-trigger:hover {
+    color: #48CEB6;
+  }
+  .index-filter-trigger.filter-is-visible, .index-filter-trigger.filter-is-visible:hover {
+    color: #ffffff;
+  }
+}
+
+.index-filter-trigger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  line-height: 50px;
+  width: 60px;
+  /* image replacement */
+  overflow: hidden;
+  text-indent: 100%;
+  color: transparent;
+  white-space: nowrap;
+  background: transparent url("../img/cd-icon-filter.svg") no-repeat center center;
+  z-index: 3;
+}
+.index-filter-trigger.filter-is-visible {
+  pointer-events: none;
+}
+
+/* content-nav-footer for social network icon */
+.content-nav-wrapper{
+
+  height: 60px;
+  width: 100%;
+  padding-bottom:60px;
+  position: fixed;
+  bottom:0px;
+}
+
+.content-nav ul li{
+  display: inline-block;
+  padding: 20px 10%;
+}
+
+.content-nav ul li a{
+  color:#a5b1c2;
+  text-decoration: none;
+}
+
+.content-nav ul li a:hover{
+  color:#4b6584;
+  text-decoration: none;
+}
+/* width = 1170 for filters end */
+
+/* width >= 1281 px */
 @media only screen and (min-width: 1281px){
+
+  /*home page */
   .index-header p{
     padding-left: 30%;
     padding-right: 30%;
 
   }
+
+  /* each project page */
 
   .portfolio-content-process-2 p, .portfolio-content-header-2 p{
     padding: 20px 30%;
@@ -1368,6 +1513,7 @@ xtab-filter
     height: 500px;
   }
 
+/* roomie project */
   .finalDesign-1,  .finalDesign-4{
       min-height: 650px;
       background-size: 45% auto;
@@ -1398,10 +1544,17 @@ xtab-filter
 
 }
 
+/* width >= 1281 px end */
+
+/* width >= 1600 px */
 @media only screen and (min-width: 1600px){
+
+  /* each project page */
   .projectBg{
     height: 600px;
   }
+
+  /* roomie project */
 
   .finalDesign-1,  .finalDesign-4{
       min-height: 700px;
@@ -1430,7 +1583,7 @@ xtab-filter
     }
 }
 
-
+/* width >= 1600 px end */
 
 
 /* --------------------------------
@@ -1468,48 +1621,7 @@ xgallery
 }
 
 
-@media only screen and (min-width: 641px) {
-  .index-gallery {
-      padding: 26px 0%;
-    -webkit-transition: width 0.5s;
-    -moz-transition: width 0.5s;
-    transition: width 0.5s;
-    transition-timing-function: ease;
 
-  }
-  .index-gallery h3{
-    text-align: left;
-  }
-  .index-gallery ul {
-    text-align: justify;
-  }
-  .index-gallery ul:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .index-gallery li {
-    width: 48%;
-    margin-bottom: 2em;
-  }
-}
-@media only screen and (min-width: 1007px) {
-  .index-gallery {
-    /*  padding: 50px 0%;*/
-    float: right;
-    -webkit-transition: width 0.5s;
-    -moz-transition: width 0.5s;
-    transition: width 0.5s;
-    transition-timing-function: ease;
-  }
-  .index-gallery li {
-    width: 32%;
-  }
-  .index-gallery.filter-is-visible {
-    /* reduce width when filter is visible */
-    width: 80%;
-  }
-}
 
 /* --------------------------------
 
@@ -1587,84 +1699,7 @@ xfilter
 .index-filter.filter-is-visible .index-close {
   opacity: 1;
 }
-@media only screen and (min-width: 1170px) {
-  .index-filter {
-    width: 20%;
-  }
-  .index-filter form {
-    padding: 70px 10%;
-  }
 
-  .index-filter-trigger {
-    width: auto;
-    left: 2%;
-    text-indent: 0;
-    color: #9a9a9a;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    font-weight: 700;
-    padding-left: 24px;
-    background-position: left center;
-    -webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
-    transition: color 0.3s;
-  }
-  .no-touch .index-filter-trigger:hover {
-    color: #48CEB6;
-  }
-  .index-filter-trigger.filter-is-visible, .index-filter-trigger.filter-is-visible:hover {
-    color: #ffffff;
-  }
-}
-
-.index-filter-trigger {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 50px;
-  line-height: 50px;
-  width: 60px;
-  /* image replacement */
-  overflow: hidden;
-  text-indent: 100%;
-  color: transparent;
-  white-space: nowrap;
-  background: transparent url("../img/cd-icon-filter.svg") no-repeat center center;
-  z-index: 3;
-}
-.index-filter-trigger.filter-is-visible {
-  pointer-events: none;
-}
-
-
-
-
-
-
-/* content-nav-footer for social network icon */
-.content-nav-wrapper{
-
-  height: 60px;
-  width: 100%;
-  padding-bottom:60px;
-  position: fixed;
-  bottom:0px;
-}
-
-.content-nav ul li{
-  display: inline-block;
-  padding: 20px 10%;
-}
-
-.content-nav ul li a{
-  color:#a5b1c2;
-  text-decoration: none;
-}
-
-.content-nav ul li a:hover{
-  color:#4b6584;
-  text-decoration: none;
-}
 
 /* ----------------------- */
 /* portfolio content page */
@@ -1683,151 +1718,4 @@ xfilter
 
 .dotted{
   border-bottom: 1px dotted white;
-}
-
-/* --------------------------------------------------------- */
-/* style for the accordion of process part in portfolio page */
-/* --------------------------------------------------------- */
-
-/*hello world*/
-
-.transition, p, img, h4, iframe, row, .process-steps i:before, .process-steps i:after {
-  transition: all 0.25s ease-in-out;
-}
-
-.big{
-  font-size: 1.8em;
-
-}
-
-h3 {
-  /* text-transform: uppercase; */
-  font-size: 1.8em;
-  /*
-  line-height: 34px;
-  letter-spacing: 3px;
-  */
-  font-weight: 700;
-}
-
-h4 {
-  /*font-size: 20px;*/
-  font-size: 1.8em;
-  font-weight: 700;
-  /*
-  line-height: 25px;
-  font-weight: 300;
-  */
-  letter-spacing: 1px;
-  display: block;
-  margin: 0;
-  cursor: pointer;
-}
-
-.process-steps {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  padding-bottom: 4px;
-  padding-top: 18px;
-  border-top: 1px dotted #dce7eb;
-  height: auto;
-}
-
-.portfolio-content-proecss-2 .process .img{
-  padding: 0 5%;
-}
-
-.process-steps p {
-  /*  color: rgba(48, 69, 92, 0.8); */
-  /*  font-size: 16px;
-
-  line-height: 26px;
-  letter-spacing: 1px;*/
-
-  position: relative;
-  overflow: auto;
-  max-height: 2000px;
-  opacity: 1;
-  transform: translate(0, 0);
-  margin-top: 14px;
-  z-index: 2;
-}
-
-/* the nth-of-type defines the transition time of the nth element: for example, the paragraph under tittle appeared 0.72s after the box is unchecked */
-.process-steps:nth-of-type(1) {
-  animation-delay: 0.5s;
-}
-.process-steps:nth-of-type(2) {
-  animation-delay: 0.75s;
-}
-.process-steps:nth-of-type(3) {
-  animation-delay: 1s;
-}
-.process-steps:nth-of-type(4) {
-  animation-delay: 1.25s;
-}
-.process-steps:nth-of-type(5) {
-  animation-delay: 1.5s;
-}
-.process-steps:last-of-type {
-  padding-top: 18px;
-  padding-bottom: 20px;
-}
-
-
-/* the basic position and outlook of the accordion */
-.process-steps i {
-  position: absolute;
-  transform: translate(0px, 0);
-  margin-top: 0px;
-  right: 0;
-}
-.process-steps i:before, .process-steps i:after {
-  content: " ";
-  position: absolute;
-  background-color: #333333;
-  width: 3px;
-  height: 9px;
-}
-
-/* hide the checkbox */
-.process-steps input[type=checkbox] {
-  position: absolute;
-  cursor: pointer;
-  width: 102%;
-  height: 50px;
-  z-index: 1;
-  opacity: 0;
-  left: 0;
-  top:-5px;
-}
-
-/* the outlook of the "arrows" when the accordion is closed */
-.process-steps input[type=checkbox]:checked ~ .row .in-steps, .process-steps input[type=checkbox]:checked ~ p, .process-steps input[type=checkbox]:checked ~ img, .process-steps input[type=checkbox]:checked ~ iframe, .process-steps input[type=checkbox]:checked ~ .row, .process-steps input[type=checkbox]:checked ~ h4 {
-  margin: 0;
-  padding: 0;
-  max-height: 0;
-  opacity: 0;
-  transform: translate(0, 50%);
-}
-
-.process-steps input[type=checkbox]:checked ~ h3{
-  margin:0;
-  padding:0;
-  border:0;
-}
-.process-steps input[type=checkbox]:checked ~ i:before {
-  transform: translate(2px, 0) rotate(45deg);
-}
-.process-steps input[type=checkbox]:checked ~ i:after {
-  transform: translate(-2px, 0) rotate(-45deg);
-}
-
-/* the outlook of the "arrow" when the accordion is opened */
-.process-steps i:before {
-  transform: translate(-2px, 0) rotate(45deg);
-}
-.process-steps i:after {
-  transform: translate(2px, 0) rotate(-45deg);
 }

@@ -10,6 +10,8 @@
 
 jQuery(document).ready(function($){
 
+	$('[data-toggle="tooltip"]').tooltip(); 
+
 	$('.index-filter-trigger').on('click', function(){
     console.log("trigger filter true");
 		triggerFilter(true);

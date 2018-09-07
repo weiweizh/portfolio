@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1151px" height="650px" viewBox="0 0 1151 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Users</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Users" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Data-Scientist" transform="translate(37.000000, 135.000000)">
+            <path d="M57.995305,139.929131 C55.147345,136.859648 53.3913043,132.655282 53.3913043,128.017629 C53.3913043,118.619052 60.6034131,111 69.5,111 C78.3965869,111 85.6086957,118.619052 85.6086957,128.017629 C85.6086957,132.655282 83.852655,136.859648 81.004695,139.929131 C91.0144008,144.955647 98,156.340391 98,169.579916 C98,187.473361 41,187.473361 41,169.579916 C41,156.340391 47.9855992,144.955647 57.995305,139.929131 Z" id="Combined-Shape" fill="#4A90E2"></path>
+            <text font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="0" y="226">Data Scientist</tspan>
+            </text>
+            <text id="Goals:-Copy" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="269" y="213">Goals</tspan>
+                <tspan x="333.382812" y="213" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="--Build-better-model" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="423" y="213">- Build better models</tspan>
+                <tspan x="423" y="242">- Research better data handling methods</tspan>
+            </text>
+            <text id="Knowledge:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#636166">
+                <tspan x="269" y="26">Knowledge</tspan>
+                <tspan x="396.007812" y="26" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="advanced-statistics," font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#636166">
+                <tspan x="425" y="26">advanced statistics, machine learning algorithms, </tspan>
+                <tspan x="425" y="55">advanced variable handling</tspan>
+            </text>
+            <text id="Skills:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#636166">
+                <tspan x="269" y="134">Skills</tspan>
+                <tspan x="327.675781" y="134" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="Needs:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="269" y="340">Needs</tspan>
+                <tspan x="342.089844" y="340" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="power-tool-to-suport" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="422" y="340">power tool to suport modeling customization, fast </tspan>
+                <tspan x="422" y="369">modeling</tspan>
+            </text>
+            <text id="SAS,-SPSS,-R,-Python" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#636166">
+                <tspan x="423" y="134">SAS, SPSS, R, Python</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

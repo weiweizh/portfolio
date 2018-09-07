@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1151px" height="650px" viewBox="0 0 1151 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Users</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Users" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BE" transform="translate(38.000000, 179.000000)">
+            <path d="M90.995305,102.929131 C88.147345,99.8596479 86.3913043,95.6552825 86.3913043,91.0176293 C86.3913043,81.6190522 93.6034131,74 102.5,74 C111.396587,74 118.608696,81.6190522 118.608696,91.0176293 C118.608696,95.6552825 116.852655,99.8596479 114.004695,102.929131 C124.014401,107.955647 131,119.340391 131,132.579916 C131,150.473361 74,150.473361 74,132.579916 C74,119.340391 80.9855992,107.955647 90.995305,102.929131 Z" id="Combined-Shape" fill="#FF7453"></path>
+            <text id="Business-Executives" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="0" y="189">Business Executives</tspan>
+            </text>
+            <text id="business-operation," font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#636166">
+                <tspan x="442" y="26">business operation, domain knowledge, leadership</tspan>
+            </text>
+            <text id="Knowledge:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#636166">
+                <tspan x="289" y="26">Knowledge</tspan>
+                <tspan x="416.007812" y="26" font-family="OpenSans, Open Sans" font-weight="normal">: </tspan>
+            </text>
+            <text id="Skills:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#636166">
+                <tspan x="289" y="100">Skills</tspan>
+                <tspan x="347.675781" y="100" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="problem-solving,-tea" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#636166">
+                <tspan x="442" y="100">problem solving, team management, powerpoint</tspan>
+            </text>
+            <text id="Needs:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="289" y="285">Needs</tspan>
+                <tspan x="362.089844" y="285" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="seemless-experience" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="442" y="285">seemless experience to solve business problem</tspan>
+            </text>
+            <text id="Goals:-Copy" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="289" y="179">Goals</tspan>
+                <tspan x="353.382812" y="179" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="--Use-data-science-t" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="442" y="179">- Use data science to level up the business</tspan>
+                <tspan x="442" y="208">- Impower the empolyees with the right tool  </tspan>
+            </text>
+        </g>
+    </g>
+</svg>

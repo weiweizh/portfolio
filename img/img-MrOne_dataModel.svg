@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1516px" height="1100px" viewBox="0 0 1516 1100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="670" height="350"></rect>
+        <filter x="-2.9%" y="-5.6%" width="105.8%" height="111.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="67.5" cy="67.5" r="67.5"></circle>
+        <path d="M67.5,135 C104.779221,135 135,104.779221 135,67.5 C135,30.2207794 104.779221,0 67.5,0 C30.2207794,0 0,30.2207794 0,67.5 C0,104.779221 30.2207794,135 67.5,135 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="135" height="135" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="135" height="135" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M67.5,135 C104.779221,135 135,104.779221 135,67.5 C135,30.2207794 104.779221,0 67.5,0 C30.2207794,0 0,30.2207794 0,67.5 C0,104.779221 30.2207794,135 67.5,135 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="135" height="135" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="135" height="135" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <path d="M67.5,135 C104.779221,135 135,104.779221 135,67.5 C135,30.2207794 104.779221,0 67.5,0 C30.2207794,0 0,30.2207794 0,67.5 C0,104.779221 30.2207794,135 67.5,135 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="135" height="135" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="135" height="135" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-17" x="0" y="0" width="400" height="250"></rect>
+        <filter x="-4.9%" y="-7.8%" width="109.8%" height="115.6%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-19" x="72" y="150" width="260" height="20" rx="3"></rect>
+        <filter x="-7.5%" y="-97.5%" width="115.0%" height="295.0%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-21" x="0" y="0" width="400" height="250"></rect>
+        <filter x="-4.9%" y="-7.8%" width="109.8%" height="115.6%" filterUnits="objectBoundingBox" id="filter-22">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-23" x="0" y="0" width="400" height="250"></rect>
+        <filter x="-4.9%" y="-7.8%" width="109.8%" height="115.6%" filterUnits="objectBoundingBox" id="filter-24">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(133.000000, 97.000000)">
+            <text id="Data" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#4A4A4A">
+                <tspan x="0" y="26">Data</tspan>
+            </text>
+            <text id="It-analysis-the-qual" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="0" y="76">It analysis the quality of the data the user </tspan>
+                <tspan x="0" y="105">uploaded, make auto corrections and </tspan>
+                <tspan x="0" y="134">prepare the data to be ready for the next </tspan>
+                <tspan x="0" y="163">step.</tspan>
+            </text>
+            <g id="Data" transform="translate(474.000000, 5.000000)">
+                <g id="Group">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Bars" transform="translate(393.696581, 126.229508)" fill-rule="nonzero">
+                        <rect id="Rectangle-2" fill="#4A90E2" x="0" y="0" width="243.376068" height="14.3442623"></rect>
+                        <rect id="Rectangle-2-Copy" fill="#84DFB1" x="0" y="0" width="71.5811966" height="14.3442623"></rect>
+                        <rect id="Rectangle-2-Copy" fill="#FF7453" x="70.1495726" y="0" width="114.529915" height="14.3442623"></rect>
+                        <rect id="Rectangle-2" fill="#4A90E2" x="0" y="28.6885246" width="171.794872" height="14.3442623"></rect>
+                        <rect id="Rectangle-2-Copy-2" fill="#84DFB1" x="0" y="28.6885246" width="28.6324786" height="14.3442623"></rect>
+                        <rect id="Rectangle-2-Copy-2" fill="#FF7453" x="27.2008547" y="28.6885246" width="28.6324786" height="14.3442623"></rect>
+                        <rect id="Rectangle-2" fill="#4A90E2" x="0" y="57.3770492" width="143.162393" height="14.3442623"></rect>
+                        <rect id="Rectangle-2-Copy-3" fill="#84DFB1" x="0" y="57.3770492" width="42.9487179" height="14.3442623"></rect>
+                        <rect id="Rectangle-2-Copy-3" fill="#FF7453" x="41.517094" y="57.3770492" width="71.5811966" height="14.3442623"></rect>
+                        <rect id="Rectangle-2" fill="#4A90E2" x="0" y="86.0655738" width="114.529915" height="14.3442623"></rect>
+                        <rect id="Rectangle-2-Copy-4" fill="#84DFB1" x="0" y="86.0655738" width="57.2649573" height="14.3442623"></rect>
+                        <rect id="Rectangle-2" fill="#4A90E2" x="0" y="114.754098" width="85.8974359" height="14.3442623"></rect>
+                        <rect id="Rectangle-2-Copy-5" fill="#84DFB1" x="0" y="114.754098" width="57.2649573" height="14.3442623"></rect>
+                    </g>
+                    <g id="5-Slices-Pie-Chart" transform="translate(115.961538, 123.360656)">
+                        <g id="3-Slices-Pie-Chart">
+                            <g>
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Oval-2" fill-rule="nonzero"></g>
+                                <mask id="mask-7" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="#161032:40%" stroke="#D9AEF6" mask="url(#mask-6)" stroke-width="135" stroke-dasharray="169.7142857142857,675" fill-rule="nonzero">
+                                    <use mask="url(#mask-8)" xlink:href="#path-5"></use>
+                                </g>
+                                <mask id="mask-11" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <g id="#FAFF81:30%" stroke="#84DFB1" mask="url(#mask-10)" stroke-width="135" stroke-dasharray="127.2857142857143,675" fill-rule="nonzero" transform="translate(67.500000, 67.500000) rotate(-144.000000) translate(-67.500000, -67.500000) ">
+                                    <use mask="url(#mask-12)" xlink:href="#path-9"></use>
+                                </g>
+                                <mask id="mask-15" fill="white">
+                                    <use xlink:href="#path-13"></use>
+                                </mask>
+                                <g id="#FFC53A:30%" stroke="#4A90E2" mask="url(#mask-14)" stroke-width="135" stroke-dasharray="127.2857142857143,675" fill-rule="nonzero" transform="translate(67.500000, 67.500000) rotate(-252.000000) translate(-67.500000, -67.500000) ">
+                                    <use mask="url(#mask-16)" xlink:href="#path-13"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Numbers" transform="translate(44.380342, 101.975410)" fill="#4A4A4A">
+                        <text id="40%" font-family="Raleway-Regular, Raleway" font-size="14" font-weight="normal">
+                            <tspan x="235.923077" y="90.0327869">40%</tspan>
+                        </text>
+                        <text id="30%" font-family="Raleway-Regular, Raleway" font-size="14" font-weight="normal">
+                            <tspan x="0" y="13.4754098">30%</tspan>
+                        </text>
+                        <text id="30%" font-family="Raleway-Regular, Raleway" font-size="14" font-weight="normal">
+                            <tspan x="1.43162393" y="151.180328">30%</tspan>
+                        </text>
+                        <path id="Path-2" d="M196.004234,104.414007 C197.993858,105.90331 200.814084,105.49772 202.303387,103.508096 C203.792689,101.518473 203.387099,98.6982458 201.397475,97.2089433 C199.407852,95.7196409 196.587625,96.1252313 195.098323,98.1148548 C193.60902,100.104478 194.014611,102.924705 196.004234,104.414007 Z M201.477795,97.9360187 L211.985751,83.8979852 L211.58547,84.0983607 L234.491453,84.0983607 L234.491453,83.0983607 L211.58547,83.0983607 L211.335177,83.0983607 L211.185189,83.2987361 L200.677232,97.3367697 L201.477795,97.9360187 Z" fill-rule="nonzero"></path>
+                        <path id="Path-5" d="M91.8290598,126.098361 C91.8290598,123.613079 89.8143412,121.598361 87.3290598,121.598361 C84.8437785,121.598361 82.8290598,123.613079 82.8290598,126.098361 C82.8290598,128.583642 84.8437785,130.598361 87.3290598,130.598361 C89.8143412,130.598361 91.8290598,128.583642 91.8290598,126.098361 Z M83.3290598,125.598361 L61.5598291,125.598361 L61.3640562,125.598361 L61.2203311,125.73129 L42.6092199,142.944404 L43.2882159,143.678546 L61.8993271,126.465432 L61.5598291,126.598361 L83.3290598,126.598361 L83.3290598,125.598361 Z" fill-rule="nonzero"></path>
+                        <path id="Path-6" d="M93.2606838,44.3360656 C93.2606838,41.8507842 91.2459651,39.8360656 88.7606838,39.8360656 C86.2754024,39.8360656 84.2606838,41.8507842 84.2606838,44.3360656 C84.2606838,46.8213469 86.2754024,48.8360656 88.7606838,48.8360656 C91.2459651,48.8360656 93.2606838,46.8213469 93.2606838,44.3360656 Z M84.7606838,43.8360656 L59.4123932,43.8360656 L59.8267889,44.0562867 L43.3631136,19.6710408 L42.5343223,20.2305985 L58.9979975,44.6158444 L59.1466796,44.8360656 L59.4123932,44.8360656 L84.7606838,44.8360656 L84.7606838,43.8360656 Z" fill-rule="nonzero"></path>
+                    </g>
+                    <text id="Data-Quality-Overvie" font-family="Raleway-Regular, Raleway" font-size="14" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="116" y="58">Data Quality Overview</tspan>
+                    </text>
+                    <text id="Variables" font-family="Raleway-Regular, Raleway" font-size="14" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="393.696581" y="58.0737705">Variables</tspan>
+                    </text>
+                </g>
+                <ellipse id="Oval" fill="#84DFB1" fill-rule="nonzero" cx="400.854701" cy="83.1967213" rx="7.15811966" ry="7.17213115"></ellipse>
+                <ellipse id="Oval" fill="#FF7453" fill-rule="nonzero" cx="440.940171" cy="83.1967213" rx="7.15811966" ry="7.17213115"></ellipse>
+                <ellipse id="Oval" fill="#4A90E2" fill-rule="nonzero" cx="481.025641" cy="83.1967213" rx="7.15811966" ry="7.17213115"></ellipse>
+                <ellipse id="Oval" fill="#84DFB1" fill-rule="nonzero" cx="125.15812" cy="83.1721311" rx="7.15811966" ry="7.17213115"></ellipse>
+                <ellipse id="Oval" fill="#D9AEF6" fill-rule="nonzero" cx="165.15812" cy="83.1721311" rx="7.15811966" ry="7.17213115"></ellipse>
+                <ellipse id="Oval" fill="#4A90E2" fill-rule="nonzero" cx="205.15812" cy="83.1721311" rx="7.15811966" ry="7.17213115"></ellipse>
+            </g>
+        </g>
+        <text id="Select-the-best-mode" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#4A4A4A">
+            <tspan x="130" y="592">Select the best model</tspan>
+        </text>
+        <text id="Model" font-family="SFProDisplay-Bold, SF Pro Display" font-size="24" font-weight="bold" fill="#4A4A4A">
+            <tspan x="130" y="534">Model</tspan>
+        </text>
+        <path d="M99.5,136.5 L99.5,498.5" id="Line" stroke="#4A4A4A" stroke-width="2" stroke-linecap="round" fill-rule="nonzero"></path>
+        <text id="Show-model-insights" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#4A4A4A">
+            <tspan x="561" y="592">Show model insights</tspan>
+        </text>
+        <text id="Adjust-model-paramet" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#4A4A4A">
+            <tspan x="989" y="592">Adjust model parameters</tspan>
+        </text>
+        <g id="ModelResults" transform="translate(130.000000, 743.000000)">
+            <g id="Group">
+                <g id="Rectangle" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-17"></use>
+                </g>
+                <g id="Rectangle-3" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                    <use fill="#4A90E2" xlink:href="#path-19"></use>
+                </g>
+                <rect id="Rectangle-3" fill="#F4F3F3" fill-rule="nonzero" x="72" y="175" width="260" height="20" rx="3"></rect>
+                <rect id="Rectangle-3" fill="#F4F3F3" fill-rule="nonzero" x="72" y="200" width="260" height="20" rx="3"></rect>
+                <path d="M95,125 C118.748244,125 138,105.748244 138,82 C138,58.2517558 118.748244,39 95,39 C71.2517558,39 52,58.2517558 52,82 C52,105.748244 71.2517558,125 95,125 Z" id="Oval" stroke="#84DFB1" stroke-width="6" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="240"></path>
+                <text id="80%" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="76" y="89">80%</tspan>
+                </text>
+                <g id="Bars" transform="translate(157.000000, 71.000000)" fill-rule="nonzero">
+                    <rect id="Rectangle-2" fill="#4A90E2" x="136" y="0" width="35" height="20"></rect>
+                    <rect id="Rectangle-2-Copy" fill="#FF7453" x="30" y="0" width="50" height="20"></rect>
+                    <rect id="Rectangle-2-Copy-2" fill="#D9AEF6" x="0" y="0" width="50" height="20"></rect>
+                    <rect id="Rectangle-2-Copy" fill="#84DFB1" x="95" y="0" width="41" height="20"></rect>
+                </g>
+            </g>
+            <path d="M43,150 L56.496891,150 C57.4038346,150 58.2620961,150.41029 58.8316224,151.116113 L64.4798983,158.116113 C65.3669231,159.215417 65.3669231,160.784583 64.4798983,161.883887 L58.8316224,168.883887 C58.2620961,169.58971 57.4038346,170 56.496891,170 L43,170 C41.3431458,170 40,168.656854 40,167 L40,153 C40,151.343146 41.3431458,150 43,150 Z" id="Rectangle-4" fill="#4A90E2" fill-rule="nonzero"></path>
+        </g>
+        <g id="ModelInsights" transform="translate(561.000000, 743.000000)" fill-rule="nonzero">
+            <g id="Group">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-21"></use>
+                </g>
+                <rect id="Rectangle-6" fill="#4A90E2" x="235" y="137" width="22" height="68" rx="3"></rect>
+                <rect id="Rectangle-6" fill="#4A90E2" x="209" y="155" width="22" height="50" rx="3"></rect>
+                <rect id="Rectangle-6" fill="#4A90E2" x="261" y="105" width="22" height="100" rx="3"></rect>
+                <rect id="Rectangle-6" fill="#4A90E2" x="287" y="160" width="22" height="45" rx="3"></rect>
+                <rect id="Rectangle-6" fill="#4A90E2" x="313" y="160" width="22" height="45" rx="3"></rect>
+                <rect id="Rectangle-5" fill="#84DFB1" x="32" y="57" width="128" height="10" rx="5"></rect>
+                <rect id="Rectangle-5" fill="#F4F3F3" x="32" y="81" width="128" height="10" rx="5"></rect>
+                <rect id="Rectangle-5" fill="#F4F3F3" x="32" y="105" width="128" height="10" rx="5"></rect>
+                <rect id="Rectangle-5" fill="#F4F3F3" x="32" y="129" width="128" height="10" rx="5"></rect>
+                <rect id="Rectangle-5" fill="#F4F3F3" x="32" y="153" width="128" height="10" rx="5"></rect>
+                <rect id="Rectangle-5" fill-opacity="0.4" fill="#B0DEC7" x="32" y="81" width="100" height="10" rx="5"></rect>
+                <rect id="Rectangle-5" fill-opacity="0.4" fill="#B0DEC7" x="32" y="105" width="80" height="10" rx="5"></rect>
+                <rect id="Rectangle-5" fill-opacity="0.4" fill="#B0DEC7" x="32" y="129" width="70" height="10" rx="5"></rect>
+                <rect id="Rectangle-5" fill-opacity="0.4" fill="#B0DEC7" x="32" y="153" width="30" height="10" rx="5"></rect>
+                <polyline id="Path-2" stroke="#E4E4E4" points="219 137 247 149 272 103 297 137 324 144"></polyline>
+                <circle id="Oval-3" fill="#E4E4E4" cx="247" cy="148" r="3"></circle>
+                <circle id="Oval-3" fill="#E4E4E4" cx="217" cy="136" r="3"></circle>
+                <circle id="Oval-3" fill="#E4E4E4" cx="272" cy="102" r="3"></circle>
+                <circle id="Oval-3" fill="#E4E4E4" cx="297" cy="137" r="3"></circle>
+                <circle id="Oval-3" fill="#E4E4E4" cx="324" cy="145" r="3"></circle>
+            </g>
+        </g>
+        <g id="ModelParameters" transform="translate(993.000000, 744.000000)" fill-rule="nonzero">
+            <g id="Group">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-24)" xlink:href="#path-23"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-23"></use>
+                </g>
+                <rect id="Rectangle-7" fill="#84DFB1" x="31" y="51" width="30" height="30" rx="4"></rect>
+                <rect id="Rectangle-7" fill="#F4F3F3" x="67" y="51" width="30" height="30" rx="4"></rect>
+                <rect id="Rectangle-7" fill="#F4F3F3" x="103" y="51" width="30" height="30" rx="4"></rect>
+                <rect id="Rectangle-7" fill="#F4F3F3" x="103" y="87" width="30" height="30" rx="4"></rect>
+                <rect id="Rectangle-7" fill="#F4F3F3" x="67" y="87" width="30" height="30" rx="4"></rect>
+                <rect id="Rectangle-7" fill="#F4F3F3" x="31" y="87" width="30" height="30" rx="4"></rect>
+            </g>
+            <path d="M160,219 C162.804048,179.517744 171.804048,160.851077 187,163 C209.793928,166.223384 208.872172,219 236,219 C263.127828,219 263.127828,107 286,107 C301.248115,107 315.248115,144.333333 328,219" id="Path-3" stroke="#FF7453" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval-4" fill="#D8D8D8" cx="266" cy="64" r="7"></circle>
+            <path d="M158,178.372003 C170.333333,202.095166 182.666667,213.956747 195,213.956747 C213.5,213.956747 217,195.649819 232,178.372003 C247,161.094188 251.429286,128.898467 285,136.009213 C307.380476,140.74971 325.380476,166.732222 339,213.956747" id="Path-4" stroke="#4A90E2" stroke-width="3" stroke-linecap="round"></path>
+            <path d="M266,66 L266,219" id="Path-5" stroke="#D8D8D8" stroke-width="2"></path>
+        </g>
+        <circle id="Oval-5" fill="#4A4A4A" fill-rule="nonzero" cx="99" cy="112" r="15"></circle>
+        <circle id="Oval-5" fill="#4A4A4A" fill-rule="nonzero" cx="99" cy="526" r="15"></circle>
+        <text id="Recommend-the-model" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+            <tspan x="130" y="638">Recommend the model with the </tspan>
+            <tspan x="130" y="667">best performance and show it’s </tspan>
+            <tspan x="130" y="696">overview.</tspan>
+        </text>
+        <text id="Discover-top-factors" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+            <tspan x="561" y="638">Discover top factors and how they </tspan>
+            <tspan x="561" y="667">influence the target variable.</tspan>
+        </text>
+        <text id="Adjust-the-parameter" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
+            <tspan x="993" y="638">Adjust the parameters of the </tspan>
+            <tspan x="993" y="667">selected model to meet real world </tspan>
+            <tspan x="993" y="696">requirements or constrains.</tspan>
+        </text>
+    </g>
+</svg>

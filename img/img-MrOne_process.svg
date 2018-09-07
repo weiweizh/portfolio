@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1341px" height="764px" viewBox="0 0 1341 764" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>DataProcess</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="DataProcess" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Process" transform="translate(41.000000, 154.000000)">
+            <path d="M500.995914,181.864407 C542.967299,181.864407 576.991828,147.868401 576.991828,105.932203 C576.991828,63.9960054 542.967299,30 500.995914,30 C459.02453,30 425,63.9960054 425,105.932203 C425,147.868401 459.02453,181.864407 500.995914,181.864407 Z" id="DataOval" stroke="#4A90E2" stroke-width="4" stroke-linecap="round" stroke-dasharray="420" fill-rule="nonzero"></path>
+            <path d="M1100.99591,181.864407 C1142.9673,181.864407 1176.99183,147.868401 1176.99183,105.932203 C1176.99183,63.9960054 1142.9673,30 1100.99591,30 C1059.02453,30 1025,63.9960054 1025,105.932203 C1025,147.868401 1059.02453,181.864407 1100.99591,181.864407 Z" id="ModelDeploymentOva" stroke="#4A90E2" stroke-width="4" stroke-linecap="round" stroke-dasharray="420" fill-rule="nonzero"></path>
+            <path d="M783.995914,181.864407 C825.967299,181.864407 859.991828,147.868401 859.991828,105.932203 C859.991828,63.9960054 825.967299,30 783.995914,30 C742.02453,30 708,63.9960054 708,105.932203 C708,147.868401 742.02453,181.864407 783.995914,181.864407 Z" id="ModelingOval" stroke="#4A90E2" stroke-width="4" stroke-linecap="round" stroke-dasharray="420" fill-rule="nonzero"></path>
+            <text id="1.-Understand" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="0" y="220">1. Understand</tspan>
+            </text>
+            <text id="2.-Competitor-Analys" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="185" y="220">2. Competitor Analysis</tspan>
+            </text>
+            <text id="3.-Design-and-Test" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="746" y="220">3. Design and Test</tspan>
+            </text>
+            <text id="4.-Implementation" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1065" y="393">4. Implementation</tspan>
+            </text>
+            <text id="5.-Usability-Testing" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="801" y="393">5. Usability Testings</tspan>
+            </text>
+            <text id="Data" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="486" y="110">Data</tspan>
+            </text>
+            <text id="Modeling" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="756" y="110">Modeling</tspan>
+            </text>
+            <text id="Model-Deployment" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="1051" y="109">Model Deployment</tspan>
+            </text>
+            <path id="Line-2" d="M38.6332993,183.898305 C38.6332993,177.270888 33.2607163,171.898305 26.6332993,171.898305 C20.0058823,171.898305 14.6332993,177.270888 14.6332993,183.898305 C14.6332993,190.525722 20.0058823,195.898305 26.6332993,195.898305 C33.2607163,195.898305 38.6332993,190.525722 38.6332993,183.898305 Z M36.6332993,185.898305 L235.622063,185.898305 L237.622063,185.898305 L237.622063,181.898305 L235.622063,181.898305 L36.6332993,181.898305 L34.6332993,181.898305 L34.6332993,185.898305 L36.6332993,185.898305 Z" fill="#84DFB1" fill-rule="nonzero"></path>
+            <path id="Line-2" d="M253.633299,183.898305 C253.633299,177.270888 248.260716,171.898305 241.633299,171.898305 C235.005882,171.898305 229.633299,177.270888 229.633299,183.898305 C229.633299,190.525722 235.005882,195.898305 241.633299,195.898305 C248.260716,195.898305 253.633299,190.525722 253.633299,183.898305 Z M251.633299,185.898305 L501.286006,185.898305 L503.286006,185.898305 L503.286006,181.898305 L501.286006,181.898305 L251.633299,181.898305 L249.633299,181.898305 L249.633299,185.898305 L251.633299,185.898305 Z" fill="#88DAF1" fill-rule="nonzero"></path>
+            <path id="Line-2" d="M867.633299,423.25 C867.633299,416.622583 862.260716,411.25 855.633299,411.25 C849.005882,411.25 843.633299,416.622583 843.633299,423.25 C843.633299,429.877417 849.005882,435.25 855.633299,435.25 C862.260716,435.25 867.633299,429.877417 867.633299,423.25 Z M865.633299,425.25 L1115.28601,425.25 L1117.28601,425.25 L1117.28601,421.25 L1115.28601,421.25 L865.633299,421.25 L863.633299,421.25 L863.633299,425.25 L865.633299,425.25 Z" fill="#FF7453" fill-rule="nonzero"></path>
+            <path id="Line-2" d="M513.633299,183.898305 C513.633299,177.270888 508.260716,171.898305 501.633299,171.898305 C495.005882,171.898305 489.633299,177.270888 489.633299,183.898305 C489.633299,190.525722 495.005882,195.898305 501.633299,195.898305 C508.260716,195.898305 513.633299,190.525722 513.633299,183.898305 Z M796.08478,183.898305 C796.08478,177.270888 790.712197,171.898305 784.08478,171.898305 C777.457363,171.898305 772.08478,177.270888 772.08478,183.898305 C772.08478,190.525722 777.457363,195.898305 784.08478,195.898305 C790.712197,195.898305 796.08478,190.525722 796.08478,183.898305 Z M511.633299,185.898305 L774.08478,185.898305 L776.08478,185.898305 L776.08478,181.898305 L774.08478,181.898305 L511.633299,181.898305 L509.633299,181.898305 L509.633299,185.898305 L511.633299,185.898305 Z" fill="#4A90E2" fill-rule="nonzero"></path>
+            <path id="Line-2" d="M796.633299,183.581921 C796.633299,176.954504 791.260716,171.581921 784.633299,171.581921 C778.005882,171.581921 772.633299,176.954504 772.633299,183.581921 C772.633299,190.209338 778.005882,195.581921 784.633299,195.581921 C791.260716,195.581921 796.633299,190.209338 796.633299,183.581921 Z M1114.54954,183.581921 C1114.54954,176.954504 1109.17696,171.581921 1102.54954,171.581921 C1095.92212,171.581921 1090.54954,176.954504 1090.54954,183.581921 C1090.54954,190.209338 1095.92212,195.581921 1102.54954,195.581921 C1109.17696,195.581921 1114.54954,190.209338 1114.54954,183.581921 Z M794.633299,185.581921 L1092.54954,185.581921 L1094.54954,185.581921 L1094.54954,181.581921 L1092.54954,181.581921 L794.633299,181.581921 L792.633299,181.581921 L792.633299,185.581921 L794.633299,185.581921 Z" fill="#4A90E2" fill-rule="nonzero"></path>
+            <path id="Line-2" d="M1104.00138,422.627997 C1104.10171,429.254654 1109.55501,434.545285 1116.18167,434.444952 C1122.80833,434.34462 1128.09896,428.891316 1127.99862,422.264659 C1127.89829,415.638001 1122.44499,410.34737 1115.81833,410.447703 C1109.19167,410.548036 1103.90104,416.001339 1104.00138,422.627997 Z M1116,185 C1210.2996,185 1257,224.098738 1257,302.723164 C1257,378.557214 1213.57408,417.592931 1125.91846,420.296171 L1123.91941,420.357821 L1124.04271,424.35592 L1126.04176,424.29427 C1215.74599,421.527852 1261,380.848865 1261,302.723164 C1261,221.716705 1212.36707,181 1116,181 L1114,181 L1114,185 L1116,185 Z" fill="#D9AEF6" fill-rule="nonzero"></path>
+            <g id="Data" transform="translate(329.315628, 0.000000)">
+                <polygon id="Triangle" fill="#4A90E2" fill-rule="nonzero" transform="translate(122.601517, 161.918700) rotate(120.000000) translate(-122.601517, -161.918700) " points="122.601517 156.856553 127.667911 166.980846 117.535122 166.980846"></polygon>
+                <text id="User-Flow" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="248" y="148">User Flow</tspan>
+                </text>
+                <text id="Lo-fi-wireframe" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="129" y="13">Lo-fi wireframe</tspan>
+                </text>
+                <text id="Hi-fi-designs" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="0" y="101">Hi-fi designs</tspan>
+                </text>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="238.066394" cy="144.062147" rx="5.06639428" ry="5.06214689"></ellipse>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="172.066394" cy="30.0621469" rx="5.06639428" ry="5.06214689"></ellipse>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="96.0663943" cy="97.0621469" rx="5.06639428" ry="5.06214689"></ellipse>
+            </g>
+            <g id="Modeling" transform="translate(615.566905, 0.000000)">
+                <polygon id="Triangle" fill="#4A90E2" fill-rule="nonzero" transform="translate(119.350240, 161.918700) rotate(120.000000) translate(-119.350240, -161.918700) " points="119.35024 156.856553 124.416634 166.980846 114.283846 166.980846"></polygon>
+                <text id="User-Flow" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="243" y="148">User Flow</tspan>
+                </text>
+                <text id="Lo-fi-wireframe" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="123" y="13">Lo-fi wireframe</tspan>
+                </text>
+                <text id="Hi-fi-designs" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="0" y="101">Hi-fi designs</tspan>
+                </text>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="233.066394" cy="144.062147" rx="5.06639428" ry="5.06214689"></ellipse>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="171.066394" cy="30.0621469" rx="5.06639428" ry="5.06214689"></ellipse>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="92.0663943" cy="97.0621469" rx="5.06639428" ry="5.06214689"></ellipse>
+            </g>
+            <g id="Modeling" transform="translate(932.216547, 0.000000)">
+                <polygon id="Triangle" fill="#4A90E2" fill-rule="nonzero" transform="translate(118.700597, 162.918700) rotate(120.000000) translate(-118.700597, -162.918700) " points="118.700597 157.856553 123.766992 167.980846 113.634203 167.980846"></polygon>
+                <text id="User-Flow" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="244" y="148">User Flow</tspan>
+                </text>
+                <text id="Lo-fi-wireframe" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="123" y="13">Lo-fi wireframe</tspan>
+                </text>
+                <text id="Hi-fi-designs" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="0" y="101">Hi-fi designs</tspan>
+                </text>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="234.066394" cy="142.062147" rx="5.06639428" ry="5.06214689"></ellipse>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="168.066394" cy="30.0621469" rx="5.06639428" ry="5.06214689"></ellipse>
+                <ellipse id="Oval-2" fill="#4A90E2" fill-rule="nonzero" cx="92.0663943" cy="97.0621469" rx="5.06639428" ry="5.06214689"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

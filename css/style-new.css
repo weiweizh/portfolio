@@ -516,7 +516,6 @@ Main Components, index page
 }
 
 
-
 .filter{
   font-family: 'Open Sans',sans-serif;
   font-size: 1em;
@@ -1293,7 +1292,9 @@ xtab-filter
   }
 
 
-
+  .inline p{
+    padding: 5px 0px 5px 15%;
+  }
 
 /* look for headers in each project page */
 

@@ -62,10 +62,10 @@
             <text id="Data" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#4A4A4A">
                 <tspan x="0" y="26">Data</tspan>
             </text>
-            <text id="It-analyses-the-qual" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-                <tspan x="0" y="76">It analyses the quality of the data, make </tspan>
-                <tspan x="0" y="105">auto corrections and prepare the data for </tspan>
-                <tspan x="0" y="134">the next step.</tspan>
+            <text id="It-analyses-the-qual" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" line-spacing="32" fill="#4A4A4A">
+                <tspan x="0" y="75">It analyses the quality of the data, make </tspan>
+                <tspan x="0" y="107">auto corrections and prepare the data for </tspan>
+                <tspan x="0" y="139">the next step.</tspan>
             </text>
             <g id="Data" transform="translate(474.000000, 5.000000)">
                 <g id="Group">
@@ -231,20 +231,20 @@
         </g>
         <circle id="Oval-5" fill="#4A4A4A" fill-rule="nonzero" cx="99" cy="112" r="15"></circle>
         <circle id="Oval-5" fill="#4A4A4A" fill-rule="nonzero" cx="99" cy="526" r="15"></circle>
-        <text id="It-recommends-the-be" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-            <tspan x="130" y="638">It recommends the best model and </tspan>
-            <tspan x="130" y="667">show its performance and results.</tspan>
+        <text id="It-recommends-the-be" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" line-spacing="32" fill="#4A4A4A">
+            <tspan x="130" y="637">It recommends the best model and </tspan>
+            <tspan x="130" y="669">show its performance and results.</tspan>
         </text>
-        <text id="It-discovers-the-mos" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-            <tspan x="561" y="638">It discovers the most important </tspan>
-            <tspan x="561" y="667">factors and how they affect the </tspan>
-            <tspan x="561" y="696">target result.</tspan>
+        <text id="It-discovers-the-mos" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" line-spacing="32" fill="#4A4A4A">
+            <tspan x="561" y="637">It discovers the most important </tspan>
+            <tspan x="561" y="669">factors and how they affect the </tspan>
+            <tspan x="561" y="701">target result.</tspan>
         </text>
-        <text id="It-allows-adjustment" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-            <tspan x="993" y="638">It allows adjustment of the </tspan>
-            <tspan x="993" y="667">threshold in the selected model to </tspan>
-            <tspan x="993" y="696">meet real world requirements or </tspan>
-            <tspan x="993" y="725">constrains.</tspan>
+        <text id="It-allows-adjustment" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" line-spacing="32" fill="#4A4A4A">
+            <tspan x="993" y="637">It allows adjustment of the </tspan>
+            <tspan x="993" y="669">threshold in the selected model to </tspan>
+            <tspan x="993" y="701">meet real world requirements or </tspan>
+            <tspan x="993" y="733">constrains.</tspan>
         </text>
     </g>
 </svg>

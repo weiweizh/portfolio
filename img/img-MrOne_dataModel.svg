@@ -155,8 +155,8 @@
         <text id="Show-model-insights" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#4A4A4A">
             <tspan x="561" y="592">Show model insights</tspan>
         </text>
-        <text id="Adjust-model-paramet" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#4A4A4A">
-            <tspan x="989" y="592">Adjust model parameters</tspan>
+        <text id="Adjust-model-thresho" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" fill="#4A4A4A">
+            <tspan x="989" y="592">Adjust model threshold</tspan>
         </text>
         <g id="ModelResults" transform="translate(130.000000, 743.000000)">
             <g id="Group">
@@ -242,8 +242,8 @@
         </text>
         <text id="It-allows-adjustment" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
             <tspan x="993" y="638">It allows adjustment of the </tspan>
-            <tspan x="993" y="667">parameters in the selected model </tspan>
-            <tspan x="993" y="696">to meet real world requirements or </tspan>
+            <tspan x="993" y="667">threshold in the selected model to </tspan>
+            <tspan x="993" y="696">meet real world requirements or </tspan>
             <tspan x="993" y="725">constrains.</tspan>
         </text>
     </g>

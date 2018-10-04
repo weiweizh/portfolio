@@ -210,6 +210,23 @@ ul.link-icons {
 
 }
 
+/* anchor point and nav in project page*/
+@media screen and (max-width: 640px ){
+  .bs-docs-sidebar{
+    display: hidden;
+  }
+}
+
+.bs-docs-sidebar{
+  position: fixed;
+  display: none;
+  top:10%;
+  left:50px;
+  z-index: 225;
+}
+
+
+
 /*.link{
 border-style:none;
 border-bottom: 1px dashed #ffffff;

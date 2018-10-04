@@ -12,6 +12,48 @@
 	<link rel="stylesheet" href="css/bootstrap.css"> <!--Bootstrap style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 	<script src="js/jquery-2.1.1.js"></script>
+
+	<script>
+		
+		/* show and hide side navigation when window is scrolled */
+
+		$(window).scroll(function(){
+		if(window.screens.width > 850){
+		var scrollTop_2 = $(window).scrollTop(),
+			offsetTop_2 = $(".process-start").offset().top;
+
+			/* show content side nav when scroll */
+		if(scrollTop_2 >= offsetTop_2){
+			$(".bs-docs-sidebar").addClass('visible');
+			console.log("run!");
+		    }
+			else{
+			$(".bs-docs-sidebar").removeClass('visible');
+			}
+
+		}
+
+	});
+	</script>
+	<script src="js/SmoothScroll.js"></script>
+	<style>
+		
+	body{
+		position: relative;
+
+	}
+
+	#mrOne li a {
+		font: openSans;
+		color: #5e88fc;
+
+	}
+
+	#mrOne li.active a{
+		color: white;
+		background-color: #5e88fc;
+	}
+	</style>
 	<script src="js/bootstrap.js"></script>
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -25,15 +67,15 @@
 		</script> <!--google analytics-->
 		<title>UX case study - Mr.One</title>
 	</head>
-	<body>
-		<header class="portfolio-content-header-2">
+	<body data-spy="scroll" data-target=".bs-docs-sidebar">
+		<header class="portfolio-content-header-2" >
 			<div class="projectBg" style="background-image: url(img/img-header-MrOne-4.png)"></div>
-			<section class='intro'>
-				<!--<img alt='MrOne big data application' class='img-responsive' src="img/img-header-MrOne-2.png"/>-->
+			<section class='intro' id="Top">
+
 				<h1>Mr.One <span class="thin">- The AI powered big data analysis application</span></h1>
 				<p>Challenges: As the lead designer, support <a href="http://www.r2.ai" target="_blank">R2.ai, Inc.</a> in designing the AI powered data analytic and modeling web application with the best UX practice. Digest the complex data science process and translate it into user friendly flows and interfaces. Keep the look and feel in line with the most updated design trends while maintaining its own styles.</p>
 			</section>
-			<section class=" info">
+			<section class=" info" >
 				<p> <span class='s-tittle'>Time:</span> Sep 2016 - Feb 2018</p>
 				<p> <span class='s-tittle'>Role:</span> User Researcher, UI / UX Designer, Team Management</p>
 				<p> <span class='s-tittle'>Method & Skill:</span> Stakeholder interview, Information architecture, Wireframes, UI/UX design, Usability testing.</p>
@@ -43,10 +85,34 @@
 
 		<main class="portfolio-content-process-2">
 
+
+
 			<section class="process">
 
+				<!-- Side navigation -->
 
-				<h3>What is Mr.One?</h3>
+				<div class="bs-docs-sidebar">
+                   <ul class="nav nav nav-pills nav-stacked" id= "mrOne">
+                   	   <li><a href="#Top">Go to Top</a></li>
+                       <li><a href="#one">1. What is Mr.One</a></li>
+                       <li class="dropdown">
+                       	 <a class="dropdown-toggle" data-toggle="dropdown" href="#t">2. My approach in high level<span class="caret"></span></a>
+                       	   <ul class="dropdown-menu">
+                       	   	<li><a href="#21">2-1.Understandings</a></li>
+                       	   	<li><a href="#22">2-2.Competitive Analysis</a></li>
+                       	   	<li><a href="#23">2-3.Design and Test</a></li>
+                       	   	<li><a href="#24">2-4.Implementation</a></li>
+                       	   	<li><a href="#25">2-5.Usability Testing</a></li>
+
+                       	   </ul>
+
+                       	</li>
+                       <li><a href="#three">3. Case study</a></li>
+                   </ul>
+                </div>
+
+
+				<h3 class="process-start" id="one">What is Mr.One?</h3>
 
 				<p>It's a web application that helps business analysts and data scientists to <span class="bold">analyze data, build predictive models</span>, and <span class="bold">deploy the model</span> to run predictions.</p>
         <br>
@@ -106,14 +172,14 @@
 				 <br>
 				 <br>
 
-				 <h3>My Approach in High Level</h3>
+				 <h3 id="two">My Approach in High Level</h3>
 				 <div class="row">
            <div class="col-md-offset-1 col-md-10">
          <img class="img-responsive" alt="advanced modeling" src="img/img-MrOne_process.svg">
 					 </div>
 				 </div>
 
-				  <h3>1. Understand</h3>
+				  <h3 id="21">1. Understandings</h3>
 
 
 					<h3>The problem</h3>
@@ -149,7 +215,7 @@
 			<br>
 			<br>
 			<br>
-					<h3>2. Competitive Analysis</h3>
+					<h3 id="22">2. Competitive Analysis</h3>
 					<br>
 					<br>
 					<br>
@@ -171,7 +237,7 @@
 				 <br>
 				 <br>
 
-				 <h3>3.Design and Test</h3>
+				 <h3 id="23">3.Design and Test</h3>
 				 <div class="row">
 					 <div class="col-md-offset-2 col-md-10">
 							<img class="img-responsive" alt="userflow" src="img/img-MrOne_userFlow.svg">
@@ -193,7 +259,7 @@
 
 
 
-				 <div class="row">
+				 <div class="row" id="24">
            <div class="col-md-offset-2 col-md-10 col-sm-10">
 
              <img class="img-responsive" alt="data" src="img/img-MrOne_implementation.svg">
@@ -201,7 +267,7 @@
 
  				</div>
 
-				 <h3>5.Usability Testing</h3>
+				 <h3 id="25">5.Usability Testing</h3>
 				 <p>Before the Alpha version of Mr.One was released in the summer of 2017, the team wanted to improve the product's overal usability. So I initiated, planned and conducted a remote usability testing with 5 potential customers to get actionable suggestions on design improvements. For details, you can <a href="portfolio-RemoteTesting.html" target="_blank">check this post</a>.</p>
 
 
@@ -215,7 +281,7 @@
 
 
 
-				<h3>Case Study: Designing a Feature for Users to Handle Issues in the Target Variable</h3>
+				<h3 id = "three">Case Study: Designing a Feature for Users to Handle Issues in the Target Variable</h3>
 
 				<div class="row">
 					<div class="col-md-offset-3 col-md-6">

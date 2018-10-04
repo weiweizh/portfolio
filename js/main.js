@@ -69,16 +69,24 @@ jQuery(document).ready(function($){
 		(!window.requestAnimationFrame) ? fixGallery() : window.requestAnimationFrame(fixGallery);
 	});
 
+
 	function fixGallery() {
 		var offsetTop = $('.index-main-content').offset().top,
 			scrollTop = $(window).scrollTop();
+			
 		if( scrollTop >= offsetTop ){
 		$('.index-main-content').addClass('is-fixed');
 		$('.upButton').addClass('visible')}
 		else{
 		$('.index-main-content').removeClass('is-fixed');
 		$('.upButton').removeClass('visible');}
+
+
+		
 	}
+
+
+	
 
 	/************************************
 		MitItUp filter settings

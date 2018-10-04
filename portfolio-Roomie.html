@@ -10,7 +10,50 @@
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style-new.css"> <!-- Resource style -->
 	<link rel="stylesheet" href="css/bootstrap.css"> <!--Bootstrap style -->
+	<style type="text/css">
+		
+		body{
+		position: relative;
+
+	}
+
+	#Roomie li a {
+		font: openSans;
+		color: black;
+
+	}
+
+	#Roomie li.active a{
+		color: Black;
+		background-color: #40c195;
+
+	}
+	</style>
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="js/jquery-2.1.1.js"></script>
+	
+	<script>
+		
+		/* show and hide side navigation when window is scrolled */
+		$(window).scroll(function(){
+	    if(window.screen.width > 850){
+		var scrollTop_2 = $(window).scrollTop(),
+			offsetTop_2 = $(".process-start").offset().top;
+
+			/* show content side nav when scroll */
+		if(scrollTop_2 >= offsetTop_2){
+			$(".bs-docs-sidebar").addClass('visible');
+			/*console.log("run!"); */
+		    }
+			else{
+			$(".bs-docs-sidebar").removeClass('visible');
+			}
+		}
+
+	});
+	</script>
+	<script src="js/SmoothScroll.js"></script>
+	<script src="js/bootstrap.js"></script>
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,16 +63,18 @@
 		ga('create', 'UA-49903446-2', 'auto');
 		ga('send', 'pageview');
 
+
+
 		</script> <!--google analytics-->
 		<title>UX case study - Roomie</title>
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".bs-docs-sidebar">
 		<div class="projectBg" style="background-image: url(img/img-header-Roomie.png)">
 
 		</div>
 		<header class="portfolio-content-header-2">
 
-			<section class='intro'>
+			<section class='intro' id="Top">
 
 				<h1>Find your next roommate, easy breezy</h1>
 				<p>Challenges: I challenged myself to design an iOS app that helps millennials to find perfect room and roommates.</p>
@@ -45,9 +90,24 @@
 		<main class="portfolio-content-process-2">
 
 			<section class="process">
+                
+                <div class="bs-docs-sidebar">
+                   <ul class="nav nav nav-pills nav-stacked" id= "Roomie">
+                   	   <li><a href="#Top">Go to Top</a></li>
+                       <li><a href="#FinDesign">Final Design</a></li>
+                       <li><a href="#one">1. Researching users' needs</a></li>
+                       <li><a href="#two">2. Setting design goals</a></li>
+                       <li><a href="#three">3. Ideating features</a></li>
+                       <li><a href="#four">4. Designing flows and Structures</a></li>
+                       <li><a href="#five">5. Validating the Flows on Wireframe</a></li>
+                       <li><a href="#six">6. Defining Visuals and Styles</a></li>
+                       <li><a href="#Sum">Summaries and Next Steps</a></li>
 
 
-				<div class="row finalDesign-1" style="background-image: url(img/img-Roomie_final-1.png)">
+                   </ul>
+                </div>
+
+				<div class="row finalDesign-1 " id="FinDesign" style="background-image: url(img/img-Roomie_final-1.png)">
 					<div class="col-md-12">
 						<h3 class="hPadding-1">List <span class="thin"> | Customized Results</span></h3>
 						<p class="sPadding-1">With user's preferences in mind, the list screen shows all matching results of roommates and rooms, presented in a card form.</p>
@@ -82,7 +142,7 @@
 				</div>
 
 
-				<h3 class="thin">Process</h3>
+				<h3 class="thin process-start">Process</h3>
 
 				<div class="row flow">
 					<div class="col-xs-10 col-md-12">
@@ -90,7 +150,7 @@
 					</div>
 
 				</div>
-				<h3>1.Researching users' needs</h3>
+				<h3 id="one">1.Researching users' needs</h3>
 				<h3>The Emerging Needs of Home Renting and Roommates Searching.</h3>
 
 				<p>A friend recently relocated to the bay area and she had a quite a long journey looking for new roommates. Statistics show that more and more people in the U.S. are renting their homes. But the experience was not always nice. So I challenged myself to design a better mobile experience for my peers to look for new rooms and roommates.</p>
@@ -185,7 +245,7 @@
 					</div>
 					<p class="small"> Competitive analysis amongst 4 service providers</p>
 
-					<h3>2. Setting design goals</h3>
+					<h3 id="two">2. Setting design goals</h3>
 					<div class="row flow">
 						<div class="col-sm-12 col-md-6">
 							<img class="img-responsive" alt="match the flow" src="img/img-Roomie_flow.svg">
@@ -211,7 +271,7 @@
 
 
 
-					<h3>3. Ideating features</h3>
+					<h3 id="three">3. Ideating features</h3>
 
 					<div class="row flow">
 						<div class="col-sm-12 col-md-12">
@@ -219,7 +279,7 @@
 						</div>
 					</div>
 
-					<h3>4. Designing flows and Structures</h3>
+					<h3 id="four">4. Designing flows and Structures</h3>
 
 					<h3>Sign Up Flow</h3>
 					<p>The 4 design options for the onboarding and sign up flow are results of the combination of 2 design decisions: </p>
@@ -333,7 +393,7 @@
 
 
 
-															<h3>5.Validating the Flows on Wireframe</h3>
+															<h3 id="five">5.Validating the Flows on Wireframe</h3>
 															<p>After 2 iterations of paper prototyping and feedback gathering, the basic logic, I established the signup flow and main structures of the App. Then I used wireframes and interactive prototypes to have a more concrete representation of the ideas.</p>
 
 															<p>The prototype below illustrates what users can do before and after user sign up. They have the opportunity to search and find what they want even before signing up. This in return provides motivations for users to sign up. After signing up, a user can send messages to potential roommates, add roommates and share bills. The App addressed the safety issues by verifying user ID after user-registration. </p>
@@ -418,7 +478,7 @@
 
 
 
-																			<h3>6. Defining Visuals and Styles</h3>
+																			<h3 id="six">6. Defining Visuals and Styles</h3>
 																			<h3>Exploring Styles via Moodboards</h3>
 																			<p>After the flows and functions were refined through wireframe and testing, I made mood boards to explore the visuals and styles of the App. I explored 4 different color themes that represent different themes.</p>
 
@@ -483,7 +543,7 @@
 
 
 
-																			<h3>Summaries and Next Steps</h3>
+																			<h3 id="Sum">Summaries and Next Steps</h3>
 																			<p>This is a personal project started by me seeing my friends suffering from finding roommates and room. And I challenged myself to practice lean UX within a limited time range (two weeks) with a user-centered approach. As a person who always does a ton of research for validation before start designing, it's fun to push myself on purpose to craft and design with limited user research information. The hardest part was to make the most logical and valid design decisions with limited user input.
 </p>
 																			<p>

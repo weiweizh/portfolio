@@ -21,7 +21,7 @@ html * {
 
 body {
   font-size: 1.6rem;
-  font-family: "Raleway", sans-serif;
+  font-family: "Judson", Georgia, serif;
   color: #331d35;
   background-color: #ffffff;
 }
@@ -32,7 +32,7 @@ header p{
 }
 
 header .info p{
-  font-weight: 200;
+  font-weight: 400;
 }
 
 /* photo */
@@ -103,7 +103,7 @@ ul.link-icons {
 
 /* headers and paragraph in projects - new */
 .portfolio-content-header-2 p, .portfolio-content-process-2 p, .portfolio-content-header-2 h1{
-  font-size:1.4em;
+  font-size:1.3em;
   line-height: 1.8em;
   padding: 20px 30%;
 }
@@ -121,16 +121,16 @@ ul.link-icons {
   font-weight: 700;
   color:#222222;
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.3em;
   line-height: 1.8em;
 }
 
 .portfolio-content-header-2 p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Judson', Georgia, serif;
   font-weight: 400;
   color:#222222;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.8em;
 }
 
@@ -170,7 +170,7 @@ ul.link-icons {
 
 
 .portfolio-content-header p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Judson', Georgia, serif;
   font-weight: 400;
   color:#222222;
   text-align: left;
@@ -182,7 +182,7 @@ ul.link-icons {
 
 
 .portfolio-content-header .info p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Judson', Georgia, serif;
   display: inline-block;
 }
 
@@ -202,8 +202,8 @@ ul.link-icons {
 
 .portfolio-content-process p{
   /*font-size: 20px;*/
-  font-size: 1.5em;
-  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  font-family: 'Judson', Georgia, serif;
   font-weight: 400;
   line-height: 1.8em;
 
@@ -218,10 +218,12 @@ ul.link-icons {
 }
 
 .bs-docs-sidebar{
+  font-weight: 700;
+  font-family: 'openSans', sans-serif;
   position: fixed;
   display: none;
   top:10%;
-  left:50px;
+  left:10px;
   z-index: 225;
 }
 
@@ -306,7 +308,7 @@ border-bottom: 1px dashed #ffffff;
 
 body p{
 
-     font-family:'Raleway', sans-serif;
+     font-family:'Judson', Georgia, serif;
   /*  font-family:'Open Sans', sans-serif;*/
 
   display: block;
@@ -406,11 +408,12 @@ Main Components, index page
   color: #48CEB6;
 }
 .index-header p {
-  color: #8395a7;
-  font-size: 0.8em;
+  /* color: #8395a7; */
+  color: #333333;
+  font-size: 0.7em;
   line-height: 1.6em;
   text-align: left;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Judson',Georgia, serif;
   font-style: normal;
   font-weight: 400;
   padding: 16px 7%;
@@ -543,12 +546,13 @@ Main Components, index page
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: .8em;
+  line-height: 1.5em
 }
 
 .caption p{
   font-size: .6em;
-  line-height: 1.2em;
-  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  font-family: 'Judson', Georgia, serif;
   text-align: left;
   padding: 0px;
 }
@@ -562,7 +566,7 @@ Main Components, index page
 }
 
 footer p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Judson', serif;
 }
 
 footer{
@@ -860,7 +864,7 @@ xtab-filter
     }
 
     .index-header p{
-      font-size: .8em;
+      font-size: .7em;
       line-height: 1.6em;
     }
 
@@ -881,7 +885,7 @@ xtab-filter
 
     .index-header p{
 
-      font-size: .8em;
+      font-size: .7em;
       line-height: 2.2rem;
       text-align: left;
       font-family: 'Open Sans',sans-serif;
@@ -934,7 +938,7 @@ xtab-filter
     }
 
      .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
-      font-size: 1.4em;
+      font-size: 1.3em;
       padding: 0px 5%;
     }
 
@@ -1265,7 +1269,7 @@ xtab-filter
   }
 
   .index-header p {
-    font-size: .8em;
+    font-size: .7em;
     line-height: 1.6em;
     padding-left: 25%;
     padding-right: 20%;
@@ -1276,7 +1280,7 @@ xtab-filter
 
 
   .caption p{
-    font-size:  .5em;
+    font-size:  .6em;
   }
 
   .index-main-content.is-fixed .index-filter {
@@ -1325,16 +1329,16 @@ xtab-filter
     }
 
     .portfolio-content-process-2 p, .portfolio-content-header-2 p{
-      padding: 20px 20%;
+      padding: 20px 25%;
     }
 
     .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
 
-      padding: 0px 20%;
+      padding: 0px 25%;
     }
 
     .portfolio-content-header-2 h1, .portfolio-content-process-2 h3{
-      padding: 5px 20%;
+      padding: 5px 25%;
     }
 
     .flow{
@@ -1518,7 +1522,7 @@ xtab-filter
   }
 
   .portfolio-content-header-2 .info p , .portfolio-content-header-2 .intro p{
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding: 0px 30%;
   }
 

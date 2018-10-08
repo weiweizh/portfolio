@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1151px" height="650px" viewBox="0 0 1151 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>img-MrOne-BEs</title>
+    <desc>Created with Sketch.</desc>
+    <g id="img-MrOne-BEs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BE" transform="translate(38.000000, 174.000000)">
+            <path d="M90.995305,107.929131 C88.147345,104.859648 86.3913043,100.655282 86.3913043,96.0176293 C86.3913043,86.6190522 93.6034131,79 102.5,79 C111.396587,79 118.608696,86.6190522 118.608696,96.0176293 C118.608696,100.655282 116.852655,104.859648 114.004695,107.929131 C124.014401,112.955647 131,124.340391 131,137.579916 C131,155.473361 74,155.473361 74,137.579916 C74,124.340391 80.9855992,112.955647 90.995305,107.929131 Z" id="Combined-Shape" fill="#FF7453"></path>
+            <text id="Business-Executives" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" line-spacing="43" fill="#4A4A4A">
+                <tspan x="0" y="189">Business Executives</tspan>
+            </text>
+            <text id="business-operation," font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#636166">
+                <tspan x="442" y="25">business operation, domain knowledge, leadership</tspan>
+            </text>
+            <text id="Knowledge:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#636166">
+                <tspan x="289" y="31">Knowledge</tspan>
+                <tspan x="416.007812" y="31" font-family="OpenSans, Open Sans" font-weight="normal">: </tspan>
+            </text>
+            <text id="Skills:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#636166">
+                <tspan x="289" y="105">Skills</tspan>
+                <tspan x="347.675781" y="105" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="problem-solving,-tea" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#636166">
+                <tspan x="442" y="99">problem solving, team management, powerpoint</tspan>
+            </text>
+            <text id="Needs:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="289" y="310">Needs</tspan>
+                <tspan x="362.089844" y="310" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="seemless-experience" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="442" y="304">seemless experience to solve business problem</tspan>
+            </text>
+            <text id="Goals:-Copy" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="289" y="184">Goals</tspan>
+                <tspan x="353.382812" y="184" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="--Use-data-science-t" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="442" y="178">- Use data science to level up the business</tspan>
+                <tspan x="442" y="221">- Impower the empolyees with the right tool  </tspan>
+            </text>
+        </g>
+    </g>
+</svg>

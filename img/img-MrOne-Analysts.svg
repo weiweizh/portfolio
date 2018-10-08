@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1151px" height="650px" viewBox="0 0 1151 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>img-MrOne-Analysts</title>
+    <desc>Created with Sketch.</desc>
+    <g id="img-MrOne-Analysts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Data-Analyst" transform="translate(48.000000, 107.000000)">
+            <path d="M68.995305,144.929131 C66.147345,141.859648 64.3913043,137.655282 64.3913043,133.017629 C64.3913043,123.619052 71.6034131,116 80.5,116 C89.3965869,116 96.6086957,123.619052 96.6086957,133.017629 C96.6086957,137.655282 94.852655,141.859648 92.004695,144.929131 C102.014401,149.955647 109,161.340391 109,174.579916 C109,192.473361 52,192.473361 52,174.579916 C52,161.340391 58.9855992,149.955647 68.995305,144.929131 Z" id="Combined-Shape" fill="#84DFB1"></path>
+            <text id="Business-Analyst/-Da" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" line-spacing="43" fill="#4A4A4A">
+                <tspan x="0" y="226">Business Analyst/ </tspan>
+                <tspan x="0" y="269">Data Analyst</tspan>
+            </text>
+            <text id="basic-statistics,-ba" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="439" y="25">basic statistics, basic data quality, </tspan>
+                <tspan x="439" y="68">domain knowledge</tspan>
+            </text>
+            <text id="Knowledge:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="283" y="28">Knowledge:</tspan>
+            </text>
+            <text id="Skills:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="283" y="139">Skills</tspan>
+                <tspan x="341.675781" y="139" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="SQL-Query-language," font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="439" y="133">SQL Query language, Excel, Office suit</tspan>
+            </text>
+            <text id="Needs:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="283" y="422">Needs</tspan>
+                <tspan x="356.089844" y="422" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="guided-process-for-d" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="439" y="421">guided process for data modeling, error </tspan>
+                <tspan x="439" y="464">detection and suggestions</tspan>
+            </text>
+            <text id="Goals:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="283" y="224">Goals</tspan>
+                <tspan x="347.382812" y="224" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="--Be-excel-at-analyz" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="439" y="212">- Be excel at analyzing data and distilling insights</tspan>
+                <tspan x="439" y="255">- Keeping competitive power</tspan>
+            </text>
+            <text id="Learn-machine-learni" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="464" y="294">	• 	Learn machine learning, modeling</tspan>
+                <tspan x="464" y="337">	• 	Learn programming skills</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

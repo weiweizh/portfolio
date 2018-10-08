@@ -21,7 +21,7 @@ html * {
 
 body {
   font-size: 1.6rem;
-  font-family: "Judson", Georgia, serif;
+  font-family: "Roboto Slab", Georgia, serif;
   color: #331d35;
   background-color: #ffffff;
 }
@@ -126,7 +126,7 @@ ul.link-icons {
 }
 
 .portfolio-content-header-2 p{
-  font-family: 'Judson', Georgia, serif;
+  font-family: 'Roboto Slab', Georgia, serif;
   font-weight: 400;
   color:#222222;
   text-align: left;
@@ -135,6 +135,7 @@ ul.link-icons {
 }
 
 .portfolio-content-header-2 .info .s-tittle{
+  font-family: openSans, sans-serif;
   font-weight: 700;
   border-left: thick solid gray;
   padding-left: 3px;
@@ -170,7 +171,7 @@ ul.link-icons {
 
 
 .portfolio-content-header p{
-  font-family: 'Judson', Georgia, serif;
+  font-family: 'Roboto Slab', Georgia, serif;
   font-weight: 400;
   color:#222222;
   text-align: left;
@@ -182,7 +183,7 @@ ul.link-icons {
 
 
 .portfolio-content-header .info p{
-  font-family: 'Judson', Georgia, serif;
+  font-family: 'Roboto Slab', Georgia, serif;
   display: inline-block;
 }
 
@@ -203,7 +204,7 @@ ul.link-icons {
 .portfolio-content-process p{
   /*font-size: 20px;*/
   font-size: 1.3em;
-  font-family: 'Judson', Georgia, serif;
+  font-family: 'Roboto Slab', Georgia, serif;
   font-weight: 400;
   line-height: 1.8em;
 
@@ -289,18 +290,20 @@ border-bottom: 1px dashed #ffffff;
 
 .popContent{
   max-height: 95%;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .popup h3{
+  font-family: openSans, sans-serif ;
   font-weight: 700;
   font-size:1em;
 }
 
 .popup p{
-  font-size: 18px;
+  font-size: .6em;
+  line-height: 1.8em;
   font-weight: 400;
-  font-family: sans-serif;
+  font-family: 'Roboto Slab', Georgia, serif;
   padding-top: 18px;
 }
 
@@ -308,7 +311,7 @@ border-bottom: 1px dashed #ffffff;
 
 body p{
 
-     font-family:'Judson', Georgia, serif;
+     font-family:'Roboto Slab', Georgia, serif;
   /*  font-family:'Open Sans', sans-serif;*/
 
   display: block;
@@ -413,7 +416,7 @@ Main Components, index page
   font-size: 0.7em;
   line-height: 1.6em;
   text-align: left;
-  font-family: 'Judson',Georgia, serif;
+  font-family: 'Roboto Slab',Georgia, serif;
   font-style: normal;
   font-weight: 400;
   padding: 16px 7%;
@@ -552,7 +555,7 @@ Main Components, index page
 .caption p{
   font-size: .6em;
   line-height: 1.5em;
-  font-family: 'Judson', Georgia, serif;
+  font-family: 'Roboto Slab', Georgia, serif;
   text-align: left;
   padding: 0px;
 }
@@ -566,7 +569,7 @@ Main Components, index page
 }
 
 footer p{
-  font-family: 'Judson', serif;
+  font-family: 'Roboto Slab', Georgia, serif;
 }
 
 footer{

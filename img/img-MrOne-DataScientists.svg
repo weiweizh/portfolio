@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1151px" height="650px" viewBox="0 0 1151 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>img-MrOne-DataScientists</title>
+    <desc>Created with Sketch.</desc>
+    <g id="img-MrOne-DataScientists" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Data-Scientist" transform="translate(37.000000, 130.000000)">
+            <path d="M57.995305,144.929131 C55.147345,141.859648 53.3913043,137.655282 53.3913043,133.017629 C53.3913043,123.619052 60.6034131,116 69.5,116 C78.3965869,116 85.6086957,123.619052 85.6086957,133.017629 C85.6086957,137.655282 83.852655,141.859648 81.004695,144.929131 C91.0144008,149.955647 98,161.340391 98,174.579916 C98,192.473361 41,192.473361 41,174.579916 C41,161.340391 47.9855992,149.955647 57.995305,144.929131 Z" id="Combined-Shape" fill="#4A90E2"></path>
+            <text font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" line-spacing="43" fill="#4A4A4A">
+                <tspan x="0" y="226">Data Scientist</tspan>
+            </text>
+            <text id="Goals:-Copy" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="269" y="213">Goals</tspan>
+                <tspan x="333.382812" y="213" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="--Build-better-model" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="423" y="212">- Build better models</tspan>
+                <tspan x="423" y="255">- Research better data handling methods</tspan>
+            </text>
+            <text id="Knowledge:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#636166">
+                <tspan x="269" y="34">Knowledge</tspan>
+                <tspan x="396.007812" y="34" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="advanced-statistics," font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#636166">
+                <tspan x="425" y="25">advanced statistics, machine learning algorithms, </tspan>
+                <tspan x="425" y="68">advanced variable handling</tspan>
+            </text>
+            <text id="Skills:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#636166">
+                <tspan x="269" y="139">Skills</tspan>
+                <tspan x="327.675781" y="139" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="Needs:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
+                <tspan x="269" y="340">Needs</tspan>
+                <tspan x="342.089844" y="340" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
+            </text>
+            <text id="power-tool-to-suport" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#4A4A4A">
+                <tspan x="422" y="339">power tool to suport modeling customization, fast </tspan>
+                <tspan x="422" y="382">modeling</tspan>
+            </text>
+            <text id="SAS,-SPSS,-R,-Python" font-family="RobotoSlab-Regular, Roboto Slab" font-size="24" font-weight="normal" line-spacing="43" fill="#636166">
+                <tspan x="423" y="133">SAS, SPSS, R, Python</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

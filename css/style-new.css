@@ -35,13 +35,31 @@ header .info p{
   font-weight: 400;
 }
 
+.index-header li{
+  float: left;
+  font-size: .7em;
+  padding-right: 10px;
+}
+
+.index-header #top-nav li a{
+  color: black;
+}
+
+#top-nav{
+  padding-top: 20px;
+}
+
+ .index-header #top-nav li a:hover{
+  color: #222222;
+ }
+
 /* photo */
 img.wpic{
-  height: 50%;
+  height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  padding-top: 0px;
 
 }
 

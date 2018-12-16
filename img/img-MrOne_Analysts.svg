@@ -1,50 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1151px" height="650px" viewBox="0 0 1151 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Users</title>
+<svg width="978px" height="416px" viewBox="0 0 978 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>img-MrOne_Analysts</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Users" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Data-Analyst" transform="translate(48.000000, 109.000000)">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="img-MrOne_Analysts" transform="translate(-2.000000, -7.000000)">
             <path d="M68.995305,142.929131 C66.147345,139.859648 64.3913043,135.655282 64.3913043,131.017629 C64.3913043,121.619052 71.6034131,114 80.5,114 C89.3965869,114 96.6086957,121.619052 96.6086957,131.017629 C96.6086957,135.655282 94.852655,139.859648 92.004695,142.929131 C102.014401,147.955647 109,159.340391 109,172.579916 C109,190.473361 52,190.473361 52,172.579916 C52,159.340391 58.9855992,147.955647 68.995305,142.929131 Z" id="Combined-Shape" fill="#84DFB1"></path>
-            <text id="Business-Analyst/-Da" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-                <tspan x="0" y="229">Business Analyst/ </tspan>
-                <tspan x="0" y="258">Data Analyst</tspan>
-            </text>
-            <text id="basic-statistics,-ba" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-                <tspan x="439" y="29">basic statistics, basic data quality, </tspan>
-                <tspan x="439" y="58">domain knowledge</tspan>
-            </text>
-            <text id="Knowledge:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
-                <tspan x="283" y="26">Knowledge:</tspan>
-            </text>
-            <text id="Skills:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
-                <tspan x="283" y="137">Skills</tspan>
-                <tspan x="341.675781" y="137" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
-            </text>
-            <text id="SQL-Query-language," font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-                <tspan x="439" y="137">SQL Query language, Excel, Office suit</tspan>
-            </text>
-            <text id="Needs:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
-                <tspan x="283" y="388">Needs</tspan>
-                <tspan x="356.089844" y="388" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
-            </text>
-            <text id="guided-process-for-d" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-                <tspan x="439" y="388">guided process for data modeling, error </tspan>
-                <tspan x="439" y="417">detection and suggestions</tspan>
-            </text>
-            <text id="Goals:" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500" fill="#4A4A4A">
-                <tspan x="283" y="222">Goals</tspan>
-                <tspan x="347.382812" y="222" font-family="OpenSans, Open Sans" font-weight="normal">:</tspan>
-            </text>
-            <text id="--Be-excel-at-analyz" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-                <tspan x="439" y="216">- Be excel at analyzing data and distilling insights</tspan>
-                <tspan x="439" y="245">- Keeping competitive power</tspan>
-            </text>
-            <text id="Learn-machine-learni" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#4A4A4A">
-                <tspan x="464" y="291">	• 	Learn machine learning, modeling</tspan>
-                <tspan x="464" y="320">	• 	Learn programming skills</tspan>
-            </text>
+            <g id="Business-Analyst/-Da" transform="translate(0.000000, 206.000000)" fill="#4A4A4A" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal">
+                <text id="Business-Analyst/">
+                    <tspan x="0" y="23">Business Analyst/</tspan>
+                </text>
+                <text id="Data-Analyst">
+                    <tspan x="0" y="52">Data Analyst</tspan>
+                </text>
+            </g>
+            <g id="basic-statistics,-ba" transform="translate(439.000000, 6.000000)" fill="#4A4A4A" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal">
+                <text id="basic-statistics,-basic-data-quality,">
+                    <tspan x="0" y="23">basic statistics, basic data quality,</tspan>
+                </text>
+                <text id="domain-knowledge">
+                    <tspan x="0" y="52">domain knowledge</tspan>
+                </text>
+            </g>
+            <g id="Knowledge:" transform="translate(283.000000, 0.000000)" fill="#4A4A4A" font-family="OpenSans-Semibold, Open Sans" font-size="24" font-weight="500">
+                <text>
+                    <tspan x="0" y="26">Knowledge:</tspan>
+                </text>
+            </g>
+            <g id="Skills:" transform="translate(283.000000, 111.000000)" fill="#4A4A4A" font-size="24">
+                <text id="Skills" font-family="OpenSans-Semibold, Open Sans" font-weight="500">
+                    <tspan x="0" y="26">Skills</tspan>
+                </text>
+                <text id=":" font-family="OpenSans, Open Sans" font-weight="normal">
+                    <tspan x="58.675781" y="26">:</tspan>
+                </text>
+            </g>
+            <g id="SQL-Query-language," transform="translate(439.000000, 114.000000)" fill="#4A4A4A" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal">
+                <text>
+                    <tspan x="0" y="23">SQL Query language, Excel, Office suite</tspan>
+                </text>
+            </g>
+            <g id="Needs:" transform="translate(283.000000, 362.000000)" fill="#4A4A4A" font-size="24">
+                <text id="Needs" font-family="OpenSans-Semibold, Open Sans" font-weight="500">
+                    <tspan x="0" y="26">Needs</tspan>
+                </text>
+                <text id=":" font-family="OpenSans, Open Sans" font-weight="normal">
+                    <tspan x="73.089844" y="26">:</tspan>
+                </text>
+            </g>
+            <g id="guided-process-for-d" transform="translate(439.000000, 365.000000)" fill="#4A4A4A" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal">
+                <text id="guided-process-for-data-modeling,-error">
+                    <tspan x="0" y="23">guided process for data modeling, error</tspan>
+                </text>
+                <text id="detection-and-suggestions">
+                    <tspan x="0" y="52">detection and suggestions</tspan>
+                </text>
+            </g>
+            <g id="Goals:" transform="translate(283.000000, 196.000000)" fill="#4A4A4A" font-size="24">
+                <text id="Goals" font-family="OpenSans-Semibold, Open Sans" font-weight="500">
+                    <tspan x="0" y="26">Goals</tspan>
+                </text>
+                <text id=":" font-family="OpenSans, Open Sans" font-weight="normal">
+                    <tspan x="64.382812" y="26">:</tspan>
+                </text>
+            </g>
+            <g id="--Be-excel-at-analyz" transform="translate(439.000000, 193.000000)" fill="#4A4A4A" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal">
+                <text id="--Be-excel-at-analyzing-data-and-distilling-insights">
+                    <tspan x="0" y="23">- Be excel at analyzing data and distilling insights</tspan>
+                </text>
+                <text id="--Keeping-competitive-power">
+                    <tspan x="0" y="52">- Keeping competitive power</tspan>
+                </text>
+            </g>
+            <g id="Learn-machine-learni" transform="translate(464.000000, 268.000000)" fill="#4A4A4A" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal">
+                <text id="•-Learn-machine-learning,-modeling">
+                    <tspan x="0" y="23">• Learn machine learning, modeling</tspan>
+                </text>
+                <text id="•-Learn-programming-skills">
+                    <tspan x="0" y="52">• Learn programming skills</tspan>
+                </text>
+            </g>
         </g>
     </g>
 </svg>
